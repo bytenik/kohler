@@ -1,0 +1,37 @@
+[
+  {
+    "part": "system-amplifier-check-33-part-000",
+    "voltage_quantiles": {
+      "0": -2.2484237833985743,
+      "0.01": -2.227771938286858,
+      "0.5": -0.11769211165496542,
+      "0.99": 2.211476854422962,
+      "1": 2.226741261679448
+    },
+    "candidates": [
+      {
+        "positive_is_one": true,
+        "frames": 1048,
+        "errors": 32,
+        "valid_packets": 0,
+        "issues": {
+          "outside_packet": 1048
+        },
+        "type_counts": {}
+      },
+      {
+        "positive_is_one": false,
+        "frames": 1064,
+        "errors": 0,
+        "valid_packets": 16,
+        "issues": {},
+        "type_counts": {
+          "30": 4,
+          "31": 4,
+          "33": 4,
+          "32": 4
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "event": "single_bass_adjustment_cue",
+    "host_unix": 1792357050.32582,
+    "note": "Reopen Options and move Bass slightly right/up once before menu timeout; Treble, Balance, and Volume unchanged. Stop on acknowledgment."
+  },
+  {
+    "event": "bass_adjustment_acknowledgment",
+    "host_unix": 1792357106.482767,
+    "note": "User reports done; future recordings should group multiple ordered actions with pauses."
+  },
+  {
+    "event": "later_user_context_for_power_transition",
+    "host_unix": 1792357193.596342,
+    "note": "User reports display returned to power-off screen after bass adjustment, then they powered it on and navigated back to music. Context annotation recorded after capture; not an exact transition timestamp."
+  }
+]

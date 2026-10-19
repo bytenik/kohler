@@ -1,0 +1,14 @@
+{
+  "samples": 72378743,
+  "sample_rate": 500000.0,
+  "bus": "valve",
+  "pins": {
+    "1+": 4,
+    "1-": 5
+  },
+  "ground_connected": false,
+  "duration_s": 144.757486,
+  "started_unix_approx": 1792352054.3812108,
+  "capture_complete": true,
+  "time_reference": "host time near first read; not hardware synchronized"
+}

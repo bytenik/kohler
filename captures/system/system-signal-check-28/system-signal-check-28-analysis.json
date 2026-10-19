@@ -1,0 +1,30 @@
+[
+  {
+    "part": "system-signal-check-28-part-000",
+    "voltage_quantiles": {
+      "0": -1.9233816994663424,
+      "0.01": -1.8165308486709404,
+      "0.5": -0.2550717769633397,
+      "0.99": 1.7768902007677128,
+      "1": 1.7921546080241988
+    },
+    "candidates": [
+      {
+        "positive_is_one": true,
+        "frames": 1732,
+        "errors": 264,
+        "valid_packets": 0,
+        "issues": {
+          "outside_packet": 1732
+        }
+      },
+      {
+        "positive_is_one": false,
+        "frames": 1785,
+        "errors": 0,
+        "valid_packets": 152,
+        "issues": {}
+      }
+    ]
+  }
+]

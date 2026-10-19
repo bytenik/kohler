@@ -1,0 +1,12 @@
+[
+  {
+    "event": "amplifier_reconnect_cue",
+    "host_unix": 1792355109.001659,
+    "note": "User reports amplifier disconnected with passthrough retained on controller side. Reconnect cue after recorder reports running; not a measured plug transition. Scope1 reported on pins3/6; GND disconnected."
+  },
+  {
+    "event": "amplifier_reconnected_acknowledgment",
+    "host_unix": 1792355127.934957,
+    "note": "User reports reconnected; acknowledgment time, not exact physical connection time."
+  }
+]

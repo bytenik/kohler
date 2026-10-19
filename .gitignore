@@ -1,0 +1,11 @@
+# Locally retained raw evidence; paths, sizes and hashes are versioned.
+captures/**/*.f64
+captures/**/*.pcap
+
+# Runtime/build files.
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+.esphome/
+.pio/

@@ -1,0 +1,11 @@
+{
+  "samples": 26245299,
+  "sample_rate": 500000,
+  "duration_s": 52.490598,
+  "started_unix": 1792344228.384121,
+  "start_time_source": "Recording file creation time; approximate acquisition startup",
+  "capture_complete": false,
+  "lost": 0,
+  "corrupt": 885,
+  "note": "Only samples saved before the first reported corrupted chunk are retained."
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "event": "display_connect_cue",
+    "host_unix": 1792355563.517575,
+    "note": "Connect display through breakout on same controller port previously used for amplifier, amplifier disconnected. Probe wiring unchanged, reported pins3/6; GND disconnected. Cue after recorder starts, not physical connect timestamp."
+  },
+  {
+    "event": "display_done_acknowledgment",
+    "host_unix": 1792355614.1431339,
+    "note": "User reports done after display connection cue; exact connection and ready transitions not independently measured."
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "sample_rate": 500000.0,
+  "samples": 10000000,
+  "duration_s": 20.0,
+  "started_unix": 1792344390.214658,
+  "lost": 0,
+  "corrupt": 0,
+  "pins": {
+    "1+": 3,
+    "1-": 6
+  },
+  "ground_connected": false,
+  "action": "Passive main-screen recording after user confirmed closing Settings; closing transition not captured",
+  "format": "native float64"
+}

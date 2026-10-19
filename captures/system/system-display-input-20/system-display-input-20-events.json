@@ -1,0 +1,17 @@
+[
+  {
+    "event": "open_input_tab_cue",
+    "host_unix": 1792356507.400118,
+    "note": "Open Input tab from Listen only; do not select a source yet. Capture stops on acknowledgment without fixed tail."
+  },
+  {
+    "event": "input_tab_open_acknowledgment",
+    "host_unix": 1792356620.1839428,
+    "visible_options": [
+      "Bluetooth",
+      "Line In 1",
+      "Line In 2"
+    ],
+    "note": "No source selection requested."
+  }
+]

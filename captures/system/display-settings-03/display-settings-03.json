@@ -1,0 +1,15 @@
+{
+  "sample_rate": 1000000.0,
+  "samples": 20000000,
+  "duration_s": 20.0,
+  "started_unix": 1792343417.5483918,
+  "lost": 0,
+  "corrupt": 0,
+  "pins": {
+    "1+": 3,
+    "1-": 6
+  },
+  "ground_connected": false,
+  "action": "Open Settings, wait about five seconds, then return to main screen",
+  "format": "native float64"
+}

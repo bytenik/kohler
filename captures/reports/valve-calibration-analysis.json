@@ -1,0 +1,38 @@
+{
+  "experiment": "Temporary spare Valve 2 calibration entry 178 -> 179 -> 178",
+  "captures": [
+    {
+      "capture": "valve-calibration-05",
+      "duration_s": 78.925376,
+      "interruptions": [],
+      "uart_characters": 2086,
+      "uart_errors": 0,
+      "complete_packets": 298,
+      "all_packets_valid": true,
+      "packet_counts": {
+        "AA 55 00 01 00 00": 149,
+        "AA 55 01 01 02 80 3D 40": 149
+      },
+      "decoded_characters_accounted_for": 2086
+    },
+    {
+      "capture": "valve-calibration-06",
+      "duration_s": 49.540208,
+      "interruptions": [],
+      "uart_characters": 1316,
+      "uart_errors": 0,
+      "complete_packets": 188,
+      "all_packets_valid": true,
+      "packet_counts": {
+        "AA 55 00 01 00 00": 94,
+        "AA 55 01 01 02 80 3D 40": 94
+      },
+      "decoded_characters_accounted_for": 1316
+    }
+  ],
+  "http_evidence": "network/valve-calibration-06-http-analysis.json",
+  "controller_readback_during_179": 178,
+  "controller_readback_after_restore": 178,
+  "write_command_identified": false,
+  "conclusion": "Both values were submitted to the controller in capture 06 and received done responses; no new valve packet pattern appeared. Controller readback remained 178. Reason for ignoring the edit remains unknown."
+}

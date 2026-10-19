@@ -1,0 +1,12 @@
+[
+  {
+    "event": "power_cycle_cue",
+    "host_unix": 1792352059.752334,
+    "note": "Cue time, not measured power transition; cycle spare controller and valve power."
+  },
+  {
+    "event": "capture_aborted_connector_detachment",
+    "host_unix": 1792352199.139906,
+    "note": "Probe connectors temporarily detached; startup attempt is unsuitable as a continuous startup reference. Fresh capture required after reconnection."
+  }
+]

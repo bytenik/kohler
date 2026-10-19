@@ -1,0 +1,28 @@
+[
+  {
+    "capture": "captures/system/display-main-after-close-06/display-main-after-close-06",
+    "uart": {
+      "baud": 115200,
+      "data_bits": 8,
+      "parity": null,
+      "stop_bits": 1,
+      "positive_is_one": true,
+      "frames": 12037,
+      "framing_errors": 0
+    },
+    "complete_packets": 1005,
+    "valid_packets": 1005,
+    "issues": {},
+    "types": {
+      "30": 400,
+      "31": 400,
+      "34": 205
+    },
+    "type_34_length_checks": [
+      205,
+      205
+    ],
+    "poll_interval_ms_median": 50.00000000000071,
+    "31_to_34_gap_ms_median": 2.46719444444439
+  }
+]

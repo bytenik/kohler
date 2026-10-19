@@ -1,0 +1,105 @@
+[
+  {
+    "capture": "system-display-track-metadata-31-part-000",
+    "uart": {
+      "baud": 115200,
+      "data_bits": 8,
+      "parity": null,
+      "stop_bits": 1,
+      "positive_is_one": false,
+      "frames": 3127,
+      "framing_errors": 0
+    },
+    "complete_packets": 256,
+    "valid_packets": 256,
+    "issues": {},
+    "types": {
+      "30": 99,
+      "31": 99,
+      "34": 58
+    },
+    "type_34_length_checks": [
+      58,
+      58
+    ],
+    "poll_interval_ms_median": 49.999999999999986,
+    "31_to_34_gap_ms_median": 2.4661944444444166,
+    "strings": [
+      {
+        "time_s": 0.276196,
+        "key": "22 0D",
+        "data_hex": "4D 69 61 20 42 61 72 6F 6E 00",
+        "text_utf8_candidate": "Mia Baron",
+        "request_hex": "88 00 03 31 02 04 22 0D 00 0F 55",
+        "reply_hex": "88 03 00 34 01 0D 02 22 0D 4D 69 61 20 42 61 72 6F 6E 00 D9 55"
+      },
+      {
+        "time_s": 0.326202,
+        "key": "22 10",
+        "data_hex": "4C 6F 73 69 6E 67 20 4D 79 73 65 6C 66 00",
+        "text_utf8_candidate": "Losing Myself",
+        "request_hex": "88 00 03 31 02 04 22 10 00 0C 55",
+        "reply_hex": "88 03 00 34 01 11 02 22 10 4C 6F 73 69 6E 67 20 4D 79 73 65 6C 66 00 FF 55"
+      },
+      {
+        "time_s": 1.27621,
+        "key": "22 0D",
+        "data_hex": "4D 69 61 20 42 61 72 6F 6E 00",
+        "text_utf8_candidate": "Mia Baron",
+        "request_hex": "88 00 03 31 02 04 22 0D 00 0F 55",
+        "reply_hex": "88 03 00 34 01 0D 02 22 0D 4D 69 61 20 42 61 72 6F 6E 00 D9 55"
+      },
+      {
+        "time_s": 1.326212,
+        "key": "22 10",
+        "data_hex": "4C 6F 73 69 6E 67 20 4D 79 73 65 6C 66 00",
+        "text_utf8_candidate": "Losing Myself",
+        "request_hex": "88 00 03 31 02 04 22 10 00 0C 55",
+        "reply_hex": "88 03 00 34 01 11 02 22 10 4C 6F 73 69 6E 67 20 4D 79 73 65 6C 66 00 FF 55"
+      },
+      {
+        "time_s": 2.17623,
+        "key": "22 0D",
+        "data_hex": "4D 69 61 20 42 61 72 6F 6E 00",
+        "text_utf8_candidate": "Mia Baron",
+        "request_hex": "88 00 03 31 02 04 22 0D 00 0F 55",
+        "reply_hex": "88 03 00 34 01 0D 02 22 0D 4D 69 61 20 42 61 72 6F 6E 00 D9 55"
+      },
+      {
+        "time_s": 2.22623,
+        "key": "22 10",
+        "data_hex": "4C 6F 73 69 6E 67 20 4D 79 73 65 6C 66 00",
+        "text_utf8_candidate": "Losing Myself",
+        "request_hex": "88 00 03 31 02 04 22 10 00 0C 55",
+        "reply_hex": "88 03 00 34 01 11 02 22 10 4C 6F 73 69 6E 67 20 4D 79 73 65 6C 66 00 FF 55"
+      },
+      {
+        "time_s": 3.261254,
+        "key": "22 13",
+        "data_hex": "44 61 76 69 64 27 73 20 5A 20 46 6F 6C 64 37 00",
+        "text_utf8_candidate": "David's Z Fold7",
+        "request_hex": "88 00 03 31 02 04 22 13 00 09 55",
+        "reply_hex": "88 03 00 34 01 13 02 22 13 44 61 76 69 64 27 73 20 5A 20 46 6F 6C 64 37 00 1E 55"
+      },
+      {
+        "time_s": 4.16126,
+        "key": "22 0D",
+        "data_hex": "4D 69 61 20 42 61 72 6F 6E 00",
+        "text_utf8_candidate": "Mia Baron",
+        "request_hex": "88 00 03 31 02 04 22 0D 00 0F 55",
+        "reply_hex": "88 03 00 34 01 0D 02 22 0D 4D 69 61 20 42 61 72 6F 6E 00 D9 55"
+      },
+      {
+        "time_s": 4.211264,
+        "key": "22 10",
+        "data_hex": "4C 6F 73 69 6E 67 20 4D 79 73 65 6C 66 00",
+        "text_utf8_candidate": "Losing Myself",
+        "request_hex": "88 00 03 31 02 04 22 10 00 0C 55",
+        "reply_hex": "88 03 00 34 01 11 02 22 10 4C 6F 73 69 6E 67 20 4D 79 73 65 6C 66 00 FF 55"
+      }
+    ],
+    "music_states": {
+      "0A 01 00 03 00 00 00 32 32 1E 23": 5
+    }
+  }
+]

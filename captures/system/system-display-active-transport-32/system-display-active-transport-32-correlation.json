@@ -1,0 +1,127 @@
+{
+  "capture": "system-display-active-transport-32",
+  "actual_sequence": [
+    "Play",
+    "Forward",
+    "Back",
+    "Back",
+    "Back",
+    "Pause"
+  ],
+  "all_actions_in_part": "001",
+  "play_request": {
+    "key": "30 84",
+    "value_hex": "01"
+  },
+  "pause_request": {
+    "key": "30 84",
+    "value_hex": "02"
+  },
+  "playback_state_packet_offset": 10,
+  "playback_state_values": {
+    "01": "playing",
+    "02": "paused",
+    "00": "idle/stopped/transition candidate"
+  },
+  "state_and_metadata_changes": [
+    {
+      "part": "001",
+      "time_s": 0.714886,
+      "key": "24 69",
+      "value": "0A 02 00 03 00 00 00 32 32 1E 23"
+    },
+    {
+      "part": "001",
+      "time_s": 0.964896,
+      "key": "22 0D",
+      "value": "Mia Baron"
+    },
+    {
+      "part": "001",
+      "time_s": 1.014888,
+      "key": "22 10",
+      "value": "Losing Myself"
+    },
+    {
+      "part": "001",
+      "time_s": 12.925094,
+      "key": "22 0D",
+      "value": ""
+    },
+    {
+      "part": "001",
+      "time_s": 12.975094,
+      "key": "22 10",
+      "value": ""
+    },
+    {
+      "part": "001",
+      "time_s": 13.67511,
+      "key": "24 69",
+      "value": "0A 00 00 03 00 00 00 32 32 1E 23"
+    },
+    {
+      "part": "001",
+      "time_s": 14.675126,
+      "key": "24 69",
+      "value": "0A 01 00 03 00 00 00 32 32 1E 23"
+    },
+    {
+      "part": "001",
+      "time_s": 15.020142,
+      "key": "22 0D",
+      "value": "Mia Baron"
+    },
+    {
+      "part": "001",
+      "time_s": 15.09095,
+      "key": "22 10",
+      "value": "Losing Myself"
+    },
+    {
+      "part": "001",
+      "time_s": 22.880268,
+      "key": "24 69",
+      "value": "0A 01 00 02 14 00 00 32 32 1E 23"
+    },
+    {
+      "part": "001",
+      "time_s": 23.08028,
+      "key": "22 0D",
+      "value": "girlFM"
+    },
+    {
+      "part": "001",
+      "time_s": 23.130274,
+      "key": "22 10",
+      "value": "Radio"
+    },
+    {
+      "part": "001",
+      "time_s": 35.025782,
+      "key": "24 69",
+      "value": "0A 01 00 03 00 00 00 32 32 1E 23"
+    },
+    {
+      "part": "001",
+      "time_s": 35.240488,
+      "key": "22 0D",
+      "value": "Mia Baron"
+    },
+    {
+      "part": "001",
+      "time_s": 35.290484,
+      "key": "22 10",
+      "value": "Losing Myself"
+    },
+    {
+      "part": "001",
+      "time_s": 48.595718,
+      "key": "24 69",
+      "value": "0A 02 00 03 00 00 00 32 32 1E 23"
+    }
+  ],
+  "valid_packets_total": 3512,
+  "uart_errors_total": 0,
+  "direct_amplifier_commands_identified": false
+}

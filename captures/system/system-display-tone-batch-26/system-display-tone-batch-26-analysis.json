@@ -1,0 +1,30 @@
+[
+  {
+    "capture": "system-display-tone-batch-26-part-000",
+    "uart": {
+      "baud": 115200,
+      "data_bits": 8,
+      "parity": null,
+      "stop_bits": 1,
+      "positive_is_one": true,
+      "frames": 50247,
+      "framing_errors": 40263
+    },
+    "complete_packets": 23,
+    "valid_packets": 0,
+    "issues": {
+      "outside_packet": 46418,
+      "unknown_escape": 4,
+      "restarted_packet": 1
+    },
+    "types": {},
+    "type_34_length_checks": [
+      0,
+      0
+    ],
+    "poll_interval_ms_median": null,
+    "31_to_34_gap_ms_median": null,
+    "actions": [],
+    "key2469_states": {}
+  }
+]

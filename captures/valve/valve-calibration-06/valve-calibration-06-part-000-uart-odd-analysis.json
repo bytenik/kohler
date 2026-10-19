@@ -1,0 +1,3378 @@
+{
+  "bus": "RJ11 valve pins 4/5",
+  "metadata": {
+    "samples": 24770104,
+    "sample_rate": 500000.0,
+    "bus": "valve",
+    "pins": {
+      "1+": 4,
+      "1-": 5
+    },
+    "ground_connected": false,
+    "duration_s": 49.540208,
+    "started_unix_approx": 1792353552.010278,
+    "capture_complete": true,
+    "time_reference": "host time near first read; not hardware synchronized"
+  },
+  "baud_candidate": 9600,
+  "data_bits_candidate": 8,
+  "parity_candidate": "odd",
+  "stop_bits_sampled": 1,
+  "candidates": [
+    {
+      "positive_is_one": true,
+      "frames": 1222,
+      "framing_errors": 1034,
+      "messages": [
+        {
+          "time_s": 0.418754,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 0.445004,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 0.943526,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 0.961116,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 1.468526,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 1.993622,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 2.017934,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 2.518544,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 2.534052,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 3.043558,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 3.074748,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 3.568656,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 3.590872,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 4.097366,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 4.618584,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 4.647684,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 5.143596,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 5.163808,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 5.668596,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 5.679926,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 6.210184,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 6.733706,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 6.761322,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 7.258634,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 7.27744,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 7.78364,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 8.308966,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 8.33426,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 8.833666,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 8.850376,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 9.358674,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 9.893874,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 9.907196,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 10.418724,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 10.447892,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 11.088648,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 11.111474,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 11.468868,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 11.480132,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 11.993712,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 12.020834,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 12.663666,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 12.684412,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 13.04373,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 13.568738,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 13.593772,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 14.258704,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 14.281932,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 14.635884,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 14.650584,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 15.158814,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 15.683788,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 15.707402,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 16.208898,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 16.22352,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 16.733808,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 16.764222,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 17.258808,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 17.28034,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 17.784134,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 17.796458,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 18.308834,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 18.337166,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 18.834062,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 18.853276,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 19.358918,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 19.88386,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 19.910096,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 20.408872,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 20.426212,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 20.934132,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 21.458892,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 21.483032,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 21.983898,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 21.99915,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 22.509008,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 22.539844,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 23.05583,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 23.080546,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 23.578922,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 23.596664,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 24.121846,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 24.13736,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 24.643936,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 25.168954,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 25.194178,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 25.694032,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 25.710296,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 26.21913,
+          "hex": "15 95 FA FF 60 51 E9 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 26.74398,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 26.767114,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 27.269072,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 27.283246,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 27.794208,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 27.823934,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 28.319006,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 28.340052,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 28.84409,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 28.856176,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 29.369026,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 29.39687,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 29.894032,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 29.912994,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 30.41913,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 30.96058,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 31.50222,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 32.024154,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 32.051204,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 32.549076,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 32.567322,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 33.074088,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 33.599166,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 33.62414,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 34.140606,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 34.164836,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 34.66412,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 34.68096,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 35.189128,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 35.714172,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 35.737772,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 36.23914,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 36.253896,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 36.76427,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 36.794592,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 37.289362,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 37.31071,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 37.814186,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 37.82684,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 38.339276,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 38.367528,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 38.864192,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 38.883646,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 39.389432,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 39.914296,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 39.940466,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 40.43923,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 40.456582,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 40.987094,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 41.509308,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 41.53798,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 42.034262,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 42.054104,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 42.559248,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 43.08436,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 43.110916,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 43.609528,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 43.62704,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 44.146494,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 44.167736,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 44.669384,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 44.683852,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 45.194496,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 45.224554,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 45.719312,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 45.740672,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 46.244618,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 46.25679,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 46.769332,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 46.797492,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 47.294756,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 47.313608,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 47.819436,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 48.344372,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 48.370434,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 48.869364,
+          "hex": "15 95 FA FF 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 48.886546,
+          "hex": "15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 49.394468,
+          "hex": "15 95 FA FF 00 15 95 FD FB FF 85 7F 00",
+          "framing_valid": false,
+          "modbus_crc_valid": false
+        }
+      ],
+      "candidate_packets": []
+    },
+    {
+      "positive_is_one": false,
+      "frames": 1316,
+      "framing_errors": 0,
+      "messages": [
+        {
+          "time_s": 0.418544,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 0.444796,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 0.943316,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 0.960908,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 1.468316,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 1.993412,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 2.017728,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 2.518334,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 2.533844,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 3.043348,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 3.07454,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 3.568446,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 3.590664,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 4.097156,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 4.618374,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 4.647476,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 5.143386,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 5.1636,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 5.668386,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 5.679718,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 6.209974,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 6.22042,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 6.733496,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 6.761114,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 7.258424,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 7.277232,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 7.78343,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 8.308756,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 8.334052,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 8.833456,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 8.850168,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 9.358464,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 9.893664,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 9.906988,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 10.418514,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 10.447684,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 11.088438,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 11.111266,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 11.468658,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 11.479924,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 11.993502,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 12.020626,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 12.663456,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 12.684204,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 13.04352,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 13.568528,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 13.593564,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 14.258494,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 14.281724,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 14.635674,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 14.650376,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 15.158604,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 15.683578,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 15.707194,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 16.208688,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 16.223312,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 16.733598,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 16.764014,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 17.258598,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 17.280132,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 17.783924,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 17.79625,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 18.308624,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 18.336958,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 18.833852,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 18.853068,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 19.358708,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 19.369192,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 19.88365,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 19.909888,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 20.408662,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 20.426004,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 20.933922,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 21.458682,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 21.482824,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 21.983688,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 21.998942,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 22.508798,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 22.539636,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 23.05562,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 23.080338,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 23.578712,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 23.596456,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 24.121636,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 24.137152,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 24.643726,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 25.168744,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 25.19397,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 25.693822,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 25.710088,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 26.21892,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 26.74377,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 26.766906,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 27.268862,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 27.283038,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 27.793998,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 27.823726,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 28.318796,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 28.339844,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 28.84388,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 28.855968,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 29.368816,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 29.396662,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 29.893822,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 29.912786,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 30.41892,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 30.96037,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 31.50201,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 32.023944,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 32.050996,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 32.548866,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 32.567114,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 33.073878,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 33.598956,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 33.623932,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 34.140396,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 34.164628,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 34.66391,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 34.680752,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 35.188918,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 35.713962,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 35.737564,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 36.23893,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 36.253688,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 36.76406,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 36.794384,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 37.289152,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 37.310502,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 37.813976,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 37.826632,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 38.339066,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 38.36732,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 38.863982,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 38.883438,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 39.389222,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 39.914086,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 39.940258,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 40.43902,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 40.456374,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 40.986884,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 41.509098,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 41.537772,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 42.034052,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 42.053896,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 42.559038,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 42.570014,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 43.08415,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 43.110708,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 43.609318,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 43.626832,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 44.146284,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 44.167528,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 44.669174,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 44.683644,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 45.194286,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 45.224346,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 45.719102,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 45.740464,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 46.244408,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 46.256582,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 46.769122,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 46.797284,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 47.294546,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 47.3134,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 47.819226,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 48.344162,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 48.370226,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 48.869154,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 48.886338,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        },
+        {
+          "time_s": 49.394258,
+          "hex": "AA 55 00 01 00 00 AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "modbus_crc_valid": false
+        }
+      ],
+      "candidate_packets": [
+        {
+          "time_s": 0.418544,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000000359
+        },
+        {
+          "time_s": 0.444796,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000000419
+        },
+        {
+          "time_s": 0.943316,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000000914
+        },
+        {
+          "time_s": 0.960908,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000000419
+        },
+        {
+          "time_s": 1.468316,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000000914
+        },
+        {
+          "time_s": 1.477032,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001156000000000157
+        },
+        {
+          "time_s": 1.993412,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000000914
+        },
+        {
+          "time_s": 2.017728,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000000264
+        },
+        {
+          "time_s": 2.518334,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 2.533844,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999998198
+        },
+        {
+          "time_s": 3.043348,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 3.07454,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000000264
+        },
+        {
+          "time_s": 3.568446,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 3.590664,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000000264
+        },
+        {
+          "time_s": 4.097156,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 4.106782,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000000264
+        },
+        {
+          "time_s": 4.618374,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 4.647476,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000000264
+        },
+        {
+          "time_s": 5.143386,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 5.1636,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000000264
+        },
+        {
+          "time_s": 5.668386,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 5.679718,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000000264
+        },
+        {
+          "time_s": 6.209974,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 6.22042,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000000264
+        },
+        {
+          "time_s": 6.733496,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 6.761114,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000000264
+        },
+        {
+          "time_s": 7.258424,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 7.277232,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000000264
+        },
+        {
+          "time_s": 7.78343,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 7.793362,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000000264
+        },
+        {
+          "time_s": 8.308756,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 8.334052,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999993757
+        },
+        {
+          "time_s": 8.833456,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 8.850168,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 9.358464,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 9.366292,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 9.893664,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 9.906988,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 10.418514,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 10.447684,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 11.088438,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 11.111266,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999993757
+        },
+        {
+          "time_s": 11.468658,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 11.479924,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999993757
+        },
+        {
+          "time_s": 11.993502,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 12.020626,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011580000000002144
+        },
+        {
+          "time_s": 12.663456,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 12.684204,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 13.04352,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 13.052862,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 13.568528,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 13.593564,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 14.258494,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 14.281724,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 14.635674,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 14.650376,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 15.158604,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 15.1665,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 15.683578,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000003134
+        },
+        {
+          "time_s": 15.707194,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 16.208688,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 16.223312,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 16.733598,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 16.764014,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 17.258598,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 17.280132,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 17.783924,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 17.79625,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 18.308624,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 18.336958,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 18.833852,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 18.853068,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 19.358708,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 19.369192,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011579999999966617
+        },
+        {
+          "time_s": 19.88365,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 19.909888,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 20.408662,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 20.426004,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 20.933922,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 20.942128,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 21.458682,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 21.482824,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 21.983688,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 21.998942,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 22.508798,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 22.539636,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 23.05562,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 23.080338,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 23.578712,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 23.596456,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 24.121636,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 24.137152,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 24.643726,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 24.653276,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 25.168744,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 25.19397,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 25.693822,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 25.710088,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 26.21892,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 26.226212,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 26.74377,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 26.766906,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 27.268862,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 27.283038,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 27.793998,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 27.823726,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 28.318796,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 28.339844,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 28.84388,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 28.855968,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 29.368816,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 29.396662,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 29.893822,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 29.912786,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011580000000002144
+        },
+        {
+          "time_s": 30.41892,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 30.428904,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 30.96037,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 30.9696,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 31.50201,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000020898
+        },
+        {
+          "time_s": 31.510294,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001152000000001152
+        },
+        {
+          "time_s": 32.023944,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 32.050996,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 32.548866,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 32.567114,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 33.073878,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 33.083238,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 33.598956,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 33.623932,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 34.140396,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 34.164628,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 34.66391,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 34.680752,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 35.188918,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 35.19687,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 35.713962,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 35.737564,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 36.23893,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001145999999998537
+        },
+        {
+          "time_s": 36.253688,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 36.76406,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 36.794384,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 37.289152,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 37.310502,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 37.813976,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 37.826632,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 38.339066,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 38.36732,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 38.863982,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001145999999998537
+        },
+        {
+          "time_s": 38.883438,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 39.389222,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 39.399562,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 39.914086,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 39.940258,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 40.43902,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 40.456374,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 40.986884,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001145999999998537
+        },
+        {
+          "time_s": 40.997076,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 41.509098,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001145999999998537
+        },
+        {
+          "time_s": 41.537772,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 42.034052,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001145999999998537
+        },
+        {
+          "time_s": 42.053896,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011560000000017112
+        },
+        {
+          "time_s": 42.559038,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 42.570014,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 43.08415,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.001145999999998537
+        },
+        {
+          "time_s": 43.110708,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 43.609318,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 43.626832,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 44.146284,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 44.167528,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 44.669174,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 44.683644,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 45.194286,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 45.224346,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 45.719102,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 45.740464,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 46.244408,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 46.256582,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 46.769122,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 46.797284,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 47.294546,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 47.3134,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 47.819226,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 47.829518,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011519999999975994
+        },
+        {
+          "time_s": 48.344162,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 48.370226,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 48.869154,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 48.886338,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        },
+        {
+          "time_s": 49.394258,
+          "hex": "AA 55 00 01 00 00",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011460000000056425
+        },
+        {
+          "time_s": 49.402454,
+          "hex": "AA 55 01 01 02 80 3D 40",
+          "framing_valid": true,
+          "additive_checksum_valid": true,
+          "maximum_byte_start_gap_s": 0.0011520000000047048
+        }
+      ]
+    }
+  ]
+}

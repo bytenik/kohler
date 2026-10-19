@@ -1,0 +1,32 @@
+[
+  {
+    "event": "grouped_amplifier_tone_cue",
+    "host_unix": 1792358596.68584,
+    "ordered_actions": [
+      "Input -> Bluetooth",
+      "pause about 5 seconds",
+      "Options -> Treble slightly up",
+      "pause about 5 seconds",
+      "Options -> Balance slightly right",
+      "pause about 5 seconds",
+      "Options -> Bass slightly up"
+    ],
+    "baseline_amplifier_signed_tones": {
+      "balance": -50,
+      "treble": -50,
+      "bass": -70
+    },
+    "note": "Reopen Options as needed; source change restores Options controls. Do not change volume or playback deliberately. Stop on final done acknowledgment."
+  },
+  {
+    "event": "grouped_amplifier_tones_complete",
+    "host_unix": 1792358664.3946571,
+    "actual_ordered_actions": [
+      "Select Bluetooth",
+      "Treble up",
+      "Balance up",
+      "Bass up"
+    ],
+    "note": "User clarifies Balance is an up/down slider, not horizontal. No exact values or touch times provided."
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "capture": "system-display-play-17-part-000",
+    "uart": {
+      "baud": 115200,
+      "data_bits": 8,
+      "parity": null,
+      "stop_bits": 1,
+      "positive_is_one": false,
+      "frames": 38550,
+      "framing_errors": 0
+    },
+    "complete_packets": 3231,
+    "valid_packets": 3231,
+    "issues": {},
+    "types": {
+      "30": 1248,
+      "31": 1248,
+      "34": 735
+    },
+    "type_34_length_checks": [
+      735,
+      735
+    ],
+    "poll_interval_ms_median": 49.99999999999982,
+    "31_to_34_gap_ms_median": 2.415194444444449,
+    "action_candidates": [
+      {
+        "time_s": 27.695172,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "next_packet": {
+          "time_s": 27.699318,
+          "end_time_s": 27.700108,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 27.745188,
+        "key": "30 85",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 85 01 00 8C 55",
+        "next_packet": {
+          "time_s": 27.749316,
+          "end_time_s": 27.750106,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 27.795172,
+        "key": "30 84",
+        "value_hex": "01",
+        "wire_hex": "88 00 03 31 01 01 30 84 01 01 8C 55",
+        "next_packet": {
+          "time_s": 27.799334,
+          "end_time_s": 27.800124,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      }
+    ],
+    "key2469_states": {
+      "0A 00 00 00 00 00 00 64 64 64 23": {
+        "count": 65,
+        "first_s": 0.688858,
+        "last_s": 64.709978
+      }
+    }
+  }
+]

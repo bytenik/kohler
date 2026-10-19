@@ -1,0 +1,30 @@
+{
+  "capture": "display-port-change-08-part-000",
+  "uart": {
+    "baud": 115200,
+    "data_bits": 8,
+    "parity": null,
+    "stop_bits": 1,
+    "positive_is_one": true,
+    "frames": 4739,
+    "framing_errors": 0
+  },
+  "complete_packets": 598,
+  "valid_packets": 598,
+  "issues": {},
+  "types": {
+    "30": 274,
+    "31": 274,
+    "34": 50
+  },
+  "type_34_length_checks": [
+    50,
+    50
+  ],
+  "poll_interval_ms_median": 49.99999999999982,
+  "31_to_34_gap_ms_median": 3.0051944444440952,
+  "address_pairs": {
+    "03 00": 324,
+    "00 03": 274
+  }
+}

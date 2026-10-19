@@ -1,0 +1,7 @@
+[
+  {
+    "event": "setup",
+    "host_unix": 1792354261.491046,
+    "note": "User moved RJ45 passthrough to amplifier cable; display and amplifier remain connected. Scope1 reported on pin3/pin6, all GND disconnected. Recorder bus label display is legacy; measurement point is amplifier."
+  }
+]

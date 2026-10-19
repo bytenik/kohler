@@ -1,0 +1,22 @@
+[
+  {
+    "event": "initial_calibration_confirmed_in_ui",
+    "value": 178,
+    "host_unix": 1792353467.914428
+  },
+  {
+    "event": "change_to_179_action_about_to_start",
+    "host_unix": 1792353467.914429,
+    "note": "Host annotation before browser input; not exact wire transmission time."
+  },
+  {
+    "event": "controller_readback_after_change",
+    "value": 178,
+    "host_unix": 1792353482.268472
+  },
+  {
+    "event": "restore_178_and_controller_readback",
+    "value": 178,
+    "host_unix": 1792353514.854642
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "event": "select_line_in_2_cue",
+    "host_unix": 1792356735.463553,
+    "baseline_source_value": 2,
+    "note": "Open Input and select Line In 2 once; local tab navigation previously produced no new control key. No other settings changed. Stop on acknowledgment."
+  },
+  {
+    "event": "line_in_2_selected_acknowledgment",
+    "host_unix": 1792356757.889523
+  }
+]

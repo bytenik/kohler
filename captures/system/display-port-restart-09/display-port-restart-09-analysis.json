@@ -1,0 +1,32 @@
+{
+  "capture": "display-port-restart-09-part-000",
+  "uart": {
+    "baud": 115200,
+    "data_bits": 8,
+    "parity": null,
+    "stop_bits": 1,
+    "positive_is_one": true,
+    "frames": 4177,
+    "framing_errors": 0
+  },
+  "complete_packets": 477,
+  "valid_packets": 477,
+  "issues": {
+    "outside_packet": 2
+  },
+  "types": {
+    "30": 206,
+    "31": 206,
+    "34": 65
+  },
+  "type_34_length_checks": [
+    65,
+    65
+  ],
+  "poll_interval_ms_median": 49.99999999999982,
+  "31_to_34_gap_ms_median": 3.1211944444452104,
+  "address_pairs": {
+    "03 00": 271,
+    "00 03": 206
+  }
+}

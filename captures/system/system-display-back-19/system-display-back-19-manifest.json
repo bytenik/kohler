@@ -1,0 +1,28 @@
+{
+  "started_unix": 1792356437.298385,
+  "sample_rate": 500000.0,
+  "segments": [
+    {
+      "base": "system-display-back-19-part-000",
+      "samples": 19054474,
+      "sample_rate": 500000.0,
+      "bus": "display",
+      "pins": {
+        "1+": 3,
+        "1-": 6
+      },
+      "ground_connected": false,
+      "duration_s": 38.108948,
+      "started_unix_approx": 1792356437.299532,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    }
+  ],
+  "interruptions": [],
+  "bus": "display",
+  "pins": {
+    "1+": 3,
+    "1-": 6
+  },
+  "ground_connected": false
+}

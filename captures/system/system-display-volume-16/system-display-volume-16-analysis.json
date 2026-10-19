@@ -1,0 +1,357 @@
+[
+  {
+    "capture": "system-display-volume-16-part-000",
+    "uart": {
+      "baud": 115200,
+      "data_bits": 8,
+      "parity": null,
+      "stop_bits": 1,
+      "positive_is_one": false,
+      "frames": 22457,
+      "framing_errors": 0
+    },
+    "complete_packets": 1876,
+    "valid_packets": 1876,
+    "issues": {},
+    "types": {
+      "30": 722,
+      "31": 722,
+      "34": 432
+    },
+    "type_34_length_checks": [
+      432,
+      432
+    ],
+    "poll_interval_ms_median": 49.999999999998934,
+    "31_to_34_gap_ms_median": 2.419194444444786,
+    "action_candidates": [
+      {
+        "time_s": 2.58832,
+        "key": "30 00",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 00 01 00 11 55",
+        "next_packet": {
+          "time_s": 2.592442,
+          "end_time_s": 2.593232,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 6.573414,
+        "key": "30 00",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 00 01 00 11 55",
+        "next_packet": {
+          "time_s": 6.577514,
+          "end_time_s": 6.578304,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 10.573458,
+        "key": "30 00",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 00 01 00 11 55",
+        "next_packet": {
+          "time_s": 10.577576,
+          "end_time_s": 10.578366,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 14.573476,
+        "key": "30 00",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 00 01 00 11 55",
+        "next_packet": {
+          "time_s": 14.577648,
+          "end_time_s": 14.578438,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 18.603578,
+        "key": "30 00",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 00 01 00 11 55",
+        "next_packet": {
+          "time_s": 18.607712,
+          "end_time_s": 18.608502,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 20.148638,
+        "key": "30 00",
+        "value_hex": "14",
+        "wire_hex": "88 00 03 31 01 01 30 00 01 14 FD 55",
+        "next_packet": {
+          "time_s": 20.152744,
+          "end_time_s": 20.153534,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 20.19862,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "next_packet": {
+          "time_s": 20.20275,
+          "end_time_s": 20.20354,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 20.24863,
+        "key": "30 80",
+        "value_hex": "2D",
+        "wire_hex": "88 00 03 31 01 01 30 80 01 2D 64 55",
+        "next_packet": {
+          "time_s": 20.252746,
+          "end_time_s": 20.253536,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 21.098654,
+        "key": "30 00",
+        "value_hex": "14",
+        "wire_hex": "88 00 03 31 01 01 30 00 01 14 FD 55",
+        "next_packet": {
+          "time_s": 21.102766,
+          "end_time_s": 21.103556,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 21.149476,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "next_packet": {
+          "time_s": 21.152772,
+          "end_time_s": 21.153562,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 21.198652,
+        "key": "30 80",
+        "value_hex": "23",
+        "wire_hex": "88 00 03 31 01 01 30 80 01 23 6E 55",
+        "next_packet": {
+          "time_s": 21.20277,
+          "end_time_s": 21.20356,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 23.09865,
+        "key": "30 00",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 00 01 00 11 55",
+        "next_packet": {
+          "time_s": 23.102796,
+          "end_time_s": 23.103586,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 26.623744,
+        "key": "30 00",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 00 01 00 11 55",
+        "next_packet": {
+          "time_s": 26.62786,
+          "end_time_s": 26.62865,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 30.553818,
+        "key": "30 00",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 00 01 00 11 55",
+        "next_packet": {
+          "time_s": 30.55793,
+          "end_time_s": 30.55872,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      },
+      {
+        "time_s": 34.503884,
+        "key": "30 00",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 00 01 00 11 55",
+        "next_packet": {
+          "time_s": 34.507994,
+          "end_time_s": 34.508784,
+          "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+          "hex": "88 03 00 34 01 02 02 30 0C 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 1,
+          "length_field_valid": true,
+          "length_field_offset": 5
+        }
+      }
+    ],
+    "key2469_states": {
+      "0A 00 00 00 00 00 00 64 64 64 3C": {
+        "count": 22,
+        "first_s": 0.647408,
+        "last_s": 22.302788
+      },
+      "0A 00 00 00 00 00 00 64 64 64 23": {
+        "count": 15,
+        "first_s": 23.282804,
+        "last_s": 36.53303
+      }
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "samples": 30555392,
+  "sample_rate": 500000.0,
+  "bus": "display",
+  "pins": {
+    "1+": 3,
+    "1-": 6
+  },
+  "ground_connected": false,
+  "duration_s": 61.110784,
+  "started_unix_approx": 1792358300.328804,
+  "capture_complete": true,
+  "time_reference": "host time near first read; not hardware synchronized"
+}

@@ -1,0 +1,21 @@
+{
+  "started_unix": 1792349021.022112,
+  "sample_rate": 500000.0,
+  "segments": [
+    {
+      "base": "display-port-restart-09-part-000",
+      "samples": 5156169,
+      "sample_rate": 500000.0,
+      "duration_s": 10.312338,
+      "started_unix_approx": 1792349021.0227158,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    }
+  ],
+  "interruptions": [],
+  "pins": {
+    "1+": 3,
+    "1-": 6
+  },
+  "ground_connected": false
+}

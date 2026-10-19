@@ -1,0 +1,218 @@
+[
+  {
+    "capture": "system-display-tone-batch-29-part-000",
+    "uart": {
+      "baud": 115200,
+      "data_bits": 8,
+      "parity": null,
+      "stop_bits": 1,
+      "positive_is_one": false,
+      "frames": 20668,
+      "framing_errors": 0
+    },
+    "complete_packets": 1800,
+    "valid_packets": 1800,
+    "issues": {},
+    "types": {
+      "34": 390,
+      "30": 705,
+      "31": 705
+    },
+    "type_34_length_checks": [
+      390,
+      390
+    ],
+    "poll_interval_ms_median": 50.00000000000071,
+    "31_to_34_gap_ms_median": 2.4291944444444074,
+    "actions": [
+      {
+        "time_s": 11.44632,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 11.496294,
+        "key": "30 87",
+        "value_hex": "82",
+        "wire_hex": "88 00 03 31 01 01 30 87 01 82 08 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 12.746366,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 12.796422,
+        "key": "30 87",
+        "value_hex": "96",
+        "wire_hex": "88 00 03 31 01 01 30 87 01 96 F4 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 14.496362,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 14.54636,
+        "key": "30 87",
+        "value_hex": "32",
+        "wire_hex": "88 00 03 31 01 01 30 87 01 32 58 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 16.046406,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 16.096406,
+        "key": "30 87",
+        "value_hex": "32",
+        "wire_hex": "88 00 03 31 01 01 30 87 01 32 58 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 16.146372,
+        "key": "30 86",
+        "value_hex": "50",
+        "wire_hex": "88 00 03 31 01 01 30 86 01 50 3B 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 16.896384,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 16.9464,
+        "key": "30 86",
+        "value_hex": "96",
+        "wire_hex": "88 00 03 31 01 01 30 86 01 96 F5 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 17.696402,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 17.746418,
+        "key": "30 86",
+        "value_hex": "46",
+        "wire_hex": "88 00 03 31 01 01 30 86 01 46 45 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 18.597252,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 18.646452,
+        "key": "30 86",
+        "value_hex": "32",
+        "wire_hex": "88 00 03 31 01 01 30 86 01 32 59 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 19.946466,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 19.996472,
+        "key": "30 88",
+        "value_hex": "1E",
+        "wire_hex": "88 00 03 31 01 01 30 AA 88 01 1E 6B 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 20.796472,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 20.846462,
+        "key": "30 88",
+        "value_hex": "1E",
+        "wire_hex": "88 00 03 31 01 01 30 AA 88 01 1E 6B 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 21.446482,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 21.496482,
+        "key": "30 86",
+        "value_hex": "32",
+        "wire_hex": "88 00 03 31 01 01 30 86 01 32 59 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 21.546482,
+        "key": "30 87",
+        "value_hex": "32",
+        "wire_hex": "88 00 03 31 01 01 30 87 01 32 58 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 21.596472,
+        "key": "30 88",
+        "value_hex": "1E",
+        "wire_hex": "88 00 03 31 01 01 30 AA 88 01 1E 6B 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      }
+    ],
+    "key2469_states": {
+      "0A 00 00 00 00 00 00 28 28 46 23": {
+        "count": 13,
+        "first_s": 0.150238,
+        "last_s": 12.050448
+      },
+      "0A 00 00 00 00 00 00 28 82 46 23": {
+        "count": 3,
+        "first_s": 13.20048,
+        "last_s": 14.050484
+      },
+      "0A 00 00 00 00 00 00 28 96 46 23": {
+        "count": 1,
+        "first_s": 14.9505,
+        "last_s": 14.9505
+      },
+      "0A 00 00 00 00 00 00 28 32 46 23": {
+        "count": 8,
+        "first_s": 16.600538,
+        "last_s": 22.250626
+      },
+      "0A 00 00 00 00 00 00 32 32 1E 23": {
+        "count": 12,
+        "first_s": 23.55065,
+        "last_s": 34.50085
+      }
+    }
+  }
+]

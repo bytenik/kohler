@@ -1,0 +1,8 @@
+{
+  "samples": 5156169,
+  "sample_rate": 500000.0,
+  "duration_s": 10.312338,
+  "started_unix_approx": 1792349021.0227158,
+  "capture_complete": true,
+  "time_reference": "host time near first read; not hardware synchronized"
+}

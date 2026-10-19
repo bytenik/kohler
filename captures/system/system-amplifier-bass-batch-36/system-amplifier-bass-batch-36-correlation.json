@@ -1,0 +1,118 @@
+{
+  "capture": "system-amplifier-bass-batch-36",
+  "control": "Bass",
+  "amplifier_write_complete_packet_offset": 14,
+  "amplifier_short_reply_offset": 14,
+  "amplifier_status_reply_offset": 11,
+  "encoding": "8-bit signed two's-complement values",
+  "initial_value": -70,
+  "write_sequence": [
+    {
+      "time_s": 191.36103,
+      "value": -60,
+      "raw_hex": "C4",
+      "acknowledged": true
+    },
+    {
+      "time_s": 192.396104,
+      "value": 70,
+      "raw_hex": "46",
+      "acknowledged": true
+    },
+    {
+      "time_s": 193.416074,
+      "value": 70,
+      "raw_hex": "46",
+      "acknowledged": true
+    },
+    {
+      "time_s": 202.54621,
+      "value": -60,
+      "raw_hex": "C4",
+      "acknowledged": true
+    },
+    {
+      "time_s": 203.581238,
+      "value": -60,
+      "raw_hex": "C4",
+      "acknowledged": true
+    }
+  ],
+  "feedback_changes": [
+    {
+      "time_s": 0.321048,
+      "type": "32",
+      "volume": 55,
+      "source": 0,
+      "track_signed": 0,
+      "playback_request": 1,
+      "mute": 0,
+      "balance_signed": -10,
+      "treble_signed": -30,
+      "bass_signed": -70
+    },
+    {
+      "time_s": 0.672028,
+      "type": "31",
+      "volume": 55,
+      "playback_state": 1,
+      "balance_signed": -10,
+      "treble_signed": -30,
+      "bass_signed": -70,
+      "mute": 0
+    },
+    {
+      "time_s": 194.500368,
+      "type": "31",
+      "volume": 55,
+      "playback_state": 1,
+      "balance_signed": -10,
+      "treble_signed": -30,
+      "bass_signed": 70,
+      "mute": 0
+    },
+    {
+      "time_s": 194.8602,
+      "type": "32",
+      "volume": 55,
+      "source": 0,
+      "track_signed": 0,
+      "playback_request": 1,
+      "mute": 0,
+      "balance_signed": -10,
+      "treble_signed": -30,
+      "bass_signed": 70
+    },
+    {
+      "time_s": 204.605476,
+      "type": "31",
+      "volume": 55,
+      "playback_state": 1,
+      "balance_signed": -10,
+      "treble_signed": -30,
+      "bass_signed": -60,
+      "mute": 0
+    },
+    {
+      "time_s": 204.96439,
+      "type": "32",
+      "volume": 55,
+      "source": 0,
+      "track_signed": 0,
+      "playback_request": 1,
+      "mute": 0,
+      "balance_signed": -10,
+      "treble_signed": -30,
+      "bass_signed": -60
+    }
+  ],
+  "final_state": {
+    "bass_signed": -60,
+    "treble_signed": -30,
+    "balance_signed": -10,
+    "volume": 55,
+    "source": 0,
+    "mute": 0
+  },
+  "display_numeric_values_directly_observed": false
+}

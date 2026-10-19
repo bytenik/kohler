@@ -1,0 +1,13 @@
+[
+  {
+    "event": "single_forward_button_press_cue",
+    "host_unix": 1792356379.5540538,
+    "visible_context": "Listen/Bluetooth; Play icon returned after previous test",
+    "note": "One Forward/next-track press requested; other controls unchanged. Cue time is not measured touch time."
+  },
+  {
+    "event": "forward_press_acknowledgment",
+    "host_unix": 1792356401.766863,
+    "visible_result": "No visible changes reported."
+  }
+]

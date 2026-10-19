@@ -1,0 +1,12 @@
+[
+  {
+    "event": "fresh_recording_power_cycle_cue",
+    "host_unix": 1792352217.052586,
+    "note": "Power-cycle cue conditional on probe connectors being secured; not measured power transition."
+  },
+  {
+    "event": "user_done_acknowledgment",
+    "host_unix": 1792352305.360928,
+    "note": "User reported done after power-cycle cue; exact physical transition time and screen state were not independently measured."
+  }
+]

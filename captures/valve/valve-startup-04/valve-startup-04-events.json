@@ -1,0 +1,12 @@
+[
+  {
+    "event": "power_cycle_cue",
+    "host_unix": 1792352760.901578,
+    "note": "Cue for repeat spare-system power cycle; not a measured power transition. Probe polarity unchanged: 1+ pin 4, 1- pin 5, all GND disconnected."
+  },
+  {
+    "event": "display_ready_stuck_stepper_motor_acknowledgment",
+    "host_unix": 1792352890.0434492,
+    "note": "User reports initialization complete and stuck stepper motor error visible; acknowledgment time, not exact screen transition."
+  }
+]

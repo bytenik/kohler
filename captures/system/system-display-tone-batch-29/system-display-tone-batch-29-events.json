@@ -1,0 +1,30 @@
+[
+  {
+    "event": "grouped_tone_adjustments_cue",
+    "host_unix": 1792357583.581992,
+    "ordered_actions": [
+      "Treble up",
+      "pause about 5 seconds",
+      "Treble down",
+      "pause about 5 seconds",
+      "Balance right",
+      "pause about 5 seconds",
+      "Balance left",
+      "pause about 5 seconds",
+      "Bass down"
+    ],
+    "note": "Reopen Options as needed; stop on final done acknowledgment without tail. If display powers off, stop and report last completed step. Probe quality verified by capture28 before recording."
+  },
+  {
+    "event": "grouped_tone_adjustments_complete_acknowledgment",
+    "host_unix": 1792357618.406583,
+    "ordered_actions": [
+      "Treble up",
+      "Treble down",
+      "Balance right",
+      "Balance left",
+      "Bass down"
+    ],
+    "note": "User reports done; no exact touch times or numeric values provided."
+  }
+]

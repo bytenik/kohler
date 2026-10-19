@@ -1,0 +1,50 @@
+{
+  "started_unix": 1792350578.5909781,
+  "sample_rate": 2000000.0,
+  "segments": [
+    {
+      "base": "valve-idle-01-part-000",
+      "samples": 9240958,
+      "sample_rate": 2000000.0,
+      "bus": "valve",
+      "pins": {
+        "1+": 4,
+        "1-": 5
+      },
+      "ground_connected": false,
+      "duration_s": 4.620479,
+      "started_unix_approx": 1792350578.591867,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    },
+    {
+      "base": "valve-idle-01-part-001",
+      "samples": 14745324,
+      "sample_rate": 2000000.0,
+      "bus": "valve",
+      "pins": {
+        "1+": 4,
+        "1-": 5
+      },
+      "ground_connected": false,
+      "duration_s": 7.372662,
+      "started_unix_approx": 1792350583.2219148,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    }
+  ],
+  "interruptions": [
+    {
+      "host_unix": 1792350583.219101,
+      "lost": 0,
+      "corrupt": 9770,
+      "discarded_available": 13718
+    }
+  ],
+  "bus": "valve",
+  "pins": {
+    "1+": 4,
+    "1-": 5
+  },
+  "ground_connected": false
+}

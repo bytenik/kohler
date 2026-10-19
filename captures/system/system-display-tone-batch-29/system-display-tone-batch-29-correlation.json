@@ -1,0 +1,159 @@
+{
+  "capture": "system-display-tone-batch-29",
+  "actual_user_action_order": [
+    "Treble up",
+    "Treble down",
+    "Balance right",
+    "Balance left",
+    "Bass down"
+  ],
+  "mapping": {
+    "30 86": {
+      "control": "Balance",
+      "state_packet_offset": 16
+    },
+    "30 87": {
+      "control": "Treble",
+      "state_packet_offset": 17
+    },
+    "30 88": {
+      "control": "Bass",
+      "state_packet_offset": 18
+    }
+  },
+  "commands": [
+    {
+      "time_s": 11.496294,
+      "key": "30 87",
+      "control": "Treble",
+      "value_decimal": 130,
+      "wire_hex": "88 00 03 31 01 01 30 87 01 82 08 55",
+      "ack_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+    },
+    {
+      "time_s": 12.796422,
+      "key": "30 87",
+      "control": "Treble",
+      "value_decimal": 150,
+      "wire_hex": "88 00 03 31 01 01 30 87 01 96 F4 55",
+      "ack_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+    },
+    {
+      "time_s": 14.54636,
+      "key": "30 87",
+      "control": "Treble",
+      "value_decimal": 50,
+      "wire_hex": "88 00 03 31 01 01 30 87 01 32 58 55",
+      "ack_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+    },
+    {
+      "time_s": 16.096406,
+      "key": "30 87",
+      "control": "Treble",
+      "value_decimal": 50,
+      "wire_hex": "88 00 03 31 01 01 30 87 01 32 58 55",
+      "ack_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+    },
+    {
+      "time_s": 16.146372,
+      "key": "30 86",
+      "control": "Balance",
+      "value_decimal": 80,
+      "wire_hex": "88 00 03 31 01 01 30 86 01 50 3B 55",
+      "ack_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+    },
+    {
+      "time_s": 16.9464,
+      "key": "30 86",
+      "control": "Balance",
+      "value_decimal": 150,
+      "wire_hex": "88 00 03 31 01 01 30 86 01 96 F5 55",
+      "ack_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+    },
+    {
+      "time_s": 17.746418,
+      "key": "30 86",
+      "control": "Balance",
+      "value_decimal": 70,
+      "wire_hex": "88 00 03 31 01 01 30 86 01 46 45 55",
+      "ack_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+    },
+    {
+      "time_s": 18.646452,
+      "key": "30 86",
+      "control": "Balance",
+      "value_decimal": 50,
+      "wire_hex": "88 00 03 31 01 01 30 86 01 32 59 55",
+      "ack_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+    },
+    {
+      "time_s": 19.996472,
+      "key": "30 88",
+      "control": "Bass",
+      "value_decimal": 30,
+      "wire_hex": "88 00 03 31 01 01 30 AA 88 01 1E 6B 55",
+      "ack_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+    },
+    {
+      "time_s": 20.846462,
+      "key": "30 88",
+      "control": "Bass",
+      "value_decimal": 30,
+      "wire_hex": "88 00 03 31 01 01 30 AA 88 01 1E 6B 55",
+      "ack_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+    },
+    {
+      "time_s": 21.496482,
+      "key": "30 86",
+      "control": "Balance",
+      "value_decimal": 50,
+      "wire_hex": "88 00 03 31 01 01 30 86 01 32 59 55",
+      "ack_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+    },
+    {
+      "time_s": 21.546482,
+      "key": "30 87",
+      "control": "Treble",
+      "value_decimal": 50,
+      "wire_hex": "88 00 03 31 01 01 30 87 01 32 58 55",
+      "ack_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+    },
+    {
+      "time_s": 21.596472,
+      "key": "30 88",
+      "control": "Bass",
+      "value_decimal": 30,
+      "wire_hex": "88 00 03 31 01 01 30 AA 88 01 1E 6B 55",
+      "ack_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+    }
+  ],
+  "state_key": "24 69",
+  "state_changes": {
+    "0A 00 00 00 00 00 00 28 28 46 23": {
+      "count": 13,
+      "first_s": 0.150238,
+      "last_s": 12.050448
+    },
+    "0A 00 00 00 00 00 00 28 82 46 23": {
+      "count": 3,
+      "first_s": 13.20048,
+      "last_s": 14.050484
+    },
+    "0A 00 00 00 00 00 00 28 96 46 23": {
+      "count": 1,
+      "first_s": 14.9505,
+      "last_s": 14.9505
+    },
+    "0A 00 00 00 00 00 00 28 32 46 23": {
+      "count": 8,
+      "first_s": 16.600538,
+      "last_s": 22.250626
+    },
+    "0A 00 00 00 00 00 00 32 32 1E 23": {
+      "count": 12,
+      "first_s": 23.55065,
+      "last_s": 34.50085
+    }
+  },
+  "amplifier_side_application_confirmed": false
+}

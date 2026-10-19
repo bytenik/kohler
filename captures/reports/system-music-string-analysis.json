@@ -1,0 +1,138 @@
+{
+  "captures_checked": [
+    "system-display-amplifier-10-part-000",
+    "system-display-back-19-part-000",
+    "system-display-bass-25-part-000",
+    "system-display-bluetooth-23-part-000",
+    "system-display-forward-18-part-000",
+    "system-display-input-20-part-000",
+    "system-display-line1-21-part-000",
+    "system-display-line2-22-part-000",
+    "system-display-music-14-part-000",
+    "system-display-options-24-part-000",
+    "system-display-play-17-part-000",
+    "system-display-tone-batch-29-part-000",
+    "system-display-volume-15-part-000",
+    "system-display-volume-16-part-000"
+  ],
+  "string_format_candidate": "31 class02 format04",
+  "fields": {
+    "22 0D": {
+      "count": 394,
+      "reply_data_counts": {
+        "00": 394
+      },
+      "captures": [
+        "system-display-back-19-part-000",
+        "system-display-bass-25-part-000",
+        "system-display-bluetooth-23-part-000",
+        "system-display-forward-18-part-000",
+        "system-display-input-20-part-000",
+        "system-display-line1-21-part-000",
+        "system-display-line2-22-part-000",
+        "system-display-music-14-part-000",
+        "system-display-options-24-part-000",
+        "system-display-play-17-part-000",
+        "system-display-tone-batch-29-part-000",
+        "system-display-volume-15-part-000",
+        "system-display-volume-16-part-000"
+      ]
+    },
+    "22 10": {
+      "count": 394,
+      "reply_data_counts": {
+        "00": 394
+      },
+      "captures": [
+        "system-display-back-19-part-000",
+        "system-display-bass-25-part-000",
+        "system-display-bluetooth-23-part-000",
+        "system-display-forward-18-part-000",
+        "system-display-input-20-part-000",
+        "system-display-line1-21-part-000",
+        "system-display-line2-22-part-000",
+        "system-display-music-14-part-000",
+        "system-display-options-24-part-000",
+        "system-display-play-17-part-000",
+        "system-display-tone-batch-29-part-000",
+        "system-display-volume-15-part-000",
+        "system-display-volume-16-part-000"
+      ]
+    },
+    "22 13": {
+      "count": 188,
+      "reply_data_counts": {
+        "00": 188
+      },
+      "captures": [
+        "system-display-back-19-part-000",
+        "system-display-bass-25-part-000",
+        "system-display-bluetooth-23-part-000",
+        "system-display-forward-18-part-000",
+        "system-display-input-20-part-000",
+        "system-display-line1-21-part-000",
+        "system-display-line2-22-part-000",
+        "system-display-music-14-part-000",
+        "system-display-options-24-part-000",
+        "system-display-play-17-part-000",
+        "system-display-tone-batch-29-part-000",
+        "system-display-volume-15-part-000",
+        "system-display-volume-16-part-000"
+      ]
+    },
+    "22 01": {
+      "count": 1,
+      "reply_data_counts": {
+        "50 72 65 73 65 74 20 31 00": 1
+      },
+      "captures": [
+        "system-display-bass-25-part-000"
+      ]
+    },
+    "22 02": {
+      "count": 1,
+      "reply_data_counts": {
+        "50 72 65 73 65 74 20 32 00": 1
+      },
+      "captures": [
+        "system-display-bass-25-part-000"
+      ]
+    },
+    "22 03": {
+      "count": 1,
+      "reply_data_counts": {
+        "50 72 65 73 65 74 20 33 00": 1
+      },
+      "captures": [
+        "system-display-bass-25-part-000"
+      ]
+    },
+    "22 04": {
+      "count": 1,
+      "reply_data_counts": {
+        "50 72 65 73 65 74 20 34 00": 1
+      },
+      "captures": [
+        "system-display-bass-25-part-000"
+      ]
+    },
+    "22 05": {
+      "count": 1,
+      "reply_data_counts": {
+        "50 72 65 73 65 74 20 35 00": 1
+      },
+      "captures": [
+        "system-display-bass-25-part-000"
+      ]
+    },
+    "22 06": {
+      "count": 1,
+      "reply_data_counts": {
+        "50 72 65 73 65 74 20 36 00": 1
+      },
+      "captures": [
+        "system-display-bass-25-part-000"
+      ]
+    }
+  }
+}

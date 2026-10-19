@@ -1,0 +1,60 @@
+{
+  "capture": "system-display-volume-15",
+  "actions": [
+    {
+      "time_s": 11.73396,
+      "key": "30 83",
+      "value": "00",
+      "value_unsigned": 0,
+      "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+      "unescaped_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+      "following_packet": {
+        "time_s": 11.739882,
+        "end_time_s": 11.740672,
+        "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+        "hex": "88 03 00 34 01 02 02 30 0C 55",
+        "framing_valid": true,
+        "checksum_valid": true,
+        "length": 10,
+        "field_1": 3,
+        "field_2": 0,
+        "message_type": 52,
+        "subtype": 1,
+        "length_field_valid": true,
+        "length_field_offset": 5
+      }
+    },
+    {
+      "time_s": 11.779968,
+      "key": "30 80",
+      "value": "3C",
+      "value_unsigned": 60,
+      "wire_hex": "88 00 03 31 01 01 30 80 01 3C AA 55 55",
+      "unescaped_hex": "88 00 03 31 01 01 30 80 01 3C 55 55",
+      "following_packet": {
+        "time_s": 11.784074,
+        "end_time_s": 11.784864,
+        "wire_hex": "88 03 00 34 01 02 02 30 0C 55",
+        "hex": "88 03 00 34 01 02 02 30 0C 55",
+        "framing_valid": true,
+        "checksum_valid": true,
+        "length": 10,
+        "field_1": 3,
+        "field_2": 0,
+        "message_type": 52,
+        "subtype": 1,
+        "length_field_valid": true,
+        "length_field_offset": 5
+      }
+    }
+  ],
+  "state_key": "24 69",
+  "old_last_value": 50,
+  "new_last_value": 60,
+  "web_readback": {
+    "volume": 50,
+    "amp_volume_string": 50,
+    "amp_con_string": "intermittent"
+  },
+  "amplifier_applied_change_confirmed": false
+}

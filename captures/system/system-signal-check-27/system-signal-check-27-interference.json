@@ -1,0 +1,30 @@
+[
+  {
+    "hz": 50,
+    "sinusoidal_amplitude_v": 0.0023431785389902765
+  },
+  {
+    "hz": 60,
+    "sinusoidal_amplitude_v": 8.740815444330352
+  },
+  {
+    "hz": 100,
+    "sinusoidal_amplitude_v": 0.04216430150348154
+  },
+  {
+    "hz": 120,
+    "sinusoidal_amplitude_v": 4.991928701075495
+  },
+  {
+    "hz": 180,
+    "sinusoidal_amplitude_v": 0.3383987902615368
+  },
+  {
+    "hz": 240,
+    "sinusoidal_amplitude_v": 0.786930488118854
+  },
+  {
+    "hz": 300,
+    "sinusoidal_amplitude_v": 0.6383674395779101
+  }
+]

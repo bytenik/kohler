@@ -1,0 +1,24 @@
+[
+  {
+    "event": "open_music_controls_cue",
+    "host_unix": 1792355920.1729841,
+    "note": "Display connection observed; amplifier reconnected on another port. Open music controls only, leaving volume/playback unchanged until separately cued. Reported Scope1 pins3/6, GND disconnected. Cue time, not exact touch timestamp."
+  },
+  {
+    "event": "music_controls_open_acknowledgment",
+    "host_unix": 1792355979.4563541,
+    "visible_state": {
+      "tab": "Listen",
+      "label": "Bluetooth",
+      "controls": [
+        "volume",
+        "forward",
+        "back",
+        "play",
+        "options",
+        "Input tab"
+      ]
+    },
+    "note": "User reports menu open; no volume or playback change requested."
+  }
+]

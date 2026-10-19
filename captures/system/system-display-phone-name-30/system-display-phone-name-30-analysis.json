@@ -1,0 +1,116 @@
+[
+  {
+    "capture": "system-display-phone-name-30-part-000",
+    "uart": {
+      "baud": 115200,
+      "data_bits": 8,
+      "parity": null,
+      "stop_bits": 1,
+      "positive_is_one": false,
+      "frames": 3057,
+      "framing_errors": 0
+    },
+    "complete_packets": 247,
+    "valid_packets": 247,
+    "issues": {},
+    "types": {
+      "30": 95,
+      "31": 95,
+      "34": 57
+    },
+    "type_34_length_checks": [
+      57,
+      57
+    ],
+    "poll_interval_ms_median": 49.999999999999986,
+    "31_to_34_gap_ms_median": 2.4451944444444234,
+    "strings": [
+      {
+        "time_s": 0.373602,
+        "key": "22 13",
+        "data_hex": "44 61 76 69 64 27 73 20 5A 20 46 6F 6C 64 37 00",
+        "text_utf8_candidate": "David's Z Fold7",
+        "request_hex": "88 00 03 31 02 04 22 13 00 09 55",
+        "reply_hex": "88 03 00 34 01 13 02 22 13 44 61 76 69 64 27 73 20 5A 20 46 6F 6C 64 37 00 1E 55"
+      },
+      {
+        "time_s": 1.68862,
+        "key": "22 0D",
+        "data_hex": "00",
+        "text_utf8_candidate": "",
+        "request_hex": "88 00 03 31 02 04 22 0D 00 0F 55",
+        "reply_hex": "88 03 00 34 01 04 02 22 0D 00 0B 55"
+      },
+      {
+        "time_s": 1.788614,
+        "key": "22 10",
+        "data_hex": "00",
+        "text_utf8_candidate": "",
+        "request_hex": "88 00 03 31 02 04 22 10 00 0C 55",
+        "reply_hex": "88 03 00 34 01 04 02 22 10 00 08 55"
+      },
+      {
+        "time_s": 2.638628,
+        "key": "22 0D",
+        "data_hex": "00",
+        "text_utf8_candidate": "",
+        "request_hex": "88 00 03 31 02 04 22 0D 00 0F 55",
+        "reply_hex": "88 03 00 34 01 04 02 22 0D 00 0B 55"
+      },
+      {
+        "time_s": 2.68863,
+        "key": "22 10",
+        "data_hex": "00",
+        "text_utf8_candidate": "",
+        "request_hex": "88 00 03 31 02 04 22 10 00 0C 55",
+        "reply_hex": "88 03 00 34 01 04 02 22 10 00 08 55"
+      },
+      {
+        "time_s": 3.488646,
+        "key": "22 0D",
+        "data_hex": "00",
+        "text_utf8_candidate": "",
+        "request_hex": "88 00 03 31 02 04 22 0D 00 0F 55",
+        "reply_hex": "88 03 00 34 01 04 02 22 0D 00 0B 55"
+      },
+      {
+        "time_s": 3.538642,
+        "key": "22 10",
+        "data_hex": "00",
+        "text_utf8_candidate": "",
+        "request_hex": "88 00 03 31 02 04 22 10 00 0C 55",
+        "reply_hex": "88 03 00 34 01 04 02 22 10 00 08 55"
+      },
+      {
+        "time_s": 4.338668,
+        "key": "22 13",
+        "data_hex": "44 61 76 69 64 27 73 20 5A 20 46 6F 6C 64 37 00",
+        "text_utf8_candidate": "David's Z Fold7",
+        "request_hex": "88 00 03 31 02 04 22 13 00 09 55",
+        "reply_hex": "88 03 00 34 01 13 02 22 13 44 61 76 69 64 27 73 20 5A 20 46 6F 6C 64 37 00 1E 55"
+      }
+    ],
+    "music_state": [
+      {
+        "time_s": 0.123594,
+        "data_hex": "0A 00 00 00 00 00 00 32 32 1E 23"
+      },
+      {
+        "time_s": 1.488612,
+        "data_hex": "0A 00 00 00 00 00 00 32 32 1E 23"
+      },
+      {
+        "time_s": 2.438628,
+        "data_hex": "0A 00 00 00 00 00 00 32 32 1E 23"
+      },
+      {
+        "time_s": 3.288646,
+        "data_hex": "0A 00 00 00 00 00 00 32 32 1E 23"
+      },
+      {
+        "time_s": 4.08866,
+        "data_hex": "0A 00 00 00 00 00 00 32 32 1E 23"
+      }
+    ]
+  }
+]

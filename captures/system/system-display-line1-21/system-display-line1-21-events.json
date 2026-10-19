@@ -1,0 +1,12 @@
+[
+  {
+    "event": "select_line_in_1_cue",
+    "host_unix": 1792356651.3965938,
+    "note": "Select Line In 1 once from Input tab; report resulting screen or label. No other control changes requested. Stop on acknowledgment."
+  },
+  {
+    "event": "line_in_1_selected_acknowledgment",
+    "host_unix": 1792356701.709902,
+    "visible_result": "Returned to Listen; only volume slider available."
+  }
+]

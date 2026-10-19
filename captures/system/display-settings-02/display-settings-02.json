@@ -1,0 +1,9 @@
+{
+  "sample_rate": 1000000,
+  "samples": 27877898,
+  "duration_s": 27.877898,
+  "lost": 131071,
+  "corrupt": 0,
+  "capture_complete": false,
+  "note": "Contiguous prefix saved before first reported sample loss; no samples after the gap retained. User opened Settings during this recording."
+}

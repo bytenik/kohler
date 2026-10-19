@@ -1,0 +1,228 @@
+{
+  "captures": [
+    {
+      "capture": "valve-startup-03",
+      "interruptions": [],
+      "parts": [
+        {
+          "base": "valve-startup-03-part-000",
+          "duration_s": 103.68407,
+          "uart_frames": 1347,
+          "uart_errors": 0,
+          "candidate_packets": 189,
+          "valid_packets": 189,
+          "decoded_bytes_accounted_for": 1347,
+          "packet_counts": {
+            "AA 55 1F 3A 01 03 A4": 1,
+            "AA 55 1F 3A 01 01 A6": 4,
+            "AA 55 00 54 00 AD": 2,
+            "AA 55 01 01 04 00 06 00 0C E9": 2,
+            "AA 55 00 40 00 C1": 1,
+            "AA 55 01 01 04 00 02 51 17 91": 1,
+            "AA 55 00 16 00 EB": 1,
+            "AA 55 01 01 04 03 09 00 04 EB": 1,
+            "AA 55 00 0B 00 F6": 1,
+            "AA 55 01 01 0A 01 02 00 64 00 C8 01 2C 01 2C 6C": 1,
+            "AA 55 00 0C 00 F5": 1,
+            "AA 55 01 01 0B 02 01 00 3F 00 02 76 00 00 01 5C DD": 1,
+            "AA 55 00 15 00 EC": 1,
+            "AA 55 01 01 01 B2 4C": 1,
+            "AA 55 00 01 00 00": 85,
+            "AA 55 01 01 02 80 3D 40": 85
+          },
+          "pre_discovery_packets": 0,
+          "discovery_capture_time_s": 47.567302,
+          "startup_sequence": [
+            "AA 55 1F 3A 01 03 A4",
+            "AA 55 1F 3A 01 01 A6",
+            "AA 55 1F 3A 01 01 A6",
+            "AA 55 1F 3A 01 01 A6",
+            "AA 55 1F 3A 01 01 A6",
+            "AA 55 00 54 00 AD",
+            "AA 55 01 01 04 00 06 00 0C E9",
+            "AA 55 00 40 00 C1",
+            "AA 55 01 01 04 00 02 51 17 91",
+            "AA 55 00 54 00 AD",
+            "AA 55 01 01 04 00 06 00 0C E9",
+            "AA 55 00 16 00 EB",
+            "AA 55 01 01 04 03 09 00 04 EB",
+            "AA 55 00 0B 00 F6",
+            "AA 55 01 01 0A 01 02 00 64 00 C8 01 2C 01 2C 6C",
+            "AA 55 00 0C 00 F5",
+            "AA 55 01 01 0B 02 01 00 3F 00 02 76 00 00 01 5C DD",
+            "AA 55 00 15 00 EC",
+            "AA 55 01 01 01 B2 4C"
+          ],
+          "startup_exchanges": [
+            {
+              "request": "AA 55 00 54 00 AD",
+              "reply": "AA 55 01 01 04 00 06 00 0C E9",
+              "request_command_hex": "54",
+              "reply_payload_hex": "00 06 00 0C",
+              "time_after_discovery_s": 7.875323999999999
+            },
+            {
+              "request": "AA 55 00 40 00 C1",
+              "reply": "AA 55 01 01 04 00 02 51 17 91",
+              "request_command_hex": "40",
+              "reply_payload_hex": "00 02 51 17",
+              "time_after_discovery_s": 7.9023540000000025
+            },
+            {
+              "request": "AA 55 00 54 00 AD",
+              "reply": "AA 55 01 01 04 00 06 00 0C E9",
+              "request_command_hex": "54",
+              "reply_payload_hex": "00 06 00 0C",
+              "time_after_discovery_s": 8.285236000000005
+            },
+            {
+              "request": "AA 55 00 16 00 EB",
+              "reply": "AA 55 01 01 04 03 09 00 04 EB",
+              "request_command_hex": "16",
+              "reply_payload_hex": "03 09 00 04",
+              "time_after_discovery_s": 8.810236000000003
+            },
+            {
+              "request": "AA 55 00 0B 00 F6",
+              "reply": "AA 55 01 01 0A 01 02 00 64 00 C8 01 2C 01 2C 6C",
+              "request_command_hex": "0B",
+              "reply_payload_hex": "01 02 00 64 00 C8 01 2C 01 2C",
+              "time_after_discovery_s": 9.450174000000004
+            },
+            {
+              "request": "AA 55 00 0C 00 F5",
+              "reply": "AA 55 01 01 0B 02 01 00 3F 00 02 76 00 00 01 5C DD",
+              "request_command_hex": "0C",
+              "reply_payload_hex": "02 01 00 3F 00 02 76 00 00 01 5C",
+              "time_after_discovery_s": 9.860256
+            },
+            {
+              "request": "AA 55 00 15 00 EC",
+              "reply": "AA 55 01 01 01 B2 4C",
+              "request_command_hex": "15",
+              "reply_payload_hex": "B2",
+              "time_after_discovery_s": 10.385268000000003
+            }
+          ],
+          "first_poll_after_discovery_s": 11.960276
+        }
+      ]
+    },
+    {
+      "capture": "valve-startup-04",
+      "interruptions": [],
+      "parts": [
+        {
+          "base": "valve-startup-04-part-000",
+          "duration_s": 144.438406,
+          "uart_frames": 2621,
+          "uart_errors": 0,
+          "candidate_packets": 371,
+          "valid_packets": 371,
+          "decoded_bytes_accounted_for": 2621,
+          "packet_counts": {
+            "AA 55 00 01 00 00": 176,
+            "AA 55 01 01 02 80 3D 40": 176,
+            "AA 55 1F 3A 01 03 A4": 1,
+            "AA 55 1F 3A 01 01 A6": 4,
+            "AA 55 00 54 00 AD": 2,
+            "AA 55 01 01 04 00 06 00 0C E9": 2,
+            "AA 55 00 40 00 C1": 1,
+            "AA 55 01 01 04 00 02 51 17 91": 1,
+            "AA 55 00 16 00 EB": 1,
+            "AA 55 01 01 04 03 09 00 04 EB": 1,
+            "AA 55 00 0B 00 F6": 1,
+            "AA 55 01 01 0A 01 02 00 64 00 C8 01 2C 01 2C 6C": 1,
+            "AA 55 00 0C 00 F5": 1,
+            "AA 55 01 01 0B 02 01 00 3F 00 02 76 00 00 01 5C DD": 1,
+            "AA 55 00 15 00 EC": 1,
+            "AA 55 01 01 01 B2 4C": 1
+          },
+          "pre_discovery_packets": 58,
+          "discovery_capture_time_s": 55.357234,
+          "startup_sequence": [
+            "AA 55 1F 3A 01 03 A4",
+            "AA 55 1F 3A 01 01 A6",
+            "AA 55 1F 3A 01 01 A6",
+            "AA 55 1F 3A 01 01 A6",
+            "AA 55 1F 3A 01 01 A6",
+            "AA 55 00 54 00 AD",
+            "AA 55 01 01 04 00 06 00 0C E9",
+            "AA 55 00 40 00 C1",
+            "AA 55 01 01 04 00 02 51 17 91",
+            "AA 55 00 54 00 AD",
+            "AA 55 01 01 04 00 06 00 0C E9",
+            "AA 55 00 16 00 EB",
+            "AA 55 01 01 04 03 09 00 04 EB",
+            "AA 55 00 0B 00 F6",
+            "AA 55 01 01 0A 01 02 00 64 00 C8 01 2C 01 2C 6C",
+            "AA 55 00 0C 00 F5",
+            "AA 55 01 01 0B 02 01 00 3F 00 02 76 00 00 01 5C DD",
+            "AA 55 00 15 00 EC",
+            "AA 55 01 01 01 B2 4C"
+          ],
+          "startup_exchanges": [
+            {
+              "request": "AA 55 00 54 00 AD",
+              "reply": "AA 55 01 01 04 00 06 00 0C E9",
+              "request_command_hex": "54",
+              "reply_payload_hex": "00 06 00 0C",
+              "time_after_discovery_s": 7.875332
+            },
+            {
+              "request": "AA 55 00 40 00 C1",
+              "reply": "AA 55 01 01 04 00 02 51 17 91",
+              "request_command_hex": "40",
+              "reply_payload_hex": "00 02 51 17",
+              "time_after_discovery_s": 7.902798000000004
+            },
+            {
+              "request": "AA 55 00 54 00 AD",
+              "reply": "AA 55 01 01 04 00 06 00 0C E9",
+              "request_command_hex": "54",
+              "reply_payload_hex": "00 06 00 0C",
+              "time_after_discovery_s": 8.285243999999999
+            },
+            {
+              "request": "AA 55 00 16 00 EB",
+              "reply": "AA 55 01 01 04 03 09 00 04 EB",
+              "request_command_hex": "16",
+              "reply_payload_hex": "03 09 00 04",
+              "time_after_discovery_s": 8.810251999999998
+            },
+            {
+              "request": "AA 55 00 0B 00 F6",
+              "reply": "AA 55 01 01 0A 01 02 00 64 00 C8 01 2C 01 2C 6C",
+              "request_command_hex": "0B",
+              "reply_payload_hex": "01 02 00 64 00 C8 01 2C 01 2C",
+              "time_after_discovery_s": 9.450176000000006
+            },
+            {
+              "request": "AA 55 00 0C 00 F5",
+              "reply": "AA 55 01 01 0B 02 01 00 3F 00 02 76 00 00 01 5C DD",
+              "request_command_hex": "0C",
+              "reply_payload_hex": "02 01 00 3F 00 02 76 00 00 01 5C",
+              "time_after_discovery_s": 9.860264000000008
+            },
+            {
+              "request": "AA 55 00 15 00 EC",
+              "reply": "AA 55 01 01 01 B2 4C",
+              "request_command_hex": "15",
+              "reply_payload_hex": "B2",
+              "time_after_discovery_s": 10.385284000000006
+            }
+          ],
+          "first_poll_after_discovery_s": 11.960284000000009
+        }
+      ]
+    }
+  ],
+  "startup_comparisons": [
+    {
+      "baseline": "valve-startup-03",
+      "other": "valve-startup-04",
+      "same_startup_sequence": true,
+      "same_request_reply_bytes": true
+    }
+  ]
+}

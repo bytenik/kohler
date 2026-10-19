@@ -1,0 +1,63 @@
+[
+  {
+    "capture": "system-display-bluetooth-23-part-000",
+    "uart": {
+      "baud": 115200,
+      "data_bits": 8,
+      "parity": null,
+      "stop_bits": 1,
+      "positive_is_one": false,
+      "frames": 21230,
+      "framing_errors": 0
+    },
+    "complete_packets": 1818,
+    "valid_packets": 1818,
+    "issues": {},
+    "types": {
+      "30": 720,
+      "31": 720,
+      "34": 378
+    },
+    "type_34_length_checks": [
+      378,
+      378
+    ],
+    "poll_interval_ms_median": 49.99999999999982,
+    "31_to_34_gap_ms_median": 2.4171944444445064,
+    "actions": [
+      {
+        "time_s": 16.850904,
+        "key": "30 8A",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 8A 01 00 87 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 16.900892,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 16.950892,
+        "key": "30 82",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 82 01 00 8F 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      }
+    ],
+    "key2469_states": {
+      "0A 00 01 00 00 00 00 64 64 64 23": {
+        "count": 16,
+        "first_s": 0.47974,
+        "last_s": 18.005042
+      },
+      "0A 00 00 00 00 00 00 64 64 64 23": {
+        "count": 19,
+        "first_s": 19.340062,
+        "last_s": 37.225372
+      }
+    }
+  }
+]

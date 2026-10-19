@@ -1,0 +1,38 @@
+[
+  {
+    "capture": "system-display-amplifier-10-part-000",
+    "uart": {
+      "baud": 115200,
+      "data_bits": 8,
+      "parity": null,
+      "stop_bits": 1,
+      "positive_is_one": false,
+      "frames": 11771,
+      "framing_errors": 0
+    },
+    "complete_packets": 963,
+    "valid_packets": 963,
+    "issues": {},
+    "types": {
+      "30": 379,
+      "31": 379,
+      "34": 205
+    },
+    "type_34_length_checks": [
+      205,
+      205
+    ],
+    "poll_interval_ms_median": 49.999999999999375,
+    "31_to_34_gap_ms_median": 2.423194444445345,
+    "address_pairs": {
+      "03 00": 584,
+      "00 03": 379
+    },
+    "address_pair_types": {
+      "03 00 type 30": 379,
+      "00 03 type 31": 379,
+      "03 00 type 34": 205
+    },
+    "non_display_pair_examples": []
+  }
+]

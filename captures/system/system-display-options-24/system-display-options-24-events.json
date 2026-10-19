@@ -1,0 +1,18 @@
+[
+  {
+    "event": "open_music_options_cue",
+    "host_unix": 1792356975.3524532,
+    "note": "Open Options once from Listen/Bluetooth without changing a setting; report visible controls. Stop on acknowledgment."
+  },
+  {
+    "event": "options_open_and_auto_close_acknowledgment",
+    "host_unix": 1792357023.019906,
+    "visible_controls": [
+      "bass",
+      "treble",
+      "balance"
+    ],
+    "visible_result": "Controls appeared briefly, then closed automatically after a few seconds.",
+    "note": "No setting change requested; exact open/close times unmeasured."
+  }
+]

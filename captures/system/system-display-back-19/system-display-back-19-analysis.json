@@ -1,0 +1,40 @@
+[
+  {
+    "capture": "system-display-back-19-part-000",
+    "uart": {
+      "baud": 115200,
+      "data_bits": 8,
+      "parity": null,
+      "stop_bits": 1,
+      "positive_is_one": false,
+      "frames": 22676,
+      "framing_errors": 0
+    },
+    "complete_packets": 1907,
+    "valid_packets": 1907,
+    "issues": {},
+    "types": {
+      "30": 737,
+      "31": 737,
+      "34": 433
+    },
+    "type_34_length_checks": [
+      433,
+      433
+    ],
+    "poll_interval_ms_median": 50.00000000000071,
+    "31_to_34_gap_ms_median": 2.415194444444227,
+    "action_candidates": [
+      {
+        "time_s": 11.177942,
+        "key": "30 83",
+        "value_hex": "FF",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 FF 8F 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      }
+    ],
+    "key2469_states": {
+      "0A 00 00 00 00 00 00 64 64 64 23": 38
+    }
+  }
+]

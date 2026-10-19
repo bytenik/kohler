@@ -1,0 +1,15 @@
+{
+  "sample_rate": 1000000.0,
+  "samples": 20000000,
+  "duration_s": 20.0,
+  "started_unix": 1792343166.090336,
+  "lost": 0,
+  "corrupt": 0,
+  "pins": {
+    "1+": 3,
+    "1-": 6
+  },
+  "ground_connected": false,
+  "action": "Open Settings once during recording",
+  "format": "native float64"
+}

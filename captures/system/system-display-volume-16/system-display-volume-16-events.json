@@ -1,0 +1,13 @@
+[
+  {
+    "event": "single_small_downward_volume_adjustment_cue",
+    "host_unix": 1792356180.11652,
+    "baseline_display_bus_volume": 60,
+    "note": "One small downward slider adjustment requested; no visible numeric indicator. Other controls unchanged. Cue is not exact touch timestamp."
+  },
+  {
+    "event": "downward_slider_adjustment_acknowledgment",
+    "host_unix": 1792356207.256992,
+    "note": "User reports adjustment done; slider has no numeric indicator."
+  }
+]

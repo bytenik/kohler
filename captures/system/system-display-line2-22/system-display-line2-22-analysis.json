@@ -1,0 +1,56 @@
+[
+  {
+    "capture": "system-display-line2-22-part-000",
+    "uart": {
+      "baud": 115200,
+      "data_bits": 8,
+      "parity": null,
+      "stop_bits": 1,
+      "positive_is_one": false,
+      "frames": 12394,
+      "framing_errors": 0
+    },
+    "complete_packets": 1088,
+    "valid_packets": 1088,
+    "issues": {},
+    "types": {
+      "30": 442,
+      "31": 442,
+      "34": 204
+    },
+    "type_34_length_checks": [
+      204,
+      204
+    ],
+    "poll_interval_ms_median": 50.00000000000071,
+    "31_to_34_gap_ms_median": 2.363194444444952,
+    "actions": [
+      {
+        "time_s": 9.990664,
+        "key": "30 83",
+        "value_hex": "00",
+        "wire_hex": "88 00 03 31 01 01 30 83 01 00 8E 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      },
+      {
+        "time_s": 10.040658,
+        "key": "30 82",
+        "value_hex": "01",
+        "wire_hex": "88 00 03 31 01 01 30 82 01 01 8E 55",
+        "following_wire_hex": "88 03 00 34 01 02 02 30 0C 55"
+      }
+    ],
+    "key2469_states": {
+      "0A 00 02 00 00 00 00 64 64 64 23": {
+        "count": 9,
+        "first_s": 0.679588,
+        "last_s": 10.89477
+      },
+      "0A 00 01 00 00 00 00 64 64 64 23": {
+        "count": 11,
+        "first_s": 12.25479,
+        "last_s": 22.204962
+      }
+    }
+  }
+]

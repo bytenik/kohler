@@ -1,0 +1,13 @@
+[
+  {
+    "event": "keyboard_entry_179_and_readback",
+    "value": 178,
+    "host_unix": 1792353578.521253,
+    "note": "Entry by individual keypresses followed by Tab; annotation after readback."
+  },
+  {
+    "event": "keyboard_restore_178_and_readback",
+    "value": 178,
+    "host_unix": 1792353596.5500631
+  }
+]

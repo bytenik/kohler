@@ -1,0 +1,137 @@
+{
+  "capture": "system-display-tone-batch-26",
+  "protocol_interpretation_accepted": false,
+  "reason": "Abnormal analog levels and widespread UART errors; isolated checksum matches insufficient to interpret actions.",
+  "windows": [
+    {
+      "start_s": 0,
+      "duration_s": 2.0,
+      "quantile_01_v": -13.528820745941752,
+      "median_v": 0.7003005360308449,
+      "quantile_99_v": 12.260844267046002,
+      "uart_frames": 1718,
+      "uart_errors": 1170,
+      "valid_packets": 3
+    },
+    {
+      "start_s": 5,
+      "duration_s": 2.0,
+      "quantile_01_v": -13.564736998309955,
+      "median_v": 0.6149994366563641,
+      "quantile_99_v": 12.267129611210438,
+      "uart_frames": 2163,
+      "uart_errors": 1934,
+      "valid_packets": 0
+    },
+    {
+      "start_s": 10,
+      "duration_s": 2.0,
+      "quantile_01_v": -13.41478664467271,
+      "median_v": 0.6356512817680805,
+      "quantile_99_v": 12.172849448743905,
+      "uart_frames": 1902,
+      "uart_errors": 1560,
+      "valid_packets": 0
+    },
+    {
+      "start_s": 15,
+      "duration_s": 2.0,
+      "quantile_01_v": -13.371687141830867,
+      "median_v": 0.6302638439128502,
+      "quantile_99_v": 12.060611160093273,
+      "uart_frames": 1314,
+      "uart_errors": 1185,
+      "valid_packets": 0
+    },
+    {
+      "start_s": 20,
+      "duration_s": 2.0,
+      "quantile_01_v": -13.540493527961418,
+      "median_v": 0.6446303448601312,
+      "quantile_99_v": 12.189909668618801,
+      "uart_frames": 1310,
+      "uart_errors": 1208,
+      "valid_packets": 0
+    },
+    {
+      "start_s": 25,
+      "duration_s": 2.0,
+      "quantile_01_v": -13.428255239310786,
+      "median_v": 0.6895256603203842,
+      "quantile_99_v": 12.127056226974448,
+      "uart_frames": 1748,
+      "uart_errors": 1291,
+      "valid_packets": 1
+    },
+    {
+      "start_s": 30,
+      "duration_s": 2.0,
+      "quantile_01_v": -13.525229120704932,
+      "median_v": 0.6024287483274933,
+      "quantile_99_v": 12.167462010888675,
+      "uart_frames": 1893,
+      "uart_errors": 1604,
+      "valid_packets": 0
+    },
+    {
+      "start_s": 35,
+      "duration_s": 2.0,
+      "quantile_01_v": -13.824231921670217,
+      "median_v": 0.7505832893463283,
+      "quantile_99_v": 12.426059027939733,
+      "uart_frames": 1272,
+      "uart_errors": 919,
+      "valid_packets": 0
+    },
+    {
+      "start_s": 40,
+      "duration_s": 2.0,
+      "quantile_01_v": -13.830517265834652,
+      "median_v": 0.7353188820898423,
+      "quantile_99_v": 12.385653244025505,
+      "uart_frames": 842,
+      "uart_errors": 746,
+      "valid_packets": 0
+    },
+    {
+      "start_s": 45,
+      "duration_s": 2.0,
+      "quantile_01_v": -13.980467619471899,
+      "median_v": 0.7434000388726878,
+      "quantile_99_v": 12.44491506043304,
+      "uart_frames": 752,
+      "uart_errors": 670,
+      "valid_packets": 0
+    },
+    {
+      "start_s": 50,
+      "duration_s": 2.0,
+      "quantile_01_v": -13.588082562349287,
+      "median_v": 0.7245440063793815,
+      "quantile_99_v": 12.270721236447256,
+      "uart_frames": 2078,
+      "uart_errors": 1528,
+      "valid_packets": 0
+    },
+    {
+      "start_s": 55,
+      "duration_s": 2.0,
+      "quantile_01_v": -13.56024746676393,
+      "median_v": 0.6329575628404653,
+      "quantile_99_v": 12.24827357871713,
+      "uart_frames": 2051,
+      "uart_errors": 1748,
+      "valid_packets": 0
+    },
+    {
+      "start_s": 60,
+      "duration_s": 2.0,
+      "quantile_01_v": -13.533310277487777,
+      "median_v": 0.6338554691496704,
+      "quantile_99_v": 12.296760519414205,
+      "uart_frames": 1881,
+      "uart_errors": 1604,
+      "valid_packets": 0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "event": "single_small_volume_increase_cue",
+    "host_unix": 1792356066.6205592,
+    "baseline_controller_volume": 50,
+    "note": "One smallest available upward volume adjustment requested on physical display; record user-reported before/after values. Playback and other controls unchanged. Cue is not exact touch timestamp."
+  },
+  {
+    "event": "volume_slider_adjustment_acknowledgment",
+    "host_unix": 1792356098.36631,
+    "note": "User made a small upward slider adjustment; no numerical indicator is shown, so exact before/after values are unknown from display."
+  }
+]

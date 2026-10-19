@@ -1,0 +1,14 @@
+[
+  {
+    "event": "single_play_button_press_cue",
+    "host_unix": 1792356266.8397608,
+    "baseline_display_bus_volume": 35,
+    "note": "One press of Play requested on Listen/Bluetooth; no volume or other controls changed. Cue is not exact touch timestamp; playback application not assumed."
+  },
+  {
+    "event": "play_press_acknowledgment",
+    "host_unix": 1792356321.31071,
+    "visible_result": "Play changed briefly to Pause, then returned to Play.",
+    "note": "User observation; exact touch and icon-transition times not measured."
+  }
+]

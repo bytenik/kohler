@@ -1,0 +1,28 @@
+{
+  "started_unix": 1792352216.676598,
+  "sample_rate": 500000.0,
+  "segments": [
+    {
+      "base": "valve-startup-03-part-000",
+      "samples": 51842035,
+      "sample_rate": 500000.0,
+      "bus": "valve",
+      "pins": {
+        "1+": 4,
+        "1-": 5
+      },
+      "ground_connected": false,
+      "duration_s": 103.68407,
+      "started_unix_approx": 1792352216.677753,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    }
+  ],
+  "interruptions": [],
+  "bus": "valve",
+  "pins": {
+    "1+": 4,
+    "1-": 5
+  },
+  "ground_connected": false
+}

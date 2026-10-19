@@ -1,0 +1,30 @@
+[
+  {
+    "event": "grouped_active_transport_cue",
+    "host_unix": 1792358058.47333,
+    "ordered_actions": [
+      "Pause",
+      "pause about 5 seconds",
+      "Play",
+      "pause about 5 seconds",
+      "Forward",
+      "pause about 5 seconds",
+      "Back"
+    ],
+    "note": "Actions on DTV+ display, paired phone playing Spotify. Record any reported screen/title changes. Stop immediately on final done acknowledgment."
+  },
+  {
+    "event": "actual_active_transport_sequence_reported",
+    "host_unix": 1792358127.790721,
+    "initial_visible_state": "Paused",
+    "actual_ordered_actions": [
+      "Play",
+      "Forward",
+      "Back",
+      "Back",
+      "Back",
+      "Pause"
+    ],
+    "note": "Actual user sequence supersedes cue; exact per-action times not measured. Recording stopped without fixed tail."
+  }
+]

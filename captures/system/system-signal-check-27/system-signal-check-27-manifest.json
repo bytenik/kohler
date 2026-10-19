@@ -1,0 +1,28 @@
+{
+  "started_unix": 1792357454.59871,
+  "sample_rate": 500000.0,
+  "segments": [
+    {
+      "base": "system-signal-check-27-part-000",
+      "samples": 1500000,
+      "sample_rate": 500000.0,
+      "bus": "display",
+      "pins": {
+        "1+": 3,
+        "1-": 6
+      },
+      "ground_connected": false,
+      "duration_s": 3.0,
+      "started_unix_approx": 1792357454.602147,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    }
+  ],
+  "interruptions": [],
+  "bus": "display",
+  "pins": {
+    "1+": 3,
+    "1-": 6
+  },
+  "ground_connected": false
+}

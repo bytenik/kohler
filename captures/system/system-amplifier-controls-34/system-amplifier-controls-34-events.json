@@ -1,0 +1,37 @@
+[
+  {
+    "event": "grouped_amplifier_link_controls_cue",
+    "host_unix": 1792358300.672588,
+    "measurement_point": "amplifier cable RJ45 pins3/6",
+    "ordered_actions": [
+      "Play on display",
+      "pause about 5 seconds",
+      "Volume slightly up on display",
+      "pause about 5 seconds",
+      "Forward on display",
+      "pause about 5 seconds",
+      "Pause on display",
+      "pause about 5 seconds",
+      "Input -> Line In 1 on display"
+    ],
+    "note": "Paired phone Spotify source, initially paused. No exact touch times; identify changes using action order and pauses. Stop immediately on final done acknowledgment. Probe quality verified with capture33."
+  },
+  {
+    "event": "actual_grouped_actions_complete",
+    "host_unix": 1792358447.7009878,
+    "actual_ordered_actions": [
+      "Play on phone",
+      "Pause on display",
+      "Play on display",
+      "Volume up on display",
+      "Forward on display",
+      "Pause on display",
+      "Back on display",
+      "Line In 1 on display",
+      "Mute",
+      "Unmute",
+      "Line In 2 on display"
+    ],
+    "note": "Actual user sequence supersedes cue. Exact touch times and numerical values unmeasured. Recording stopped without fixed tail."
+  }
+]

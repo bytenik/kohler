@@ -1,0 +1,60 @@
+{
+  "observed_unix": 1792353406.06509,
+  "source_url": "http://192.168.2.2/values.cgi",
+  "ui_sources": [
+    "http://192.168.2.2/service.html",
+    "http://192.168.2.2/settings.html#tabs-About"
+  ],
+  "values": {
+    "valve1_installed": false,
+    "valve2_installed": true,
+    "valve_1_con_string": "dis",
+    "valve_2_con_string": "conn",
+    "valve_1_version_string": "0.12",
+    "valve_2_version_string": "0.12",
+    "v2_num_outlets": 6,
+    "valve2PortsAvailable": "6",
+    "v2_cal_code": 178,
+    "valve2_ErrorFatal": 1,
+    "valve2_ErrorResettable": 0,
+    "v2_max_temp": 113,
+    "controller_version_string": "0.0.3.44",
+    "amulet_version_string": "0.1.3.32",
+    "coproc_version_string": "0.0.3.0",
+    "language_version_string": "255.255.255.255",
+    "touch_version_string": "0.0.0.0",
+    "amp_version_string": "0.16"
+  },
+  "diagnostic_error_observed_in_browser": {
+    "source": "DTV",
+    "id_decimal": 61,
+    "displayed_id": "061",
+    "description": "Motor Stuck Fast Error"
+  },
+  "candidate_correlations": [
+    {
+      "request_command_hex": "15",
+      "reply_payload_hex": "B2",
+      "ui_field": "v2_cal_code",
+      "value_decimal": 178,
+      "status": "single-value match; controlled variation required"
+    },
+    {
+      "request_command_hex": "01",
+      "reply_payload_hex": "80 3D",
+      "ui_field": "DTV error ID",
+      "value_decimal": 61,
+      "status": "last payload byte matches observed error; first byte unresolved"
+    },
+    {
+      "request_command_hex": "54",
+      "reply_payload_hex": "00 06 00 0C",
+      "ui_fields": [
+        "v2_num_outlets",
+        "valve_2_version_string"
+      ],
+      "status": "matches six outlets and displayed version 0.12; field boundaries unconfirmed"
+    }
+  ],
+  "settings_modified": false
+}

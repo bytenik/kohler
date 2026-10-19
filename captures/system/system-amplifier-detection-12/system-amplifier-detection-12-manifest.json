@@ -1,0 +1,155 @@
+{
+  "started_unix": 1792355108.647536,
+  "sample_rate": 2000000.0,
+  "segments": [
+    {
+      "base": "system-amplifier-detection-12-part-000",
+      "samples": 12403743,
+      "sample_rate": 2000000.0,
+      "bus": "display",
+      "pins": {
+        "1+": 3,
+        "1-": 6
+      },
+      "ground_connected": false,
+      "duration_s": 6.2018715,
+      "started_unix_approx": 1792355108.647892,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    },
+    {
+      "base": "system-amplifier-detection-12-part-001",
+      "samples": 0,
+      "sample_rate": 2000000.0,
+      "bus": "display",
+      "pins": {
+        "1+": 3,
+        "1-": 6
+      },
+      "ground_connected": false,
+      "duration_s": 0.0,
+      "started_unix_approx": 1792355114.916197,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    },
+    {
+      "base": "system-amplifier-detection-12-part-002",
+      "samples": 41169,
+      "sample_rate": 2000000.0,
+      "bus": "display",
+      "pins": {
+        "1+": 3,
+        "1-": 6
+      },
+      "ground_connected": false,
+      "duration_s": 0.0205845,
+      "started_unix_approx": 1792355114.92112,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    },
+    {
+      "base": "system-amplifier-detection-12-part-003",
+      "samples": 0,
+      "sample_rate": 2000000.0,
+      "bus": "display",
+      "pins": {
+        "1+": 3,
+        "1-": 6
+      },
+      "ground_connected": false,
+      "duration_s": 0.0,
+      "started_unix_approx": 1792355114.9574919,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    },
+    {
+      "base": "system-amplifier-detection-12-part-004",
+      "samples": 2716601,
+      "sample_rate": 2000000.0,
+      "bus": "display",
+      "pins": {
+        "1+": 3,
+        "1-": 6
+      },
+      "ground_connected": false,
+      "duration_s": 1.3583005,
+      "started_unix_approx": 1792355114.9600298,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    },
+    {
+      "base": "system-amplifier-detection-12-part-005",
+      "samples": 0,
+      "sample_rate": 2000000.0,
+      "bus": "display",
+      "pins": {
+        "1+": 3,
+        "1-": 6
+      },
+      "ground_connected": false,
+      "duration_s": 0.0,
+      "started_unix_approx": 1792355116.333527,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    },
+    {
+      "base": "system-amplifier-detection-12-part-006",
+      "samples": 63198545,
+      "sample_rate": 2000000.0,
+      "bus": "display",
+      "pins": {
+        "1+": 3,
+        "1-": 6
+      },
+      "ground_connected": false,
+      "duration_s": 31.5992725,
+      "started_unix_approx": 1792355116.3424351,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    }
+  ],
+  "interruptions": [
+    {
+      "host_unix": 1792355114.915402,
+      "lost": 32767,
+      "corrupt": 0,
+      "discarded_available": 4102
+    },
+    {
+      "host_unix": 1792355114.920854,
+      "lost": 32767,
+      "corrupt": 0,
+      "discarded_available": 6254
+    },
+    {
+      "host_unix": 1792355114.957194,
+      "lost": 0,
+      "corrupt": 15493,
+      "discarded_available": 29287
+    },
+    {
+      "host_unix": 1792355114.959851,
+      "lost": 0,
+      "corrupt": 3768,
+      "discarded_available": 7250
+    },
+    {
+      "host_unix": 1792355116.333081,
+      "lost": 0,
+      "corrupt": 5989,
+      "discarded_available": 23293
+    },
+    {
+      "host_unix": 1792355116.3419871,
+      "lost": 0,
+      "corrupt": 2998,
+      "discarded_available": 12474
+    }
+  ],
+  "bus": "display",
+  "pins": {
+    "1+": 3,
+    "1-": 6
+  },
+  "ground_connected": false
+}

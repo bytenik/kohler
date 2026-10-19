@@ -1,0 +1,147 @@
+{
+  "capture": "system-amplifier-detection-12",
+  "tested_bauds": [
+    9600,
+    19200,
+    38400,
+    57600,
+    115200
+  ],
+  "analysis_sample_rate": 500000,
+  "polarity": "negative voltage is one",
+  "segments": [
+    {
+      "part": "system-amplifier-detection-12-part-000",
+      "duration_s": 6.2018715,
+      "uart_frames": 12,
+      "uart_errors": 0,
+      "valid_packets": 2,
+      "issues": {},
+      "packet_counts": {
+        "88 FF 00 05 74 55": 2
+      }
+    },
+    {
+      "part": "system-amplifier-detection-12-part-002",
+      "duration_s": 0.0205845,
+      "uart_frames": 0,
+      "uart_errors": 0,
+      "valid_packets": 0,
+      "issues": {},
+      "packet_counts": {}
+    },
+    {
+      "part": "system-amplifier-detection-12-part-004",
+      "duration_s": 1.3583005,
+      "uart_frames": 0,
+      "uart_errors": 0,
+      "valid_packets": 0,
+      "issues": {},
+      "packet_counts": {}
+    },
+    {
+      "part": "system-amplifier-detection-12-part-006",
+      "duration_s": 31.5992725,
+      "uart_frames": 9922,
+      "uart_errors": 0,
+      "valid_packets": 155,
+      "issues": {
+        "outside_packet": 1
+      },
+      "packet_counts": {
+        "88 FF 00 05 74 55": 2,
+        "88 00 FF 06 07 10 5C 55": 1,
+        "88 FF 00 07 03 07 10 58 55": 1,
+        "88 00 03 35 40 55": 2,
+        "88 03 00 33 00 1E 24 55": 37,
+        "88 00 03 32 00 1E 32 00 00 00 00 00 00 00 00 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 62 55": 1,
+        "88 03 00 30 00 CC 79 55": 37,
+        "88 00 03 31 00 CC 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 10 32 30 31 33 31 30 33 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 AB 55": 37,
+        "88 03 00 34 00 1E 32 00 00 00 00 00 00 00 00 01 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 5F 55": 1,
+        "88 00 03 32 00 1E 32 00 00 00 00 00 00 00 00 01 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 61 55": 36
+      }
+    }
+  ],
+  "interruptions": [
+    {
+      "host_unix": 1792355114.915402,
+      "lost": 32767,
+      "corrupt": 0,
+      "discarded_available": 4102
+    },
+    {
+      "host_unix": 1792355114.920854,
+      "lost": 32767,
+      "corrupt": 0,
+      "discarded_available": 6254
+    },
+    {
+      "host_unix": 1792355114.957194,
+      "lost": 0,
+      "corrupt": 15493,
+      "discarded_available": 29287
+    },
+    {
+      "host_unix": 1792355114.959851,
+      "lost": 0,
+      "corrupt": 3768,
+      "discarded_available": 7250
+    },
+    {
+      "host_unix": 1792355116.333081,
+      "lost": 0,
+      "corrupt": 5989,
+      "discarded_available": 23293
+    },
+    {
+      "host_unix": 1792355116.3419871,
+      "lost": 0,
+      "corrupt": 2998,
+      "discarded_available": 12474
+    }
+  ],
+  "discovery_sequence": [
+    {
+      "time_after_type06_reply_s": -0.04264599999999952,
+      "hex": "88 FF 00 05 74 55"
+    },
+    {
+      "time_after_type06_reply_s": 0.0,
+      "hex": "88 00 FF 06 07 10 5C 55"
+    },
+    {
+      "time_after_type06_reply_s": 0.007340000000000124,
+      "hex": "88 FF 00 07 03 07 10 58 55"
+    },
+    {
+      "time_after_type06_reply_s": 0.017910000000000537,
+      "hex": "88 00 03 35 40 55"
+    },
+    {
+      "time_after_type06_reply_s": 0.6524080000000003,
+      "hex": "88 03 00 33 00 1E 24 55"
+    },
+    {
+      "time_after_type06_reply_s": 0.6636940000000005,
+      "hex": "88 00 03 32 00 1E 32 00 00 00 00 00 00 00 00 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 62 55"
+    },
+    {
+      "time_after_type06_reply_s": 1.002396,
+      "hex": "88 03 00 30 00 CC 79 55"
+    },
+    {
+      "time_after_type06_reply_s": 1.007206,
+      "hex": "88 00 03 31 00 CC 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 10 32 30 31 33 31 30 33 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 AB 55"
+    },
+    {
+      "time_after_type06_reply_s": 1.3527580000000006,
+      "hex": "88 03 00 34 00 1E 32 00 00 00 00 00 00 00 00 01 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 5F 55"
+    },
+    {
+      "time_after_type06_reply_s": 1.3690240000000005,
+      "hex": "88 00 03 35 40 55"
+    }
+  ],
+  "valid_packets_at_other_tested_bauds": 0,
+  "conclusion": "Discovery and operating traffic observed at 57600. No baud change established; cached-rate reconnect remains possible. Discovery includes 05/06 and 07 followed by address-like fields 03/00."
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "event": "select_bluetooth_cue",
+    "host_unix": 1792356898.44091,
+    "baseline_source_value": 1,
+    "note": "Open Input and select Bluetooth once; report whether transport controls return. Stop on acknowledgment."
+  },
+  {
+    "event": "bluetooth_selected_acknowledgment",
+    "host_unix": 1792356935.416221,
+    "visible_result": "Playback controls returned."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "request": "GET /save_variable.cgi?index=62&value=179&_=1792353453663 HTTP/1.1",
+    "response": "done"
+  },
+  {
+    "request": "GET /save_variable.cgi?index=62&value=178&_=1792353453708 HTTP/1.1",
+    "response": "done"
+  }
+]

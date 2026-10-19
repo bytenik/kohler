@@ -1,0 +1,22 @@
+[
+  {
+    "event": "open_settings_cue",
+    "unix": 1792344254.851753,
+    "capture_time_s_approx": 26.467632055282593
+  },
+  {
+    "event": "opened_acknowledged",
+    "unix": 1792344274.293082,
+    "capture_time_s_approx": 45.908961057662964
+  },
+  {
+    "event": "close_settings_cue",
+    "unix": 1792344302.3625998,
+    "capture_time_s_approx": 73.97847890853882
+  },
+  {
+    "event": "closed_acknowledged",
+    "unix": 1792344322.9337971,
+    "capture_time_s_approx": 94.54967617988586
+  }
+]

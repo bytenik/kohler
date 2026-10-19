@@ -1,0 +1,122 @@
+{
+  "display-idle-01.csv": [
+    {
+      "time_s": 0.0119755,
+      "byte": 136,
+      "valid": true
+    },
+    {
+      "time_s": 0.012063,
+      "byte": 3,
+      "valid": true
+    },
+    {
+      "time_s": 0.012151,
+      "byte": 0,
+      "valid": true
+    },
+    {
+      "time_s": 0.0122385,
+      "byte": 48,
+      "valid": true
+    },
+    {
+      "time_s": 0.0123265,
+      "byte": 69,
+      "valid": true
+    },
+    {
+      "time_s": 0.012414,
+      "byte": 85,
+      "valid": true
+    },
+    {
+      "time_s": 0.012674,
+      "byte": 136,
+      "valid": true
+    },
+    {
+      "time_s": 0.012761,
+      "byte": 0,
+      "valid": true
+    },
+    {
+      "time_s": 0.012848,
+      "byte": 3,
+      "valid": true
+    },
+    {
+      "time_s": 0.0129345,
+      "byte": 49,
+      "valid": true
+    },
+    {
+      "time_s": 0.0130215,
+      "byte": 0,
+      "valid": true
+    },
+    {
+      "time_s": 0.013108,
+      "byte": 68,
+      "valid": true
+    },
+    {
+      "time_s": 0.013195,
+      "byte": 85,
+      "valid": true
+    }
+  ],
+  "display-idle-02.csv": [
+    {
+      "time_s": 0.0020145,
+      "byte": 136,
+      "valid": true
+    },
+    {
+      "time_s": 0.002102,
+      "byte": 3,
+      "valid": true
+    },
+    {
+      "time_s": 0.00219,
+      "byte": 0,
+      "valid": true
+    },
+    {
+      "time_s": 0.0022775,
+      "byte": 52,
+      "valid": true
+    },
+    {
+      "time_s": 0.0023655,
+      "byte": 1,
+      "valid": true
+    },
+    {
+      "time_s": 0.002453,
+      "byte": 2,
+      "valid": true
+    },
+    {
+      "time_s": 0.002541,
+      "byte": 2,
+      "valid": true
+    },
+    {
+      "time_s": 0.0026285,
+      "byte": 49,
+      "valid": true
+    },
+    {
+      "time_s": 0.0027165,
+      "byte": 11,
+      "valid": true
+    },
+    {
+      "time_s": 0.002804,
+      "byte": 85,
+      "valid": true
+    }
+  ],
+  "display-idle-03.csv": []
+}

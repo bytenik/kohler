@@ -1,0 +1,26 @@
+[
+  {
+    "event": "grouped_tone_adjustments_cue",
+    "host_unix": 1792357198.010695,
+    "ordered_actions": [
+      "Treble slightly right/up",
+      "pause about 5 seconds",
+      "Balance slightly right",
+      "pause about 5 seconds",
+      "Bass slightly left/down"
+    ],
+    "note": "Reopen Options as needed. No exact per-action touch times; infer from order, pauses, and command changes. Stop on final done acknowledgment. If display powers off, stop and report last completed step."
+  },
+  {
+    "event": "grouped_adjustments_complete_acknowledgment",
+    "host_unix": 1792357260.474236,
+    "actual_ordered_actions": [
+      "Treble up",
+      "Treble down",
+      "Balance up",
+      "Balance down",
+      "Bass down"
+    ],
+    "note": "Actual order supersedes cue sequence. Exact touch times and values unmeasured; no screen power-off event reported in this acknowledgment."
+  }
+]

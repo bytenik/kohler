@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <style>
+  .ui-progressbar {
+    position: relative;
+  }
+   .progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    color:grey;
+    text-shadow: 1px 1px 0 #000;
+  }
+  </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>Kohler Shower Settings</title>
+<!--[if lt IE 9]>
+<script src="js/ie9.js"></script>
+<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="css/redmond/jquery_ui_1.10.0.custom.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/jquery_1.9.1.js"></script>
+    <script type="text/javascript" src="js/jquery_ui_1.10.2.custom.js"></script>
+    <script type="text/javascript" src="js/values.js"></script>
+    <script type="text/javascript" src="js/service.js"></script>
+    <script type="text/javascript" src="js/html5.js"></script>
+    <script type="text/javascript" src="js/jquery.form.js"></script>
+    <link href="css/local.css" rel="stylesheet" />
+    <script type="text/javascript">
+    $(function() {
+    var progressbar = $( "#progressbar" ),
+      progressLabel = $( ".progress-label" );
+
+    progressbar.progressbar({
+      value: false,
+      change: function() {
+        progressLabel.text( progressbar.progressbar( "value" ) + "%" );
+      },
+      complete: function() {
+		progressLabel.text("Please Wait...");
+      }
+    });
+    var status = $('#status');
+
+    $('form').ajaxForm({
+        beforeSend: function() {
+            $('#progressbar').show();
+            status.show();
+            status.empty();
+            //var percentVal = '0%';
+            //bar.progressbar( "value", percentVal );
+            progressbar.progressbar( "value", 0 );
+            //bar.width(percentVal);
+            //percent.html(percentVal);
+        },
+        uploadProgress: function(event, position, total, percentComplete) {
+            //var percentVal = percentComplete + '%';
+            progressbar.progressbar( "value", percentComplete);
+           // percent.html(percentVal);
+        },
+        complete: function(xhr) {
+            status.html(xhr.responseText);
+            $('#progressbar').hide();
+			<!-- $('#upload_status_wait').hide(); -->		//Commented by TF2 - Bug 870 - We are not using this status message. We are using a Dialog Box
+			Unload_message();				       //Added by TF2 - Bug 870 - change when upload interrupts - TF2*March 2nd 2015
+			$('#upload_status_done').show();       //Added by TF2 - Bug 870 - change so it would not show when upload was interrupted - TF2*March 2nd 2015
+			$('#file_select_name').hide();
+			$('#file_upload').hide();
+            status.hide();
+        }
+    });
+    });
+    function page_load() {
+        if (typeof jQuery !== 'function' ||
+            typeof service_load !== 'function' ||
+            typeof test_ui !== 'function') {
+            // Was not loaded.
+            document.body.style.background = "#ffffff";
+            document.body.innerHTML = document.body.innerHTML = 'There was a page error, please refresh';
+        } else {
+            //$('#ui-id-1').hide();
+            //$('#int1_con_div').hide();
+            //$('#int2_con_div').hide();
+            //$('#int3_con_div').hide();
+            //$('#valve1_con_div').hide();
+            //$('#valve2_con_div').hide();
+            //$('#music_con_div').hide();
+            //$('#light_con_div').hide();
+            //$('#steam_con_div').hide();
+            //$('#amp_con_div').hide();
+            //$('#rain_con_div').hide();
+            $('#progressbar').hide();
+			$('#file_select_name').hide();
+			$('#dialog-confirm').hide();
+			$('#file_upload').hide();
+			$('#update_button').hide();
+
+            language();
+            setTimeout(function () {
+                service_load();
+            }, 500);
+	        setTimeout(function () {
+                $('#tabs').show();
+    	    }, 1000);
+			powerclean_check_load();		//Added by TF2 - TF2*March 2nd 2015 - Bug 279 - Checks if power clean is running on page load
+        }
+    }
+    </script>
+</head>
+<body onload="page_load()">
+    <div hidden="hidden" id="tabs">
+    <img src="images/logo.png" alt="Kohler" class="logo">
+    <p>
+    <div id="top-tabs">
+       <a href="control.html" id="control-tab">Control</a> <!--Uncommented for control page-->
+        <a href="settings.html" id="settings-tab">Settings</a>
+        <a class="active" href="service.html" id="service-tab">Service</a>
+    </div>
+
+        <div id="tabs-Service">
+            <ul>
+                <li><a class="diagTabString" href="#tabs-Diagnostics">Diagnostics</a>
+                </li>
+                <li class="rightmost"><a class="updateTabString" href="#tabs-Updates">Updates</a>
+                </li>
+            </ul>
+
+            <div id="tabs-Diagnostics" style="height:700px;">
+              <div class="innerDiv">
+                <div style="float:left;width:250px;" class="borderright">
+					<span class="title con_diag_string">Connection Diagnostics</span>
+                    <p></p>
+                    <div id="int1_con_div">
+                        <span class="title interface1_dev_string">Interface 1</span>
+                        <br/>
+                        <span class="text" id="amulet_con"></span>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div id="int2_con_div">
+                        <span class="title interface2_dev_string">Interface 2</span>
+                        <br/>
+                        <span class="text" id="coproc_con"></span>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div id="int3_con_div">
+                        <span class="title interface3_dev_string">Interface 3</span>
+                        <br/>
+                        <span class="text" id="lang_con"></span>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div id="valve1_con_div">
+                        <span class="title valve1_dev_string">Valve 1</span>
+                        <br/>
+                        <span class="text" id="valve1_con"></span>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div id="valve2_con_div">
+                        <span class="title valve2_dev_string">Valve 2</span>
+                        <br/>
+                        <span class="text" id="valve2_con"></span>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div id="controller_con_div">
+                        <span class="title con_dev_string">Controller</span>
+                        <br/>
+                        <span class="text" id="controller_con"></span>
+                        <br/>
+                        <br/>
+					</div>
+                    <div id="music_con_div">
+                        <span class="title music_dev_string">Music Module</span>
+                        <br/>
+                        <span class="text" id="music_con"></span>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div id="light_con_div">
+                        <span class="title light_dev_string">Lighting Bridge</span>
+                        <br/>
+                        <span class="text" id="lighting_con"></span>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div id="steam_con_div">
+                        <span class="title steam_dev_string">Steam</span>
+                        <br/>
+                        <span class="text" id="steam_con"></span>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div id="amp_con_div">
+                        <span class="title amp_dev_string">Amplifier</span>
+                        <br/>
+                        <span class="text" id="amp_con"></span>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div id="rain_con_div">
+                        <span class="title rain_dev1_string">WaterTile Rain 1</span>    <!--Changed by TF2 March*16*2015 - Bug 967 - rain_dev_string to rain_dev1_string - since it was using language.csv title-->
+                        <br/>
+                        <span class="text" id="watertile_con"></span>
+						<br/>            <!--Added by TF2 March*20*2015 - Bug 967 - Accomodating second rain panel-->
+                        <br/>			<!--Added by TF2 March*20*2015 - Bug 967 - Accomodating second rain panel-->
+                    </div>
+					<!---Add by TF2 March*20*2015 Start  - Bug 967 - Accomodating second rain panel-->
+					<div id="rain2_con_div">
+                        <span class="title rain_dev2_string">WaterTile Rain 2</span>    <!--Changed TF2 March*16*2015 - Bug 967 - rain_dev_string to rain_dev2_string - since it was using language.csv title-->
+                        <br/>
+                        <span class="text" id="watertile2_con"></span>
+                    </div>
+					<!---End by TF2 March*20*2015 - Bug 967 - Accomodating second rain panel-->
+                </div>
+
+				<!----------------------------------------  //Added by TF2 for power clean dialog - TF2*March 2nd 2015 - Bug 279  ------------------------------------------------------->
+						<div id="dialog-steam-powerclean" title="Steam Generator Power Clean in Progress!!! Please Wait ">
+								<span class="ui-icon ui-icon-alert text"></span>
+						</div>
+				<!----------------------------------------  //End of Add - TF2*March 2nd 2015 - Bug 279 - powerclean pop-up  ------------------------------------------------------->
+                <div style="padding:0 30px;float:left;width=600px;">
+                    <div style="padding-bottom:20px;clear:both;float:left;" class="borderbottom">
+					    <div class="diag" style="float:left;width=300px;padding-right:30px;">
+							<span id="reset_title" class="title reset_string">Reset</span>
+							<p></p>
+                            <input type="button" id="reset_default" class="reset_default_button" onclick="confirm_reset_defaults()" value="Reset To Saved Default"/>
+                            <p></p>
+                            <!-- <input type="button" class="reset_system_button" onclick="reset_system()" value="Reset System"/> --
+							<input type="button" class="reset_system_button" onclick="confirm_reset()" value="Reset System"/>
+                            <br/>
+							<div id="dialog-confirm" title="Reset System?">
+								<span class="ui-icon ui-icon-alert text"></span>
+							</div>
+							<!--
+                            <br/>
+                            <input type="button" class="reset_users_button" onclick="reset_users()" value="Reset Users"/>
+                            <br/>
+							-->
+                        </div>
+                        <div id="calibration_codes" class="calibration_codes borderleft" style="position:relative;float:left;width=300px;padding-left: 30px;">
+							<span class="title six_service_string">Six Port Valve Service</span>
+                            <p></p>
+                            <div id="sixport_calibration_1">
+								<span class="text cal1_code_string">Valve 1 Calibration Code:</span>
+                                <br/>
+                                <div class="search">
+                                    <input type="text" id="valve1_code" onchange="update_six_port_cal_code(1,this.value)"/>
+                                    <!--<input type="button" onclick="update_six_port_cal_code(1,document.getElementById('valve1_code').value)" value="&#160;"/>-->
+                                </div>
+								<br/>
+								<span id="valve1_cal_err" class="text cal_code_err_string"></span>
+                            </div>
+                            <p></p>
+                            <div id="sixport_calibration_2">
+								<span class="text cal2_code_string">Valve 2 Calibration Code:</span>
+                                <br/>
+                                <div class="search">
+                                    <input type="text" id="valve2_code" name="code" onchange="update_six_port_cal_code(2,this.value);"/>
+                                    <!-- <input type="button" onclick="update_six_port_cal_code(2,document.getElementById('valve2_code').value);" value="&#160;"/> -->
+                                </div>
+								<br/>
+                            </div>
+							<div id="valve2_cal_err" class="text cal_code_err_string"></div>
+                        </div>
+                    </div>
+
+                    <div style="padding-top:20px;clear:both;float:left; width=600px;">
+					<span class="title error_string" style="margin-right: 120px;">Error Log</span>
+					<input type="button" onclick="reset_fault_logs()" value="Clear Error Log"/>
+                        <br/>
+						<br/>
+					<textarea style="resize: none; padding-right: 0px; border-right-width: 0px; margin-right: 50px;" rows="20" cols="59" style="resize:none;">           'SOURCE':'ID'  DESCRIPTION    'Hr:M:S D/ M/ Y'
+          DTV Error: 061 Motor Stuck Fast Error 01:53.36 p.m. 10/18/2026
+          DTV Error: 061 Motor Stuck Fast Error 01:47.08 p.m. 10/18/2026
+          DTV Error: 061 Motor Stuck Fast Error 01:37.56 p.m. 10/18/2026
+           UI Error: 100 Motor Stuck Fast Error 12:49.43 a.m. 10/18/2026
+   Controller Error: 105 Motor Stuck Fast Error 12:49.24 a.m. 10/18/2026
+          DTV Error: 061 Motor Stuck Fast Error 12:49.15 a.m. 10/18/2026
+           UI Error: 100 Motor Stuck Fast Error 12:47.57 a.m. 10/18/2026
+           UI Error: 100 Motor Stuck Fast Error 12:40.43 a.m. 10/18/2026
+           UI Error: 100 Motor Stuck Fast Error 12:40.25 a.m. 10/18/2026
+</textarea>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div id="tabs-Updates">
+				<div id="internet-Updates" style="padding:20px 0;">
+					<span class="title">Internet Update:</span>
+					<span id="internet_status" class="title internet_status_string"></span>
+				</div>
+
+                <div class="borderbottom" style="padding:20px;">
+					<input type="button" id="update_button" value="Check for Updates" style="width:300px;" onclick="check_updates()"/>
+					<span hidden="hidden" style="display:none;" id="ftp_status" class="title ftp_status_string">Updates are downloading...</span>
+                <!-- div -->  <!-- commented by TF team  09-07-->
+				
+					<!-- TF team 08-07-->
+					<p></p>
+						<div id="filecount" style="display:none;">
+                        <span id="char_start" class="text"></span><span id="currentfile" class="text"></span><span id="char_of" class="text"></span><span id="totalfiles" class="text">&nbsp;&nbsp;</span>
+	                    </div>
+					  <div id="ftpprogressbar" style="height:30px;width:500px;display:none;">
+					  <span id="ftp_percentage" class="text" style="display:inline;position:absolute;right:225px;color:grey;"></span>
+					  </div>
+					  <div>
+					  <span hidden="hidden" id="FTP_upload_status_error" style="color:red;font-weight:bold;" class="title upload_error_string">Couldn't Open FTP Session! Try Again!!</span> 
+					  </div>
+					  <div>
+					<span hidden="hidden" id="FTP_upload_status_done" class="title upload_done_string">Upload Complete!</span>  
+					</div>
+					<!-- TF team 08-07-->	
+				</div>  <!-- Added by TF team  09-07-->
+				
+				<div id="manual-Updates" style="padding:20px 0;">
+					<span class="title">Manual Update</span>
+				</div>
+
+                <div class="borderbottom" style="padding:20px;">
+				  <form action="fileupload.cgi" method="post" enctype="multipart/form-data" name="myForm">
+<!--					<div id="yourBtn" onclick="getFile()">Choose File</div>-->
+					<input type="button" id="upload_button" value="Choose File" style="width:300px;" onclick="getFile()"/>&nbsp;&nbsp;
+					<span id="file_select_name" class="subtitle">File:&nbsp;&nbsp;<span id="upload_filename" class="subtitle"></span></span>
+					<p></p>
+					<div style='height: 0px;width: 0px; overflow:hidden;'>
+						<input name="myfile" id="upfile" type="file" value="select" onchange="sub(this)" />
+					</div>
+					<input type="submit" id="file_upload" class="upload_string" value="Upload" onclick="upload_requested = true;"/>
+				  </form>
+
+				  <!-- Added by TF2 - Declaration of the Dialog Box used during Updating - Bug 870-->
+				  <!-- ************************************************************************************************ -->
+				  <div  id="dialog-warning" title="Update In Progress!!! Please Wait... Do Not Close The Window or Go Back.">
+								<span class="upload-alert"></span>    <!-- Changed class by TF2 March*16*2015 - Bug 1154 - Pop-up transparency -->								
+				  </div>
+				  <!-- ************************************************************************************************ -->
+				  <!--End of Add by TF2 - Declaration of the Dialog Box used during Updating - Bug 870-->
+
+				  <p></p>
+				  <div id="progressbar" style="height:30px;width:500px">
+						<div class="progress-label">Loading...</div>
+				  </div>
+
+				  </br>
+				  <div hidden="hidden" style="display:none;" id="upload_wait" style="height:30px;width:500px">
+					<!-- <span hidden="hidden" id="upload_status_wait" style="text-align:left;" class="title upload_wait_string">Do not navigate away from page until upload completes.</span> -->   <!--Commented by TF2 - Not using this status message - Bug 980 - Using pop-up for updating status-->
+				  </div>
+				  <span hidden="hidden" id="upload_status_done" class="title upload_done_string">Upload Complete!</span>
+				</div>
+
+				<div style="padding: 20px 0;">
+					<div id="Version" style="clear:both;padding:0px;">
+						<span class="title">Version</span>
+					</div>
+					</br>
+					<span class="title">Code</span>
+					<input id="hospitality_code" onkeypress='validate_hospitality(event)' maxlength="8" size=20 name="hospitality_code" type="text" size="8" onchange="update_value(const_hospitality,this.value);"/>
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>

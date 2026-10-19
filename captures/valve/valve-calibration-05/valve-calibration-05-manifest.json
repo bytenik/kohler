@@ -1,0 +1,28 @@
+{
+  "started_unix": 1792353440.9288058,
+  "sample_rate": 500000.0,
+  "segments": [
+    {
+      "base": "valve-calibration-05-part-000",
+      "samples": 39462688,
+      "sample_rate": 500000.0,
+      "bus": "valve",
+      "pins": {
+        "1+": 4,
+        "1-": 5
+      },
+      "ground_connected": false,
+      "duration_s": 78.925376,
+      "started_unix_approx": 1792353440.9291751,
+      "capture_complete": true,
+      "time_reference": "host time near first read; not hardware synchronized"
+    }
+  ],
+  "interruptions": [],
+  "bus": "valve",
+  "pins": {
+    "1+": 4,
+    "1-": 5
+  },
+  "ground_connected": false
+}

@@ -1,0 +1,283 @@
+{
+  "capture": "system-display-detection-13",
+  "manifest": {
+    "started_unix": 1792355563.141113,
+    "sample_rate": 500000.0,
+    "segments": [
+      {
+        "base": "system-display-detection-13-part-000",
+        "samples": 35500272,
+        "sample_rate": 500000.0,
+        "bus": "display",
+        "pins": {
+          "1+": 3,
+          "1-": 6
+        },
+        "ground_connected": false,
+        "duration_s": 71.000544,
+        "started_unix_approx": 1792355563.141432,
+        "capture_complete": true,
+        "time_reference": "host time near first read; not hardware synchronized"
+      }
+    ],
+    "interruptions": [],
+    "bus": "display",
+    "pins": {
+      "1+": 3,
+      "1-": 6
+    },
+    "ground_connected": false
+  },
+  "windows": [
+    {
+      "label": "discovery",
+      "start_s": 0,
+      "end_s": 12,
+      "baud": 57600,
+      "positive_is_one": false,
+      "uart_characters": 136,
+      "uart_errors": 58,
+      "complete_packets": 9,
+      "valid_packets": 9,
+      "issues": {
+        "outside_packet": 73
+      },
+      "wire_bytes_accounted_for": 63,
+      "type_counts": {
+        "05": 4,
+        "06": 1,
+        "07": 1,
+        "35": 2,
+        "18": 1
+      },
+      "packets": [
+        {
+          "time_s": 2.225768,
+          "end_time_s": 2.226632,
+          "wire_hex": "88 FF 00 05 74 55",
+          "hex": "88 FF 00 05 74 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 6,
+          "field_1": 255,
+          "field_2": 0,
+          "message_type": 5
+        },
+        {
+          "time_s": 5.30584,
+          "end_time_s": 5.306704,
+          "wire_hex": "88 FF 00 05 74 55",
+          "hex": "88 FF 00 05 74 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 6,
+          "field_1": 255,
+          "field_2": 0,
+          "message_type": 5
+        },
+        {
+          "time_s": 8.405918,
+          "end_time_s": 8.406782,
+          "wire_hex": "88 FF 00 05 74 55",
+          "hex": "88 FF 00 05 74 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 6,
+          "field_1": 255,
+          "field_2": 0,
+          "message_type": 5
+        },
+        {
+          "time_s": 11.476146,
+          "end_time_s": 11.477012,
+          "wire_hex": "88 FF 00 05 74 55",
+          "hex": "88 FF 00 05 74 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 6,
+          "field_1": 255,
+          "field_2": 0,
+          "message_type": 5
+        },
+        {
+          "time_s": 11.477372,
+          "end_time_s": 11.478586,
+          "wire_hex": "88 00 FF 06 30 01 42 55",
+          "hex": "88 00 FF 06 30 01 42 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 8,
+          "field_1": 0,
+          "field_2": 255,
+          "message_type": 6
+        },
+        {
+          "time_s": 11.48591,
+          "end_time_s": 11.487294,
+          "wire_hex": "88 FF 00 07 03 30 01 3E 55",
+          "hex": "88 FF 00 07 03 30 01 3E 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 9,
+          "field_1": 255,
+          "field_2": 0,
+          "message_type": 7
+        },
+        {
+          "time_s": 11.487628,
+          "end_time_s": 11.488496,
+          "wire_hex": "88 00 03 35 40 55",
+          "hex": "88 00 03 35 40 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 6,
+          "field_1": 0,
+          "field_2": 3,
+          "message_type": 53
+        },
+        {
+          "time_s": 11.820966,
+          "end_time_s": 11.822522,
+          "wire_hex": "88 03 00 18 00 01 C2 00 9A 55",
+          "hex": "88 03 00 18 00 01 C2 00 9A 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 10,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 24
+        },
+        {
+          "time_s": 11.822852,
+          "end_time_s": 11.82372,
+          "wire_hex": "88 00 03 35 40 55",
+          "hex": "88 00 03 35 40 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 6,
+          "field_1": 0,
+          "field_2": 3,
+          "message_type": 53
+        }
+      ]
+    },
+    {
+      "label": "display_operating",
+      "start_s": 12.2,
+      "end_s": 71.000544,
+      "baud": 115200,
+      "positive_is_one": false,
+      "uart_characters": 27735,
+      "uart_errors": 0,
+      "complete_packets": 2805,
+      "valid_packets": 2805,
+      "issues": {},
+      "wire_bytes_accounted_for": 27735,
+      "type_counts": {
+        "38": 1,
+        "39": 1,
+        "33": 1,
+        "32": 1,
+        "34": 468,
+        "35": 1,
+        "30": 1166,
+        "31": 1166
+      },
+      "startup_packets": [
+        {
+          "time_s": 12.330983999999999,
+          "end_time_s": 12.331422,
+          "wire_hex": "88 03 00 38 3D 55",
+          "hex": "88 03 00 38 3D 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 6,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 56
+        },
+        {
+          "time_s": 12.331996,
+          "end_time_s": 12.333646,
+          "wire_hex": "88 00 03 39 00 0C 00 00 03 00 FF FF FF FF FF FF FF FF 35 55",
+          "hex": "88 00 03 39 00 0C 00 00 03 00 FF FF FF FF FF FF FF FF 35 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 20,
+          "field_1": 0,
+          "field_2": 3,
+          "message_type": 57
+        },
+        {
+          "time_s": 12.380954,
+          "end_time_s": 12.381392,
+          "wire_hex": "88 03 00 33 42 55",
+          "hex": "88 03 00 33 42 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 6,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 51
+        },
+        {
+          "time_s": 12.38195,
+          "end_time_s": 12.385162,
+          "wire_hex": "88 00 03 32 00 1F 40 64 00 00 75 6E 2D 6E 61 6D 65 64 20 AA 55 49 00 00 00 00 00 00 00 00 00 00 00 00 00 00 AD 55",
+          "hex": "88 00 03 32 00 1F 40 64 00 00 75 6E 2D 6E 61 6D 65 64 20 55 49 00 00 00 00 00 00 00 00 00 00 00 00 00 00 AD 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 37,
+          "field_1": 0,
+          "field_2": 3,
+          "message_type": 50
+        },
+        {
+          "time_s": 12.430978,
+          "end_time_s": 12.4344,
+          "wire_hex": "88 03 00 34 00 00 1F 40 64 00 01 75 6E 2D 6E 61 6D 65 64 20 AA 55 49 00 00 00 00 00 00 00 00 00 00 00 00 00 00 AD FD 55",
+          "hex": "88 03 00 34 00 00 1F 40 64 00 01 75 6E 2D 6E 61 6D 65 64 20 55 49 00 00 00 00 00 00 00 00 00 00 00 00 00 00 AD FD 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 39,
+          "field_1": 3,
+          "field_2": 0,
+          "message_type": 52,
+          "subtype": 0,
+          "length_field_valid": true,
+          "length_field_offset": 6
+        },
+        {
+          "time_s": 12.43468,
+          "end_time_s": 12.435113999999999,
+          "wire_hex": "88 00 03 35 40 55",
+          "hex": "88 00 03 35 40 55",
+          "framing_valid": true,
+          "checksum_valid": true,
+          "length": 6,
+          "field_1": 0,
+          "field_2": 3,
+          "message_type": 53
+        }
+      ]
+    },
+    {
+      "label": "discovery_assignment_baud_change",
+      "start_s": 11.4,
+      "end_s": 12,
+      "baud": 57600,
+      "positive_is_one": false,
+      "uart_characters": 45,
+      "uart_errors": 0,
+      "complete_packets": 6,
+      "valid_packets": 6,
+      "issues": {}
+    }
+  ],
+  "baud_change_payload_hex": "00 01 C2 00",
+  "baud_change_value_big_endian": 115200,
+  "type18_start_s": 11.820966,
+  "old_rate_ack_start_s": 11.822852,
+  "new_rate_start_s": 12.330984,
+  "new_rate_delay_from_command_start_ms": 510.018
+}

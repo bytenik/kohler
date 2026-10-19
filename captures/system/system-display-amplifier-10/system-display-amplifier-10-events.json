@@ -1,0 +1,7 @@
+[
+  {
+    "event": "setup",
+    "host_unix": 1792354096.312481,
+    "note": "User connected DTV+ speaker amplifier on another equivalent system port; breakout inline with display; Scope 1+ pin3, 1- pin6, GND disconnected. Passive steady-state capture, no power-cycle cue."
+  }
+]

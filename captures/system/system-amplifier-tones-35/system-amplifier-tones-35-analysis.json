@@ -1,0 +1,252 @@
+{
+  "manifest": {
+    "started_unix": 1792358596.376331,
+    "sample_rate": 500000.0,
+    "segments": [
+      {
+        "base": "system-amplifier-tones-35-part-000",
+        "samples": 34009030,
+        "sample_rate": 500000.0,
+        "bus": "display",
+        "pins": {
+          "1+": 3,
+          "1-": 6
+        },
+        "ground_connected": false,
+        "duration_s": 68.01806,
+        "started_unix_approx": 1792358596.376809,
+        "capture_complete": true,
+        "time_reference": "host time near first read; not hardware synchronized"
+      }
+    ],
+    "interruptions": [],
+    "bus": "display",
+    "pins": {
+      "1+": 3,
+      "1-": 6
+    },
+    "ground_connected": false
+  },
+  "parts": [
+    {
+      "part": "system-amplifier-tones-35-part-000",
+      "duration_s": 68.01806,
+      "uart": {
+        "baud": 57600,
+        "data_bits": 8,
+        "parity": null,
+        "stop_bits": 1,
+        "positive_is_one": false,
+        "frames": 23708,
+        "framing_errors": 0
+      },
+      "complete_packets": 358,
+      "valid_packets": 358,
+      "issues": {},
+      "types": {
+        "30": 89,
+        "31": 89,
+        "33": 84,
+        "32": 84,
+        "34": 6,
+        "35": 6
+      },
+      "writes": [
+        {
+          "time_s": 17.164198,
+          "hex": "88 03 00 34 00 1E 37 00 00 00 01 00 CE CE BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 04 55",
+          "volume": 55,
+          "source": 0,
+          "track_signed": 0,
+          "playback_request": 1,
+          "mute": 0,
+          "balance_signed": -50,
+          "treble_signed": -50,
+          "bass_signed": -70,
+          "following_hex": "88 00 03 35 40 55"
+        },
+        {
+          "time_s": 25.054324,
+          "hex": "88 03 00 34 00 1E 37 00 00 00 01 00 CE CE BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 04 55",
+          "volume": 55,
+          "source": 0,
+          "track_signed": 0,
+          "playback_request": 1,
+          "mute": 0,
+          "balance_signed": -50,
+          "treble_signed": -50,
+          "bass_signed": -70,
+          "following_hex": "88 00 03 35 40 55"
+        },
+        {
+          "time_s": 26.074404,
+          "hex": "88 03 00 34 00 1E 37 00 00 00 01 00 CE E2 BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 F0 55",
+          "volume": 55,
+          "source": 0,
+          "track_signed": 0,
+          "playback_request": 1,
+          "mute": 0,
+          "balance_signed": -50,
+          "treble_signed": -30,
+          "bass_signed": -70,
+          "following_hex": "88 00 03 35 40 55"
+        },
+        {
+          "time_s": 35.844534,
+          "hex": "88 03 00 34 00 1E 37 00 00 00 01 00 F6 E2 BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 C8 55",
+          "volume": 55,
+          "source": 0,
+          "track_signed": 0,
+          "playback_request": 1,
+          "mute": 0,
+          "balance_signed": -10,
+          "treble_signed": -30,
+          "bass_signed": -70,
+          "following_hex": "88 00 03 35 40 55"
+        },
+        {
+          "time_s": 37.224524,
+          "hex": "88 03 00 34 00 1E 37 00 00 00 01 00 F6 E2 BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 C8 55",
+          "volume": 55,
+          "source": 0,
+          "track_signed": 0,
+          "playback_request": 1,
+          "mute": 0,
+          "balance_signed": -10,
+          "treble_signed": -30,
+          "bass_signed": -70,
+          "following_hex": "88 00 03 35 40 55"
+        },
+        {
+          "time_s": 41.394618,
+          "hex": "88 03 00 34 00 1E 37 00 00 00 01 00 F6 E2 BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 C8 55",
+          "volume": 55,
+          "source": 0,
+          "track_signed": 0,
+          "playback_request": 1,
+          "mute": 0,
+          "balance_signed": -10,
+          "treble_signed": -30,
+          "bass_signed": -70,
+          "following_hex": "88 00 03 35 40 55"
+        }
+      ],
+      "state_changes": [
+        {
+          "time_s": 0.309324,
+          "type": "31",
+          "volume": 55,
+          "playback_state": 1,
+          "balance_signed": -50,
+          "treble_signed": -50,
+          "bass_signed": -70,
+          "mute": 0
+        },
+        {
+          "time_s": 0.65554,
+          "type": "32",
+          "volume": 55,
+          "source": 1,
+          "track_signed": 0,
+          "playback_request": 1,
+          "mute": 0,
+          "balance_signed": -50,
+          "treble_signed": -50,
+          "bass_signed": -70
+        },
+        {
+          "time_s": 17.164198,
+          "type": "34",
+          "volume": 55,
+          "source": 0,
+          "track_signed": 0,
+          "playback_request": 1,
+          "mute": 0,
+          "balance_signed": -50,
+          "treble_signed": -50,
+          "bass_signed": -70
+        },
+        {
+          "time_s": 18.54783,
+          "type": "32",
+          "volume": 55,
+          "source": 0,
+          "track_signed": 0,
+          "playback_request": 1,
+          "mute": 0,
+          "balance_signed": -50,
+          "treble_signed": -50,
+          "bass_signed": -70
+        },
+        {
+          "time_s": 26.074404,
+          "type": "34",
+          "volume": 55,
+          "source": 0,
+          "track_signed": 0,
+          "playback_request": 1,
+          "mute": 0,
+          "balance_signed": -50,
+          "treble_signed": -30,
+          "bass_signed": -70
+        },
+        {
+          "time_s": 27.110494,
+          "type": "31",
+          "volume": 55,
+          "playback_state": 1,
+          "balance_signed": -50,
+          "treble_signed": -30,
+          "bass_signed": -70,
+          "mute": 0
+        },
+        {
+          "time_s": 27.456064,
+          "type": "32",
+          "volume": 55,
+          "source": 0,
+          "track_signed": 0,
+          "playback_request": 1,
+          "mute": 0,
+          "balance_signed": -50,
+          "treble_signed": -30,
+          "bass_signed": -70
+        },
+        {
+          "time_s": 35.844534,
+          "type": "34",
+          "volume": 55,
+          "source": 0,
+          "track_signed": 0,
+          "playback_request": 1,
+          "mute": 0,
+          "balance_signed": -10,
+          "treble_signed": -30,
+          "bass_signed": -70
+        },
+        {
+          "time_s": 36.888186,
+          "type": "31",
+          "volume": 55,
+          "playback_state": 1,
+          "balance_signed": -10,
+          "treble_signed": -30,
+          "bass_signed": -70,
+          "mute": 0
+        },
+        {
+          "time_s": 38.59914,
+          "type": "32",
+          "volume": 55,
+          "source": 0,
+          "track_signed": 0,
+          "playback_request": 1,
+          "mute": 0,
+          "balance_signed": -10,
+          "treble_signed": -30,
+          "bass_signed": -70
+        }
+      ]
+    }
+  ]
+}

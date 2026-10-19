@@ -1,0 +1,373 @@
+{
+  "capture": "system-amplifier-controls-34",
+  "actual_sequence": [
+    "Play on phone",
+    "Pause on display",
+    "Play on display",
+    "Volume up",
+    "Forward",
+    "Pause",
+    "Back",
+    "Line In 1",
+    "Mute",
+    "Unmute",
+    "Line In 2"
+  ],
+  "settings_writes": [
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 4.043314,
+      "volume": 35,
+      "source": 0,
+      "track_signed": 0,
+      "playback_request": 2,
+      "mute": 0,
+      "balance_signed": -50,
+      "treble_signed": -50,
+      "bass_signed": -70,
+      "write_hex": "88 03 00 34 00 1E 23 00 00 00 02 00 CE CE BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 17 55",
+      "different_offsets_from_previous_type32": [
+        [
+          10,
+          1,
+          2
+        ]
+      ],
+      "different_offsets_in_next_type32": [
+        [
+          10,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 7.873364,
+      "volume": 35,
+      "source": 0,
+      "track_signed": 0,
+      "playback_request": 2,
+      "mute": 0,
+      "balance_signed": -50,
+      "treble_signed": -50,
+      "bass_signed": -70,
+      "write_hex": "88 03 00 34 00 1E 23 00 00 00 02 00 CE CE BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 17 55",
+      "different_offsets_from_previous_type32": [
+        [
+          10,
+          1,
+          2
+        ]
+      ],
+      "different_offsets_in_next_type32": [
+        [
+          10,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 21.253596,
+      "volume": 50,
+      "source": 0,
+      "track_signed": 0,
+      "playback_request": 1,
+      "mute": 0,
+      "balance_signed": -50,
+      "treble_signed": -50,
+      "bass_signed": -70,
+      "write_hex": "88 03 00 34 00 1E 32 00 00 00 01 00 CE CE BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 09 55",
+      "different_offsets_from_previous_type32": [
+        [
+          6,
+          35,
+          50
+        ]
+      ],
+      "different_offsets_in_next_type32": [
+        [
+          6,
+          50,
+          55
+        ]
+      ]
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 22.283616,
+      "volume": 55,
+      "source": 0,
+      "track_signed": 0,
+      "playback_request": 1,
+      "mute": 0,
+      "balance_signed": -50,
+      "treble_signed": -50,
+      "bass_signed": -70,
+      "write_hex": "88 03 00 34 00 1E 37 00 00 00 01 00 CE CE BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 04 55",
+      "different_offsets_from_previous_type32": [
+        [
+          6,
+          35,
+          55
+        ]
+      ],
+      "different_offsets_in_next_type32": []
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 25.058668,
+      "volume": 55,
+      "source": 0,
+      "track_signed": 1,
+      "playback_request": 1,
+      "mute": 0,
+      "balance_signed": -50,
+      "treble_signed": -50,
+      "bass_signed": -70,
+      "write_hex": "88 03 00 34 00 1E 37 00 00 01 01 00 CE CE BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 03 55",
+      "different_offsets_from_previous_type32": [
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "different_offsets_in_next_type32": []
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 29.22874,
+      "volume": 55,
+      "source": 0,
+      "track_signed": 0,
+      "playback_request": 2,
+      "mute": 0,
+      "balance_signed": -50,
+      "treble_signed": -50,
+      "bass_signed": -70,
+      "write_hex": "88 03 00 34 00 1E 37 00 00 00 02 00 CE CE BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 03 55",
+      "different_offsets_from_previous_type32": [
+        [
+          9,
+          1,
+          0
+        ],
+        [
+          10,
+          1,
+          2
+        ]
+      ],
+      "different_offsets_in_next_type32": [
+        [
+          10,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 38.654254,
+      "volume": 55,
+      "source": 0,
+      "track_signed": -1,
+      "playback_request": 2,
+      "mute": 0,
+      "balance_signed": -50,
+      "treble_signed": -50,
+      "bass_signed": -70,
+      "write_hex": "88 03 00 34 00 1E 37 00 00 FF 02 00 CE CE BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 04 55",
+      "different_offsets_from_previous_type32": [
+        [
+          9,
+          0,
+          255
+        ]
+      ],
+      "different_offsets_in_next_type32": []
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 47.379042,
+      "volume": 55,
+      "source": 2,
+      "track_signed": 0,
+      "playback_request": 1,
+      "mute": 0,
+      "balance_signed": -50,
+      "treble_signed": -50,
+      "bass_signed": -70,
+      "write_hex": "88 03 00 34 00 1E 37 00 02 00 01 00 CE CE BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 02 55",
+      "different_offsets_from_previous_type32": [
+        [
+          8,
+          0,
+          2
+        ],
+        [
+          9,
+          255,
+          0
+        ],
+        [
+          10,
+          2,
+          1
+        ]
+      ],
+      "different_offsets_in_next_type32": []
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 55.449202,
+      "volume": 55,
+      "source": 2,
+      "track_signed": 0,
+      "playback_request": 1,
+      "mute": 1,
+      "balance_signed": -50,
+      "treble_signed": -50,
+      "bass_signed": -70,
+      "write_hex": "88 03 00 34 00 1E 37 00 02 00 01 01 CE CE BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 01 55",
+      "different_offsets_from_previous_type32": [
+        [
+          11,
+          0,
+          1
+        ]
+      ],
+      "different_offsets_in_next_type32": []
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 62.29933,
+      "volume": 55,
+      "source": 2,
+      "track_signed": 0,
+      "playback_request": 1,
+      "mute": 0,
+      "balance_signed": -50,
+      "treble_signed": -50,
+      "bass_signed": -70,
+      "write_hex": "88 03 00 34 00 1E 37 00 02 00 01 00 CE CE BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 02 55",
+      "different_offsets_from_previous_type32": [
+        [
+          11,
+          1,
+          0
+        ]
+      ],
+      "different_offsets_in_next_type32": []
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 68.219398,
+      "volume": 55,
+      "source": 1,
+      "track_signed": 0,
+      "playback_request": 1,
+      "mute": 0,
+      "balance_signed": -50,
+      "treble_signed": -50,
+      "bass_signed": -70,
+      "write_hex": "88 03 00 34 00 1E 37 00 01 00 01 00 CE CE BA 00 30 30 30 30 54 2A 53 00 00 00 00 00 00 00 00 00 00 00 00 00 03 55",
+      "different_offsets_from_previous_type32": [
+        [
+          8,
+          2,
+          1
+        ]
+      ],
+      "different_offsets_in_next_type32": []
+    }
+  ],
+  "status_changes": [
+    {
+      "part": "system-amplifier-controls-34-part-000",
+      "time_s": 0.677986,
+      "title": "",
+      "artist": "",
+      "device_name": "",
+      "playback_state": 0
+    },
+    {
+      "part": "system-amplifier-controls-34-part-000",
+      "time_s": 23.476208,
+      "title": "",
+      "artist": "",
+      "device_name": "David's Z Fold7",
+      "playback_state": 0
+    },
+    {
+      "part": "system-amplifier-controls-34-part-000",
+      "time_s": 50.613806,
+      "title": "Losing Myself",
+      "artist": "Mia Baron",
+      "device_name": "David's Z Fold7",
+      "playback_state": 0
+    },
+    {
+      "part": "system-amplifier-controls-34-part-000",
+      "time_s": 56.252744,
+      "title": "Losing Myself",
+      "artist": "Mia Baron",
+      "device_name": "David's Z Fold7",
+      "playback_state": 1
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 0.21059,
+      "title": "Losing Myself",
+      "artist": "Mia Baron",
+      "device_name": "David's Z Fold7",
+      "playback_state": 1
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 26.095758,
+      "title": "Radio",
+      "artist": "girlFM",
+      "device_name": "David's Z Fold7",
+      "playback_state": 1
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 34.48223,
+      "title": "Radio",
+      "artist": "girlFM",
+      "device_name": "David's Z Fold7",
+      "playback_state": 2
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 41.218458,
+      "title": "Radio",
+      "artist": "girlFM",
+      "device_name": "David's Z Fold7",
+      "playback_state": 1
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 46.683272,
+      "title": "Radio",
+      "artist": "girlFM",
+      "device_name": "David's Z Fold7",
+      "playback_state": 2
+    },
+    {
+      "part": "system-amplifier-controls-34-part-001",
+      "time_s": 48.416966,
+      "title": "Radio",
+      "artist": "girlFM",
+      "device_name": "David's Z Fold7",
+      "playback_state": 1
+    }
+  ],
+  "tone_conversion_candidate": "display_value = signed_amplifier_value + 100; further controlled changes required",
+  "accepted_packets": 786,
+  "uart_errors": 0
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "event": "grouped_distinct_bass_changes_cue",
+    "host_unix": 1792358733.6005518,
+    "ordered_actions": [
+      "Options -> move Bass clearly upward",
+      "pause about 5 seconds",
+      "Reopen Options if needed -> move Bass clearly downward"
+    ],
+    "baseline_amplifier_bass_signed": -70,
+    "note": "Use distinct larger movements within slider; other controls unchanged. Stop on final done acknowledgment."
+  },
+  {
+    "event": "bass_up_down_complete",
+    "host_unix": 1792358954.032298,
+    "actual_ordered_actions": [
+      "Bass clearly up",
+      "Bass clearly down"
+    ],
+    "note": "User reports done; exact touch times and numeric values not provided."
+  }
+]

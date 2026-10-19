@@ -1,0 +1,1278 @@
+                                                         RoHS Compliant
+
+
+                       TFT LCD Module with
+         Metallized Projective Capacitive Touch Panel
+                     (FLETAS touch panel)
+
+                      Hardware Specification
+
+
+
+                  Model: GTWQ043C3B00PWA
+
+
+
+          Specification No:          DS-2122-0001-01
+
+
+          Date of Issue:             July 21, 2021              (00)
+
+
+          Revision:                  October 13, 2021           (01)
+
+
+
+
+                                      Published by
+                           NORITAKE ITRON Corp. / Japan
+                              https://www.noritake-itron.jp
+
+
+              This specification is subject to change without prior notice.
+
+               This product complies with RoHS Directive
+Please contact our sales consultant for details and to confirm the current status.
+             FLETAS is a registered trademark of Noritake itron Corporation.
+                                                                                    GTWQ043C3B00PWA Hardware Specification
+
+ Notice for the Cautious Handling of LCD Modules
+ Handling and usage precautions:
+ Please carefully follow the appropriate product application notes and operation standards for proper usage, safe handling, and maximum
+ performance.
+
+【Construction】                                                      【Electrostatic Charge】
+            The FLETAS touch panel is made of glass.                             Since we are using semiconductor products,
+            When using this product, please be sure to                           please pay attention to the electrostatic
+            install a protective overlay such as cover                           breakdown during handling and transportation.
+            glass, acrylic plate, etc.                                           (If it is judged that the product is defective due
+            Please handle the FLETAS touch panel very                            to electrostatic destruction during its return to
+            carefully as it may crack if it is pressed with                      our company, it may be repaired for a fee.)
+            excessive force.
+            If this product is bent or twisted, it may cause        【Power】
+            the breakage of parts on the product board.                          Please use a fully stabilized power supply.
+            Please handle it very carefully without bending                      If the power supply’s voltage is outside of the
+            or twisting.                                                         product’s rated supply voltage, the operation
+            Please do not hold the FPC or other cables on                        of the power supply circuit may become
+            this product as it may disconnect vital                              unstable.
+            components.                                                          In-rush current flows when turning the power
+            The end faces of the FLETAS touch panel are                          on. Please use a power supply that can
+            not polished. Please handle it very carefully to                     withstand more than twice the normal current.
+            avoid injury.                                                        As a safety measure, we recommend using a
+            The FLETAS touch panel is made of glass.                             power supply with overcurrent protection and
+            It may be damaged by falling / impact /                              a fuse.
+            excessive vibration. In the unlikely event that                      Please confirm that the power supply voltage
+            the glass shatters, please handle the glass                          is within the rating of the connector.
+            fragments very carefully to avoid injury.
+                                                                                 Please use a power cable with the appropriate
+            The LCD panel generates heat. Please                                 thickness and length.
+            provide clearance for heat dissipation
+            between this product and its enclosure. Also,
+            if a structure has electronic parts that are            【Interface】
+            densely collected near this product, we                              Please use an interface cable that has a
+            recommend that it be cooled with a fan or                            length that has been thoroughly verified.
+            something similar.
+                                                                    【Implementation】
+【Cable Connection】
+                                                                             When installing this product, please make
+            Please do not remove the power cable and                         sure that the on-board electronic components
+            signal cable if the product is in an energized                   and FPC do not touch the metal chassis. It
+            state. It may cause damage to the power                          may cause the product to malfunction.
+            supply circuit and/or the I/O circuit of this                    If you need to make the product drip-proof,
+            product.                                                         please use waterproof measures for products
+            As a rule of thumb, please do not input any                      by using rubber etc.
+            signals while the product is not receiving
+                                                                                 Please handle the product carefully when you
+            adequate power. It may cause damage to the
+                                                                                 take it out from the case and when you install
+            input/ output circuit.
+                                                                                 the product, since it is a precision part.
+            When plugging-in or unplugging the cable for
+            this product, please do not apply excessive
+            force, such as pulling the cable.
+            Please plug-in or unplug in a straight direction
+            (alignment) with the terminal, without bending
+            or twisting forces.
+            If it is not properly plugged-in or unplugged,
+            damage may occur to the cable or connector.
+            Please avoid sudden bending of the cable from
+            the base of the insert connector part. It may
+            cause damage to the cable or disconnection of
+            the connector. If loads are expected on
+            connectors and cables, please fix cables etc.
+
+
+
+
+                                                                  -2-
+                                                                      GTWQ043C3B00PWA Hardware Specification
+
+【Storage and Operating Environment】                                 Image persistence may occur if the same
+           Please use this product within the                       screen is displayed for a prolonged period of
+           environmental condition range stated in its              time. The effect will gradually disappear by
+           specification.                                           displaying a screensaver pattern, etc, or by
+                                                                    powering off the display. The time needed for
+           Exceeding the stated temperature, humidity,
+                                                                    the effect to disappear is not fixed, as it
+           vibration, and impact limitations (along with
+                                                                    depends on the exact usage, screen settings,
+           other stated limitations) may cause
+                                                                    power     settings,     and     environmental
+           malfunction.
+                                                                    temperature, etc.
+           Please do not exceed the absolute maximum
+           ratings stated in the specification even for a           To avoid image persistence, it is
+           moment. It may cause malfunction.                        recommended to avoid displaying a fixed
+           Under a high temperature environment, the                pattern or the same image for a prolonged
+           FLETAS touch panel surface also becomes                  period of time.
+           hot.
+           If you touch the FLETAS panel with your bare
+           hand, please be careful of burns, injury, etc.
+           Malfunction may occur when the product is
+           stored and/or used in environments with a lot
+           of salt, sulfur, dust, etc.
+
+
+【Disposal】
+           When disposing of this product, please follow
+           the relevant regulations.
+
+
+
+【Others】
+           Do not reverse engineer this product (i.e.
+           firmware disassembly).
+
+           Do not modify, disassemble, repair, replace
+           parts, etc.
+           It may cause EMI failure, etc.
+           (We cannot assume responsibility for troubles
+           caused by modifying these products.)
+           This specification does not give license of the
+           intellectual property rights that our company
+           owns. Also, it does not guarantee the
+           implementation of a third party's rights.
+           Neither whole nor partial copying of these
+           specifications is permitted without our
+           approval. If necessary, please ask for
+           assistance from one of our sales consultants.
+           This product is designed with careful attention
+           to EMI and ESD. However, the characteristics
+           of EMI and ESD change when the product is
+           incorporated into a system. Please be sure to
+           perform testing with the finished product.
+           When used in noisy environments, please
+           take measurements against noise around the
+           casing.
+           This product is not designed for military,
+           aerospace, medical, or other life-critical
+           applications. If you choose to use this product
+           for these applications, please ask us for prior
+           consultation      or    we    cannot      accept
+           responsibility for problems that may occur.
+
+
+
+
+                                                              -3-
+                                                                                                     GTWQ043C3B00PWA Hardware Specification
+
+Contents
+Notice for the Cautious Handling of LCD Modules ...................................................................................... 2
+1         General Description ......................................................................................................................... 5
+   1.1    Construction ....................................................................................................................................... 5
+   1.2    Outline ................................................................................................................................................ 5
+   1.3    Block Diagram .................................................................................................................................... 5
+     1.3.1     Serial Interfaces .......................................................................................................................... 6
+     1.3.2     General Purpose I/O Port ........................................................................................................... 7
+2         Electrical Specifications .................................................................................................................. 7
+   2.1    Absolute Maximum Ratings ................................................................................................................ 7
+   2.2    Electrical Ratings ................................................................................................................................ 7
+   2.3    Electrical Characteristics .................................................................................................................... 8
+3         Environmental Specifications ......................................................................................................... 9
+4         Optical Specifications (at 25ºC) ...................................................................................................... 9
+5         Physical Specifications.................................................................................................................... 9
+6         Applicable Specifications .............................................................................................................. 10
+7         Interface Details .............................................................................................................................. 10
+   7.1    USB Interface (CN3)......................................................................................................................... 10
+     7.1.1     USB Interface – Summary ........................................................................................................ 10
+     7.1.2     USB Interface – Technical Details ............................................................................................ 10
+   7.2    Serial Interface (CN9) ....................................................................................................................... 10
+     7.2.1     UART Mode (J5 = SHORT, J6 = SHORT) ................................................................................. 11
+     7.2.2     SPI Mode (J5 = OPEN, J6 = OPEN) ........................................................................................ 12
+     7.2.3     I2C Mode (J5 = SHORT, J6 = OPEN) ....................................................................................... 14
+   7.3    Transmit Data Interface .................................................................................................................... 16
+   7.4    Reset ................................................................................................................................................ 16
+8         FLETAS Touch Panel ...................................................................................................................... 17
+   8.1    Outline .............................................................................................................................................. 17
+   8.2    Basic Operation ................................................................................................................................ 17
+9         Installation Method ......................................................................................................................... 17
+10        Setup ................................................................................................................................................ 18
+   10.1 Jumper .............................................................................................................................................. 18
+11        Connectors ...................................................................................................................................... 19
+   11.1 USB Interface (CN3)......................................................................................................................... 19
+   11.2 Power Through-holes (CN8)............................................................................................................. 19
+   11.3 Serial Interface & Power Through-holes (CN9) ................................................................................ 19
+   11.4 Extension General Purpose I/O Port Through-holes & Power Through-holes (CN10) .................... 19
+   11.5 General Purpose I/O Port Through-holes & Power Through-holes (CN11) ..................................... 19
+   11.6 Connector Position ........................................................................................................................... 20
+12        Memory SW ..................................................................................................................................... 21
+13        Lot No. / Firmware Version Specification..................................................................................... 21
+14        Physical Dimensions...................................................................................................................... 22
+Revision history ............................................................................................................................................. 23
+
+
+
+
+                                                                               -4-
+                                                                GTWQ043C3B00PWA Hardware Specification
+
+1     General Description
+      This specification covers the hardware aspects of the GTWQ043C3B00PWA TFT-LCD graphic
+      display module with metallized projective capacitive touch (FLETAS touch panel).
+
+
+1.1   Construction
+      The module consists of a 480 x RGB X 272 color graphic TFT-LCD with touch panel, refresh RAM,
+      character generator, DC/DC converter, microcontroller, and all necessary control logic. The module
+      can simultaneously display graphic patterns, images, and text characters on the screen.
+
+
+1.2   Outline
+      Display:             Diagonal 4.3 inches, 480×272 pixels
+                           16.7M colors (24-bit color (RGB 8-8-8))
+      Power supply:        Single 5 VDC
+                           Serial interface (UART / I2C / SPI CMOS 3.3V)
+                           USB interface (High-speed / full-speed)
+      I/O port:            26 bits general-purpose I/O port
+      Function:            Character display, outline fonts
+                           Graphic display
+                           Control command
+                           Display action command
+                           Window function
+                           General-purpose I/O port control
+                           Macro, program macro function
+                           Character and image download function
+                           Memory SW, data storage
+                           Display orientation function
+                           Power saving function
+                           Touch panel input
+      Related specifications:
+        DS-2007-0009-xx: “General Function” Software Specification.
+        DS-1940-0005-xx: “Program Macro” Software Specification.
+
+
+1.3   Block Diagram
+
+      USB
+                                                  Display                          TFT-LCD
+      interface
+                                                  controller                       FLETAS®
+                                                                                  Touch panel
+      Serial interfaces
+                                                                        FROM1 (32Mbit)
+                                                  Controllers            Firmware
+      GPIO through-holes                                                 Bitmap fonts
+                                                                         Memory SW
+
+
+                                                                        FROM2
+                                                                         Stored images
+                                                                         Outline fonts (TTF, OTF)
+
+
+                                                                        RAM
+                                                                         Refresh RAM
+                                              Jumpers
+
+      VCC                             TFT power supply
+                           DC/DC
+                                                                 Note: FROM re-write rating is
+      GND                 converter   Backlight
+                                                                 approximately 100,000 times.
+                                      3.3V
+
+
+
+
+                                                     -5-
+                                                                       GTWQ043C3B00PWA Hardware Specification
+
+1.3.1   Serial Interfaces
+        The figure below is a schematic diagram of the internal connection of the serial interface and the power.
+
+
+
+
+        Refer to 7.2 “Serial Interface (CN9)”.
+
+        Note:
+          *1: The CPU’s internal pull-up resistor will turn on at power-on, reset input, and internal initialization
+              of the display.
+          The /RESET signal must only be driven (if necessary) by an open drain output.
+          The pull-up resistor is connected to the internal power (3.3V).
+          The pull-up resistor for SDA and SCL are connected to the internal power (3.3V).
+
+          After the VCC (5V) power supply rises to 4.75V, the internal 3.3V power supply rises with a delay of
+          up to 300ms. If an “H” level signal is input before the internal 3.3V power supply becomes available,
+          a start-up failure may occur. It is recommended to set input terminals to “L” level or high impedance
+          (Hi-Z) for at least 300ms after start of VCC supply.
+
+
+
+
+                                                        -6-
+                                                                                  GTWQ043C3B00PWA Hardware Specification
+
+1.3.2     General Purpose I/O Port
+                                                           +3.3V
+                                                                                                                               3.3V
+      General-purpose I/O port
+                                                                                                                               GND
+                                                               Pull-up resistor
+                                                               Typ. 53KΩ
+                                                  47Ω
+                                                                                             Input/output port
+                        GPIO25
+                                                                                             ×26
+
+                                                  47Ω
+
+
+                                                                                                 Controller
+                                                  47Ω
+
+
+                                                  47Ω
+                        GPIO0
+
+
+                           3.3V
+                           GND
+                                                              GTWQ043C3B00PWA
+
+    Refer to 2.3 Electrical Characteristics, “General purpose I/O port and power 3.3V”.
+    For controlling, refer to “General Function” Software Specification, “I/O Port Input / Output Setting”, “I/O Port Output”,
+    and “I/O Port Input”.
+
+
+2         Electrical Specifications
+2.1       Absolute Maximum Ratings
+    Power supply voltage
+                             Parameter                      Symbol       Min.         Typ.      Max.          Unit        Note
+                        Power supply voltage                  VCC        −0.3          -        +6.0           V           －
+
+    Logic voltage
+                             Parameter                      Symbol       Min.         Typ.      Max.          Unit        Note
+                                   Logic input voltage
+             UART
+                                      RXD, DSR
+                                                             VsIN1       -0.3          －        +3.6           V     VCC=5.0V
+                                   Logic input voltage
+               I2 C
+                                       SCL,SDA
+                                                             VsIN2       -0.3          －        +3.6           V     VCC=5.0V
+                                   Logic input voltage
+               SPI
+                                   SCK, MOSI, SSEL
+                                                             VsIN3       -0.3          －        +3.6           V     VCC=5.0V
+                                   Logic input voltage
+             RESET
+                                        /RESET
+                                                             VsIN4       -0.3          －        +3.6           V     VCC=5.0V
+                                   Logic input voltage
+             I/O port
+                                     port 0, 1, 2, 3
+                                                              ViIN       -0.3          －        +3.6           V     VCC=5.0V
+
+
+2.2       Electrical Ratings
+                             Parameter                      Symbol       Min.         Typ.      Max.          Unit        Note
+          Power supply            Power supply voltage        VCC        4.75         5.0       5.25          VDC          －
+                                   Logic input voltage       VsIH1        2.7          －         －            VDC          －
+             UART
+                                      RXD, DSR               VsIL1        －            －         0.6          VDC          －
+                                   Logic input voltage       VsIH2        2.7          －         －            VDC    Internal pull-up
+               I2 C                                                                                                   resistor 10kΩ
+                                       SCL,SDA               VsIL2        －            －         0.6          VDC
+                                   Logic input voltage       VsIH3        2.7          －         －            VDC          －
+               SPI
+                                   SCK, MOSI, SSEL           VsIL3        －            －         0.6          VDC          －
+                                   Logic input voltage       VsIH4        1.5          －         －            VDC          －
+             RESET
+                                        /RESET               VsIL4        －            －         0.3          VDC          －
+      All driving voltage for the TFT-LCD is generated from the on-board DC/DC converter.
+
+                                                              -7-
+                                                                           GTWQ043C3B00PWA Hardware Specification
+
+2.3     Electrical Characteristics
+  Logic input / output condition
+      Measuring conditions: ambient temperature = 25 ºC, VCC=5.0VDC
+                     Parameter                  Symbol   Min.     Typ.         Max.      Unit        Condition
+                         Logic output voltage   VsOH1     2.8          -         -       VDC       IOH = -1.6mA
+           UART
+                            TXD, DTR *1         VsOL1      -           -        0.4      VDC        IOL = 1.6mA
+                         Logic output voltage   VsOH2     2.8          -         -       VDC       IOH = -1.6mA
+                          TRDY, SBUSY *1        VsOL2      -           -        0.4      VDC        IOL = 1.6mA
+           I2C I/F         Internal pull-up
+                              resistance           Rp              10                    kΩ               -
+                             SDA,SCL *2
+                         Logic output voltage   VsOH3     2.8          -            -    VDC       IOH = -1.6mA
+            SPI            TRDY, SBUSY,
+                               MISO *1           VsOL3        -                 0.4      VDC       IOL = 1.6mA
+      Note:
+        *1 Output is high-impedance (Hi-Z) + pull-up resistor (53kΩ typ.) during power-on, reset input,
+           and display internal initialization. Pull-up resistor is connected to internal power (3.3V).
+        *2 Pull-up resistor for SDA, SCL are connected to internal power (3.3V).
+
+  General purpose I/O port and power 3.3V
+      Measuring conditions: ambient temperature = 25 ºC, VCC=5.0VDC
+                     Parameter                  Symbol   Min.     Typ.         Max.      Unit        Condition
+                         Logic input current      IiIH     -           -        1.0     μADC              -
+                            Port 0,1,2,3          IiIL     -           -       −200     μADC              -
+      General-purpose Logic input voltage        ViIH     2.4          -        3.3      VDC              -
+         I/O port        Port 0,1,2,3            ViIL      0           -        0.8      VDC              -
+                        Logic output voltage     ViOH     2.8          -         -       VDC      IiOHp = -200μA
+                            Port 0,1,2,3         ViOL      -           -        0.4      VDC       IiOLp = 1.6mA
+                        Logic output voltage
+        Power 3.3V                              VpOH      3.0          -        3.6      VDC      IpOHp = -20mA
+                               3.3V
+      Note:
+        Power 3.3V is used internal logic, so external noise injection must be avoided to prevent
+        product malfunction.
+
+  General purpose I/O port and power 3.3V output permissible current
+      Measuring conditions: ambient temperature = 25 ºC, VCC=5.0VDC
+                     Parameter                  Symbol   Min.     Typ.         Max.     Unit        Condition
+                      Output permissible        IiOHp     0        -            -5      mADC             -
+                      current port 0,1,2,3
+      General-purpose    (Single port)          IiOLp     0        -            5       mADC             -
+         I/O port     Output permissible        IiOHt     0        -           -80      mADC
+                                                                                                Including power 3.3V
+                      current port 0,1,2,3                                                            (IpOHp )
+                       (Sum of all port)         IiOLt    0        -            80      mADC             -
+                      Output permissible
+        Power 3.3V       current 3.3V           IpOHp     0        -           -20      mADC             -
+                         (Single port)
+      Note:
+        Output current should not exceed the above values.
+        Please be sure to add a current limiting resistor in the output line if driving an LED or other
+        device that may otherwise draw excessive current.
+
+
+
+
+                                                         -8-
+                                                                                     GTWQ043C3B00PWA Hardware Specification
+
+    Power supply condition
+      Measuring conditions: ambient temperature = 25 ºC, VCC=5.0VDC, IiOHt=0mA
+                  Parameter            Symbol                   Min.      Typ.        Max.          Unit              Condition
+                                                                                                                  Brightness 100%
+                                        ICC-1                     -       410          540         mADC           All white display
+                                                                                                                  Brightness 50%
+                                        ICC-2                     -       350             -        mADC           All white display
+             Power supply current
+                                        ICC-3                     -       260          340         mADC          Display power OFF
+                                                                                                                    Sleep mode
+                                        ICC-4                     -        22          30          mADC           Wakeup on GPIO
+                                                                                                                  Brightness 100%
+                                         P-1                      -       2.1          2.7              W         All white display
+                                                                                                                  Brightness 50%
+                                         P-2                      -       1.75            -             W         All white display
+              Power consumption
+                                         P-3                      -       1.3          1.7              W        Display power OFF
+                                                                                                                    Sleep mode
+                                         P-4                      -       0.1          0.2              W         Wakeup on GPIO
+      Note:
+        The rise time of supply voltage should not exceed 100ms.
+        Inrush current at power-on may exceed twice normal current.
+
+3        Environmental Specifications
+    Operating temperature:             −30 to +85 ºC
+    Storage temperature:               −30 to +85 ºC
+    Operating humidity:                Temp. ≤ 60 ºC, 80% RH MAX. (No condensation)
+                                       Temp. > 60 ºC, Absolute humidity shall be less than 80% RH at 60 ºC
+                                       (No condensation)
+    Storage humidity:                  Temp. ≤ 60 ºC, 80% RH MAX. (No condensation)
+                                       Temp. > 60 ºC, Absolute humidity shall be less than 80% RH at 60 ºC
+                                       (No condensation)
+    Vibration (non-operating):         10-55-10Hz, all amplitude 1mm, 30 minutes, X-Y-Z
+    Shock (non-operating):             392m/s2 (40G) 9ms X-Y-Z, 3 times each direction
+    Brightness derating:
+                                                             100
+                                                              90
+                                                              80
+
+
+
+
+                                            Brightness (%)
+                                                              70
+                                                              60
+                                                              50
+                                                              40
+                                                              30
+                                                              20
+                                                              10
+                                                               0
+                                                                 -30 -20 -10     0   10       20   30       40   50   60   70     80
+                                                                                     Operating Temp (℃)
+
+
+
+4        Optical Specifications (at 25ºC)
+    LCD type:                          Transmissive TFT
+    Brightness TFT with touch panel:                                           Typ. 425 cd/ m2 (nit)             50% brightness
+                                       Min. 500 cd/ m2 (nit)                   Typ. 850 cd/ m2 (nit)             100% brightness
+                                       (White screen at the center of display)
+    Color:                             RGB
+    Recommend view direction:          All
+    Gray scale inversion direction:    -
+
+5        Physical Specifications
+    Number of pixels:                  480 × RGB × 272
+    Display area:                      95.04mm × 53.86mm (Diagonal 4.3 inches)
+    Pixel pitch:                       0.198mm × 0.198mm
+    Weight:                            Approximately 94g
+                                                                   -9-
+                                                                         GTWQ043C3B00PWA Hardware Specification
+
+6        Applicable Specifications
+    Applicable reliability specification: TT-99-3102x
+    Applicable production specification: TT-98-3413x
+
+
+7        Interface Details
+    USB, UART, I2C, and SPI serial interfaces are included on this module. The module will accept data from
+    any configured interface. Response data is generally transmitted via the USB interface if it is active or via
+    the configured serial interface otherwise (refer to 7.3 Transmit Data Interface).
+
+7.1      USB Interface (CN3)
+7.1.1     USB Interface – Summary
+         Shorting JP1 enables power supply from VBUS (refer to 10.1 Jumper).
+         The USB interface is USB 2.0 high-speed (480Mbps) / full-speed (12 Mbps) capable.
+         Typically, the supplied USB driver is used, and the display module is accessed via a “Virtual COM port”
+         (refer to USB VCOM Driver Installation Manual DS-1972-0000-xx). The display module can also be
+         used as a WinUSB device, using the standard WinUSB driver.
+         Alternatively, refer to USB Interface – Technical details (below) if using the USB interface with a custom
+         driver or embedded system, etc.
+         Refer to the USB 2.0 Specification (http://www.usb.org/developers/docs/usb20_docs/) for further details.
+
+
+7.1.2    USB Interface – Technical Details
+         The device has a single configuration, with a single interface, supporting two endpoints for data transfer:
+            Endpoint          Type                   Maximum packet size
+         Endpoint 0       Control      64 bytes
+         Endpoint 1       Bulk IN      Full speed: 64 bytes, high speed: 512 bytes
+         Endpoint 2       Bulk OUT     Full speed: 64 bytes, high speed: 512 bytes
+
+         Vendor ID: 0EDA (hex)
+         Product ID: 1200 (hex)
+         Device class and interface class: FF (hex) (vendor-specific)
+         USB serial number:        Firmware F1.29, or later: Unique serial number
+                                   Firmware less than F1.29: Not supported
+         WinUSB compatibility:
+         Firmware versions F1.00 onwards support Microsoft OS String Descriptors, which enable automatic
+         recognition of WinUSB compatibility for applicable operating systems (manual configuration, using
+         an .inf file, is also possible). The Device Interface GUID reported by the device is {6120D798-D192-
+         4463-B0DE-2B65ED2F4870}. This GUID is used by applications on the host in order to access the
+         device.
+
+
+7.2      Serial Interface (CN9)
+      One of three modes is selected by jumpers J5 and J6. For all modes, the SBUSY/ DTR signal reflects
+      the state of the receive buffer. This can be used for flow control if necessary. Data received is stored in
+      the internal receive buffer, and processed in order of receipt. The TRDY signal indicates whether or not
+      there is data currently held in the transmit buffer.
+
+      Buffer capacity
+      Receive buffer       2,047 bytes
+      Transmit buffer      127 bytes
+
+      SBUSY / DTR signal change timing
+          SBUSY change            Interface       ‘L’(READY)→‘H’(BUSY)          ‘H’(BUSY) →‘L’(READY)
+                                 UART / I2C            62 bytes or less
+        Receive buffer space                                                         128 bytes or more
+                                     SPI               54 bytes or less
+
+      TRDY signal change timing
+         TRDY                 READY(‘H’)                                  EMPTY(‘L’)
+        Condition         Data in transmit buffer                  No data in transmit buffer
+
+                                                        - 10 -
+                                                                          GTWQ043C3B00PWA Hardware Specification
+
+7.2.1   UART Mode (J5 = SHORT, J6 = SHORT)
+        Interface conditions:
+                             4,800 to 115,200bps (set by jumper and memory SW)
+              Baud rate
+                             Default setting: 38,400bps
+                             None, even, odd (set by memory SW)
+                Parity
+                             Default setting: None
+               Format        Start (1 bit) + data (8 bit) + parity (0 or 1 bit) + stop (1 bit)
+           Communication
+                             DSR, DTR, TRDY
+            control signal
+        ・ Data transmitted from the display is placed in the internal transmit buffer and sent, in order,
+            when DSR = READY.
+        ・ The TRDY signal does not need to be used.
+
+    Data Frame (When using parity bit)
+        //   Start   Data(8bit)   Parity            Stop
+                                                              //      Start      Data(8bit)    Parity   Stop
+                 (1bit)     D0 D1 ･･･ D7   (1bit)   (1bit)            (1bit)   D0 D1 ･･･ D7    (1bit)   (1bit)
+
+
+
+    Data Frame (When parity bit is not used)
+        //   Start   Data(8bit)     Stop
+                                           //                Start      Data(8bit)    Stop
+                 (1bit)     D0 D1 ･･･ D7   (1bit)            (1bit)   D0 D1 ･･･ D7    (1bit)
+
+
+
+                          ‘H’
+         RXD
+                          ‘L’
+                                                                                                        Min.
+                                                                        Max.
+                                                                                                        0μs
+                                                                        62 bytes
+               BUSY (‘H’)
+         DTR
+               READY (‘L’)
+
+
+
+                          ‘H’
+         TXD
+                          ‘L’
+                                                                                                        Min.
+                                                                        Max.                            0μs
+                                                                        2 bytes
+               BUSY (‘H’)
+         DSR
+               READY (‘L’)
+
+
+
+
+                                                         - 11 -
+                                                                                   GTWQ043C3B00PWA Hardware Specification
+
+7.2.2    SPI Mode (J5 = OPEN, J6 = OPEN)
+         Display module operates as an SPI slave; data is sent and received in response to host (master)
+         operations.
+         SSEL= 1  0  1 is one command sequence.
+                1st byte                 Operation mode
+                  44h            Data write (Host → Module)
+                  54h             Data read (Host ← Module)
+                  58h            Status read (Host ← Module)
+
+         Communication Parameters
+         Baud rate       Max. 8.3Mbps
+         Format          SPI
+         Communication SBUSY, TRDY
+         control signals
+         ・ The TRDY signal may be monitored, but the host (master) must still use the Status Read
+           sequence before the Data Read sequence.
+         ・ The SBUSY signal can be monitored directly or via the Status Read sequence.
+
+    Data Write
+     When 44h is input as the first byte, the module receives the 2nd and subsequent bytes as data.
+                        1st byte          2nd byte      3rd byte           ---          n+1 byte
+          MOSI             44h            Data(1)       Data(2)            ---          Data(n)
+          MISO              -                 -             -              ---              -
+
+    Timing (data write)
+
+
+                 'H'
+        SSEL
+                 'L'
+                                                                         //
+                                                       Max.
+                                                      54 bytes
+                                                                                      Min.0μs
+
+                                                                         //
+                 'H'
+        SCK
+                 'L'
+                                                                         //
+
+                                                                         //
+                 'H'
+                           1st byte   Data   Data         Data                     Data   Data         Data
+        MOSI                                        ･･･               "H" or "L"                 ･･･
+                             44h       (1)    (2)         (60)                     (61)   (62)          (n)
+                 'L'
+                                                                         //
+
+                 'H'
+        MISO
+                 'L'
+                                                                 //
+                 'H'
+        SBUSY
+                 'L'
+
+
+    When confirming the SBUSY signal by status read, make one command sequence 54 bytes or less.
+
+
+
+
+                                                             - 12 -
+                                                             GTWQ043C3B00PWA Hardware Specification
+
+Timing (detail of data write)
+
+
+
+
+Data Read
+ When 54h is input as the first byte, the module outputs valid data on the 3rd and subsequent
+ bytes. The host must read the number of bytes reported by the immediately preceding Status
+ Read command. The number of bytes reported by the status read command will be
+ transmitted, with any unread bytes discarded.
+                    1st byte          2nd byte      3rd byte            ---          m+2 byte
+      MOSI             54h                -             -               ---             -
+      MISO              -               00h         Data(1)             ---          Data(m)
+ m: The number of data bytes reported by the Status Read command(TL of status byte).
+
+Status Read
+  When 58h is input as the first byte, the module outputs status data. For the 3rd and any
+  subsequent bytes, the most recent status data is provided.
+                     1st byte          2nd byte         ---           n byte
+       MOSI             58h                -            ---              -
+       MISO              -              Status        Status          Status
+
+  Status bit assignment
+       b7           b6        b5           b4       b3         b2         b1        b0
+    SBUSY           0*      TL(b5)       TL(b4)   TL(b3)     TL(b2)     TL(b1)    TL(b0)
+    SBUSY :                SBUSY signal
+    TL          :          Number of transmit data bytes available (maximum 63 bytes)
+    *: If b6 is 1, the status byte is invalid.
+
+Timing (data read, status read)
+
+
+
+
+                                              - 13 -
+                                                                                     GTWQ043C3B00PWA Hardware Specification
+
+7.2.3   I2C Mode (J5 = SHORT, J6 = OPEN)
+        Slave address is set by jumpers J0 and J1.
+             J0                 J1                    Function
+           OPEN               OPEN         I2C slave address = 50h
+           SHORT              OPEN         I2C slave address = 51h
+           OPEN              SHORT         I2C slave address = 52h
+           SHORT             SHORT         I2C slave address = 53h
+        Note: Module does not respond to the general call address (00h).
+
+        Communication parameters
+         Baud rate                            Max. 400kbps
+         Format                               I2C
+         Slave address                        Set by J0 and J1 (Default setting: 50h)
+         Supported functions                  ACK response, clock stretch
+         Communication control signals        SBUSY, TRDY, clock stretch
+        *Note: If clock stretch is applied during processing of a command, the host (master) will not be
+        able to send or receive any more data until command processing has finished.
+
+        If TRDY = EMPTY, FFh is transmitted from the module in response to a read sequence.
+        In addition to the Clock stretch function, flow can also be controlled by monitoring the SBUSY
+        signal. SBUSY signal changes according to the receive buffer state. The host should send data
+        when SBUSY=READY (refer to 7.2 Serial Interface (CN9)).
+
+        Data Write sequence
+                     SLAVE ADDRESS           R/*W                     DATA                               DATA
+           S
+                                                      ACK                            ACK     ･･･                      ACK     P
+          (Sr)
+                     b7       ...     b1      b0               b7       ...     b0                  b7    ...   b0
+
+
+
+        Data Read sequence
+
+                     SLAVE ADDRESS           R/*W                     DATA                               DATA
+           S
+                                                      ACK                            ACK     ･･･                     NACK     P
+          (Sr)
+                     b7       ...     b1      b0               b7       ...     b0                  b7    ...   b0
+
+
+
+                 Host (master) is transmitter, display module (slave) is receiver
+
+
+                 Host (master) is receiver, display module (slave) is transmitter
+
+
+
+
+                                                                    - 14 -
+                                                                  GTWQ043C3B00PWA Hardware Specification
+
+I2C Timing
+
+
+
+
+                  Parameter              Symbol           Condition    Min.   Typ.         Max.        Unit
+    SCL clock frequency                     fSCL             -          0      -           400         kHz
+    Start condition hold time            tHD;STA             -         0.6     -            -           µs
+    SCL ‘L’ time                           tLOW              -         1.3     -            -           µs
+    SCL ‘H’ time                           tHIGH             -         0.6     -            -           µs
+    Start condition setup time            tSU;STA            -         0.6     -            -           µs
+    Data hold time                       tHD;DAT             -          0      -            -           µs
+    Data setup time                      tSU;DAT             -         100     -            -           ns
+    SCL, SDA rise time                        tr             -         20      -           300          ns
+    SCL, SDA fall time                        tf             -                 -           300          ns
+    Stop condition setup time            tSU;STO             -          0.6    -            -           µs
+    Stop condition – start condition bus
+                                            tBUF              -         20      -           -          µs
+    idle time
+
+    Data Write sequence
+    SDA                     Slave address   A      DATA      A                      DATA        A
+                              + write (0)   C                C                                  C
+                                            K                K                                  K
+
+
+
+    SCL
+
+
+                                                         Max.                   Min.
+                                                         20μs                   0μs
+    SBUSY
+
+
+    Data Read sequence
+    SDA                     Slave address   A      DATA      A                      DATA        (N)
+                                                                                                 A
+                              + read (1)    C                C                                   C
+                                            K                K                                   K
+
+
+
+
+    SCL
+
+                                                                                                      Min.
+                                                         Max.                                         0μs
+                                                         20μs
+    TRDY
+
+                                                - 15 -
+                                                                        GTWQ043C3B00PWA Hardware Specification
+
+7.3   Transmit Data Interface
+
+      If the USB interface is used in addition to a serial interface (UART/ SPI/ I2C), confusion can arise over
+      which interface data transmitted from the display module is sent via.
+
+      Initially, the configured serial interface is selected for transmit data.
+
+      If the USB interface is active and a USB read is attempted by the host (i.e., a USB bulk-IN transaction
+      is directed at the device’s Endpoint 1), the USB interface is selected for transmit data.
+
+      However, if data is subsequently received on the configured serial port, the configured serial port is
+      then used instead, from that point onwards, for all transmit data (regardless of USB activity). This state
+      continues until an external reset, power cycle, or “User Setup Mode End” command.
+
+                                                                Serial data
+                                           USB read
+                                                                 receive
+                                                                                           /RESET execution
+                                                                         Fixed
+
+       Power ON                                                                            Re-power ON
+                              USB I/F             USB I/F              USB I/F
+                               OFF                 ON                   OFF                User Setup Mode End
+
+                              Serial I/F          Serial I/F           Serial I/F
+                                ON                  OFF                  ON
+
+
+
+7.4   Reset
+      This product can be reset by inputting a LO signal to /RESET.
+
+      Note: After releasing /RESET, there is a delay, as shown below, before the module is ready to receive
+             data. The DTR / SBUSY signal should be monitored to confirm that data is able to be received.
+             Output is high-impedance (Hi-Z) + pull-up resistor (53kΩ typ.) during power-on, reset input, and
+             display internal initialization.
+
+      Reset Input
+                                           Min.
+                                           1ms
+                         HI
+
+          /RESET
+                         LO                           Max. 1,300ms
+
+                        HI
+
+      DTR / SBUSY
+                        LO
+
+
+
+      Power-On
+                       5V
+                       4.75V
+         VCC                                          Max. 1,500ms
+                        0V
+
+                        HI
+
+      DTR / SBUSY
+                        LO
+
+
+
+
+                                                       - 16 -
+                                                                                    GTWQ043C3B00PWA Hardware Specification
+
+8        FLETAS Touch Panel
+8.1     Outline
+      Detection method:             MPCT (Metallized Projective Capacitive Touch) supporting multi-touch.
+      Material:                     Glass
+
+8.2      Basic Operation
+      The display module features a FLETAS touch panel for handling input by fingertip or touch pen, etc.
+      The FLETAS touch panel function sends data for the input position or operation of user-defined
+      switch buttons.
+
+
+            Touch action (1)                  Touch                   Calculation
+      (Contact by fingertip, touch pen, etc.) sensed         (Input position, switch information)
+
+
+               Data transmit                                     Transmit buffer (2)                Program macro buffer (3)
+             (USB, UART I2C, etc.)                       (Data format depends on control mode)        (If program macro running)
+
+
+
+      Refer to “General Function” Software Specification for details.
+
+
+9        Installation Method
+        FLETAS touch panels are made of glass. When using this product, please be sure to install a
+        protective overlay such as cover glass, acrylic plate, etc. Since this touch panel is capacitive type,
+        touch won’t work if a conductive material is placed on the touch area or bezel area. Please use non-
+        conductive material like a glass or acrylic panel as a cover. An example is shown below.
+                       Bezel area                Active touch area                     Bezel area
+
+
+
+
+                                                                                                             Cover
+                                                                                                             Air gap
+                                                                                                             FLETAS® Touch panel
+                                                       FPC                 FPC                               TFT LCD
+
+
+
+                                                                                                             Unit
+
+
+                                                       Installation example
+
+       - Because edges and corners are sharp of FLETAS touch panel, please be careful with installation.
+       - If it gives a strong shock it may cause destruction.
+       - Do not hold a cable (FPC) of FLETAS touch panel. Also, do not install such as to stress the cable.
+       - Please handle this product carefully because it is a precision part. When holding this product, please
+         touch PCB edge, not FLETAS touch panel.
+
+
+
+
+                                                                - 17 -
+                                                                      GTWQ043C3B00PWA Hardware Specification
+
+10     Setup
+10.1   Jumper
+         Jumper                              Function                    Default
+           J0                                                             Open
+                       I2C slave address
+           J1                                                             Open
+           J2          Reserved                                           Open
+           J3                                                             Open
+                       Baud rate
+           J4                                                             Open
+           J5                                                             Open
+                       Serial interface (CN9) mode
+           J6                                                             Open
+           J7          Macro start                                        Open
+           J8          Reserved                                           Open
+           J9          Reserved                                           Open
+                       FLETAS touch panel calibration mode
+           J10                                                            Open
+                       Factory use only
+        Open = “H”, Short = “L”
+
+        Refer to Software Specification for Jumper setting details.
+
+                          CN12        CN8            CN9        JP1
+
+
+
+
+                 J0
+                 J1
+                 J2
+                 J3                         Jumper
+                 J4
+                 J5
+                 J6
+                 J7
+                 J8
+                 J9
+                 J10
+
+
+                                 Opposite to TFT-LCD panel
+
+                                            CN10                        CN11
+                                   CN13
+
+
+
+
+                                                           - 18 -
+                                                                              GTWQ043C3B00PWA Hardware Specification
+
+11     Connectors
+11.1   USB Interface (CN3)
+         Pin No.            Signal name
+            1                  VBUS
+            2                   D-
+            3                   D+
+            4                   ID
+            5                  GND
+       Shorting JP1 enables power supply from VBUS.
+
+11.2   Power Through-holes (CN8)
+         Pin No.            Signal name                    Function
+            1                   VCC                     Power supply (5V)
+            2                  /TEST               No connection (Test mode) *1
+            3                   GND                         Ground
+        *1:        Test mode can be executed by shorting the /TEST terminal and GND. Refer to “General Function” Software
+                   Specification. Normally use it open.
+
+
+11.3   Serial Interface & Power Through-holes (CN9)
+              Pin                    Signal name
+                                                                           Function         Direction
+              No.           UART           SPI          I2C
+               1           /RESET        /RESET      /RESET               Reset               Input
+               2              -            SCK         SCL              Serial clock          Input
+               3             RXD          MOSI         SDA             Data receive       Input / Output
+               4             DTR         SBUSY       SBUSY             Display busy         Output *1
+               5             DSR          SSEL            -              Host busy            Input
+               6             TXD          MISO            -             Data send           Output *1
+               7            TRDY          TRDY        TRDY            Transmit ready        Output *1
+               8             VCC           VCC         VCC           Power supply (5V)           -
+               9             GND           GND         GND                Ground                 -
+        *1: Output is high-impedance (Hi-Z) + pull-up resistor (53kΩ typ.) during power-on, reset input,
+            and display internal initialization.
+
+11.4   Extension General Purpose I/O Port Through-holes & Power Through-holes (CN10)
+          Pin           Signal                                       Pin     Signal
+                                      Function        Direction                          Function           Direction
+          No.           name                                         No.     name
+                                    Power supply
+              1          VCC                            Input        2        3.3V         3.3V              Output
+                                        (5V)
+               3       GPIO 25         Port 3                         4      GPIO 24      Port 3
+               5       GPIO 23                                        6      GPIO 22
+               7       GPIO 21                       Input/output     8      GPIO 20                       Input/output
+                                       Port 2                                             Port 2
+               9       GPIO 19                                       10      GPIO 18
+              11       GPIO 17                                       12      GPIO 16
+              13        GND            Ground           Input        14       GND        Ground               Input
+
+
+11.5   General Purpose I/O Port Through-holes & Power Through-holes (CN11)
+          Pin           Signal                                       Pin     Signal
+                                      Function        Direction                          Function           Direction
+          No.           name                                         No.     name
+                                    Power supply
+              1          VCC                            Input        2        3.3V         3.3V              Output
+                                       (5V)
+               3       GPIO 15                                        4      GPIO 14
+               5       GPIO 13                                        6      GPIO 12
+                                       Port 1                                             Port 1
+               7       GPIO 11                                        8      GPIO 10
+               9       GPIO 9                                        10      GPIO 8
+                                                     Input/output                                          Input/output
+              11       GPIO 7                                        12      GPIO 6
+              13       GPIO 5                                        14      GPIO 4
+                                       Port 0                                             Port 0
+              15       GPIO 3                                        16      GPIO 2
+              17       GPIO 1                                        18      GPIO 0
+              19        GND            Ground           Input        20       GND        Ground               Input
+
+
+
+
+                                                            - 19 -
+                                                                  GTWQ043C3B00PWA Hardware Specification
+
+11.6   Connector Position
+       Each connector number and position show the following.
+
+
+
+
+                  CN12       CN8             CN9            JP1
+
+
+
+                                        Serial interface & power through-holes
+         J0
+         J1                  Power through-holes
+         J2
+         J3
+         J4
+         J5
+         J6
+         J7
+         J8
+         J9
+        J10
+                                 Opposite to TFT-LCD panel
+
+                                                          GPIO through-holes
+                                   Extension GPIO through-holes
+                                   CN10                                    CN11
+                          CN13
+
+
+
+
+       "▲" : 1pin mark.
+
+
+
+
+                                                   - 20 -
+                                                                                 GTWQ043C3B00PWA Hardware Specification
+
+12        Memory SW
+          The default settings for the memory SW related to the touch panel are as follows.
+          For details of the memory SW, refer to the “General Function” software specification.
+MSW No.                                     Function                                       Valid range        Default
+     58        Touch sensitivity (signal gain) setting                                      00h–0Fh             06h
+     59        Touch sensitivity (threshold) setting                                        00h–FFh             50h
+               Touch Panel Control Data Transmit Mode
+     60        00h: Data transmit mode #1                                                    00h,01h            00h
+               01h: Data transmit mode #2
+     61        Touch scan period setting at power saving mode (ms)                     05h(5ms)-FEh(254ms)   20h(32ms)
+               Touch sensitivity setting selection at startup
+     62        00h: Apply MSW58 (signal gain) and MSW59 (threshold) values                  00h, 01h            00h
+               01h: Apply touch setting package values for signal gain and threshold
+               Touch setting package selection at startup
+               00h: Factory setting
+               01h: Touch setting package 1
+     63                                                                                     00h – 04h           00h
+               02h: Touch setting package 2
+               03h: Touch setting package 3
+               04h: Touch setting package 4
+          Note: Module operates with default value if Memory SW value is outside the valid range.
+
+
+13        Lot No. / Firmware Version Specification
+          Lot No. and firmware version are attached on the product. They are determined based on the
+          following specifications.
+
+          Example:
+                           Lot No.                   F i r m w a r e Ve r.
+                          18C22EH F100b
+                             A B C D E                     F
+
+          A: Production year                              The last two digits of the year are indicated.
+          B: Production month                             The production month is indicated by one alphabetic
+                                                          character.
+                                                                    January: A, February: B to December: L
+          C: Production date                              The production date is indicated by one or two digits.
+          D: Manufacturing factory                        Indicates the factory that was manufactured.
+                                                                    E: Omiya factory in Japan
+          E: Identification of RoHS compliant             Indicates the identification of RoHS compliant products.
+                                                                    H: RoHS compliant
+          F: Firmware version                             Indicates the firmware version.
+                                                                    In test mode and information read command,
+                                                                    F100 may be described as 1.00.
+                                                          Lowercase letters indicate font versions.
+                                                                    First edition: a, 2nd edition: b, 3rd edition: c ...
+
+          The example above is a RoHS compliant product with firmware version 1.00b manufactured at
+          the Omiya Plant on March 22, 2018.
+
+
+
+
+                                                               - 21 -
+                                                          GTWQ043C3B00PWA Hardware Specification
+
+14   Physical Dimensions
+
+      Mounting holes are close to the panel; use caution when assembling.
+
+
+
+
+                                                                                       DS-2077-0100-00
+
+
+
+
+                                            - 22 -
+                                                                     GTWQ043C3B00PWA Hardware Specification
+
+Revision history
+Specification number        Date                                               Revision
+ DS-2122-0001-00       Jul. 21, 2021   Initial issue
+ DS-2122-0001-01       Oct. 13, 2021   1.2 Outline
+                                          Related specifications
+                                              “General Function” Software Specification
+                                                 “DS-2007-0003-xx” → “DS-2007-0009-xx” has been corrected.
+                                       4 Optical Specifications (at 25ºC)
+                                          Brightness TFT with touch panel
+                                              50% brightness
+                                                 Minimum value has been deleted.
+                                       7.2.1 UART Mode (J5 = SHORT, J6 = SHORT)
+                                          Interface conditions
+                                              Communication control signal
+                                                 “/TRDY” → “TRDY” has been corrected.
+                                              “・ The TRDY signal does not need to be used.” has been added.
+                                          “Data Frame” has been added.
+                                       7.2.2 SPI Mode (J5 = OPEN, J6 = OPEN)
+                                          “Communication Parameters” has been added.
+                                          Data Write
+                                              “n byte” → “n+1 byte” has been revised.
+                                              “Data(n-1)” → “Data(n)” has been revised.
+                                          Data Read
+                                              “n byte” → “m+2 byte” has been revised.
+                                              “Data(n-2)” → “Data(m)” has been revised.
+                                          “Timing (data write)” has been revised.
+                                          “Timing (detail of data write)” has been added.
+                                       7.2.3 I2C Mode (J5 = SHORT, J6 = OPEN)
+                                          “MBUSY” → “SBUSY” has been corrected.
+                                       11.3 Serial Interface & Power Through-holes (CN9)
+                                          7 pin : “Target ready” → “Transmit ready” has been corrected.
+
+
+
+
+                                                     - 23 -
+

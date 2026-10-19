@@ -1,0 +1,13 @@
+[
+  {
+    "event": "single_back_button_press_cue",
+    "host_unix": 1792356437.654135,
+    "visible_context": "Listen/Bluetooth",
+    "note": "One Back/previous-track press requested; no other controls changed. Cue is not exact touch timestamp."
+  },
+  {
+    "event": "back_press_acknowledgment",
+    "host_unix": 1792356475.4076989,
+    "note": "User reports done and requests no additional recording wait after acknowledgments."
+  }
+]

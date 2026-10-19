@@ -1,5 +1,8 @@
 # Kohler DTV+ controller replacement
 
+**Disclaimer:** I am not associated with Kohler in any way. This is an independent
+project and is not sponsored, endorsed, or supported by Kohler.
+
 Reverse engineering the K-99695D-NA controller interfaces for an ESP32/ESPHome
 replacement. Bench hardware includes an original display, amplifier and a
 K-682-K valve with a stuck-stepper fault. Valve operation is not yet implemented.

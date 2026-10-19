@@ -5,11 +5,11 @@ from pathlib import Path
 
 import sys
 base = sys.argv[1] if len(sys.argv) > 1 else 'display-settings-01'
-from project_paths import capture_base
+from project_paths import capture_base, recording_file
 base = str(capture_base(base))
 meta = json.loads(Path(base + '.json').read_text())
 samples = array.array('d')
-with open(base + '.f64','rb') as source:
+with recording_file(base + '.f64') as path, path.open('rb') as source:
     samples.fromfile(source, meta['samples'])
 rate = meta['sample_rate']
 # Require two consecutive samples on the new side of zero to reject ringing.

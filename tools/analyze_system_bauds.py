@@ -6,7 +6,7 @@ import json
 import mmap
 from pathlib import Path
 
-from project_paths import capture_base
+from project_paths import capture_base, recording_file
 from display_protocol import parse_packets, uart_frames
 
 
@@ -21,7 +21,7 @@ for part in manifest['segments']:
     if not part['samples']:
         continue
     stride = max(1, int(part['sample_rate'] // 500000))
-    with open(str(capture_base(part['base'])) + '.f64', 'rb') as stream:
+    with recording_file(str(capture_base(part['base'])) + '.f64') as path, path.open('rb') as stream:
         raw = mmap.mmap(stream.fileno(), 0, access=mmap.ACCESS_READ)
         original = memoryview(raw).cast('d')
         samples = original[::stride]

@@ -53,7 +53,7 @@ parser.add_argument('base', type=Path)
 parser.add_argument('--baud', type=int, default=9600)
 parser.add_argument('--parity', choices=('none', 'even', 'odd'), default='none')
 args = parser.parse_args()
-from project_paths import capture_base
+from project_paths import capture_base, recording_file
 args.base = capture_base(args.base)
 meta = json.loads(args.base.with_suffix('.json').read_text())
 if meta.get('bus') != 'valve':
@@ -61,7 +61,7 @@ if meta.get('bus') != 'valve':
 results = {'bus': 'RJ11 valve pins 4/5', 'metadata': meta, 'baud_candidate': args.baud,
            'data_bits_candidate': 8, 'parity_candidate': args.parity, 'stop_bits_sampled': 1,
            'candidates': []}
-with args.base.with_suffix('.f64').open('rb') as stream:
+with recording_file(args.base.with_suffix('.f64')) as path, path.open('rb') as stream:
     raw = mmap.mmap(stream.fileno(), 0, access=mmap.ACCESS_READ)
     samples = memoryview(raw).cast('d')
     for invert in (False, True):

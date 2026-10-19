@@ -6,7 +6,7 @@ import mmap
 import statistics
 from pathlib import Path
 
-from project_paths import ROOT, REPORTS, capture_base
+from project_paths import ROOT, REPORTS, capture_base, recording_file
 
 START, END, ESCAPE = 0x88, 0x55, 0xAA
 
@@ -96,7 +96,7 @@ def parse_packets(frames):
 def decode_capture(base, invert=False, baud=115200):
     base = capture_base(base)
     meta = json.loads(Path(str(base) + '.json').read_text())
-    with open(str(base) + '.f64', 'rb') as source:
+    with recording_file(str(base) + '.f64') as path, path.open('rb') as source:
         with mmap.mmap(source.fileno(), 0, access=mmap.ACCESS_READ) as mapping:
             samples = memoryview(mapping).cast('d')
             try:

@@ -1,5 +1,9 @@
 """Resolve capture identifiers independently of the caller's working directory."""
+from contextlib import contextmanager
 import json
+import lzma
+import shutil
+import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -44,3 +48,21 @@ def new_capture_base(value, bus='system'):
         path = CAPTURES / ('valve' if bus == 'valve' else 'system') / path.name / path.name
     path.parent.mkdir(parents=True, exist_ok=True)
     return path.resolve()
+
+
+@contextmanager
+def recording_file(value):
+    """Yield a seekable recording, unpacking a versioned XZ archive if necessary."""
+    path = Path(value)
+    try:
+        source = evidence(path)
+    except FileNotFoundError:
+        source = evidence(str(path) + '.xz')
+    if source.suffix != '.xz':
+        yield source
+        return
+    with tempfile.TemporaryDirectory(prefix='kohler-recording-') as directory:
+        unpacked = Path(directory) / source.stem
+        with lzma.open(source, 'rb') as compressed, unpacked.open('wb') as target:
+            shutil.copyfileobj(compressed, target, length=1024 * 1024)
+        yield unpacked

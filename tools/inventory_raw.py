@@ -3,6 +3,13 @@ import hashlib
 import json
 from project_paths import CAPTURES, ROOT
 
+inventory_path = CAPTURES / 'raw-inventory.json'
+if inventory_path.exists():
+    previous = json.loads(inventory_path.read_text())
+    missing = [item['path'] for item in previous['files'] if not (ROOT / item['path']).is_file()]
+    if missing:
+        raise FileNotFoundError('Original raw files are missing; verify the archives with archive_raw.py instead')
+
 files = []
 for path in sorted(CAPTURES.rglob('*')):
     if path.suffix not in ('.f64', '.pcap'):

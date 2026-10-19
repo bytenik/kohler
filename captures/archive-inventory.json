@@ -1,0 +1,443 @@
+{
+  "raw_files_in_git": false,
+  "archives_in_git": true,
+  "format": "xz",
+  "compression_preset": 3,
+  "lossless_verified": true,
+  "files": [
+    {
+      "path": "captures/network/controller-reconnect-01.pcap",
+      "size_bytes": 4154090,
+      "sha256": "dee1b7b5d17cd1d68b3d00fe95ca574d8c2553f3ac9d5f99225881e46d9c1487",
+      "archive_path": "captures/network/controller-reconnect-01.pcap.xz",
+      "archive_size_bytes": 545448,
+      "archive_sha256": "978602c846239e460cd6420a8c6f041878742b14647987304fe9910c5c8bc92a"
+    },
+    {
+      "path": "captures/network/valve-calibration-06-http.pcap",
+      "size_bytes": 624613,
+      "sha256": "9dda9bbf55fd87097dae3260dbce591181419fc9d8da9fd75e433871577ad152",
+      "archive_path": "captures/network/valve-calibration-06-http.pcap.xz",
+      "archive_size_bytes": 83400,
+      "archive_sha256": "9c11df78321458c7546d842189b0f561ee271f8ecd8ab9fbfa2acb0da7e6ed83"
+    },
+    {
+      "path": "captures/system/display-main-after-close-06/display-main-after-close-06.f64",
+      "size_bytes": 80000000,
+      "sha256": "fb84e326d3b4792d6550fde3e80ef4ed13463d147755ef2893fc34c0dfee36f4",
+      "archive_path": "captures/system/display-main-after-close-06/display-main-after-close-06.f64.xz",
+      "archive_size_bytes": 5996936,
+      "archive_sha256": "6aeff350314431bf26419a3be696cda71a00e73ce910bb37238eb6dcdf75fe6f"
+    },
+    {
+      "path": "captures/system/display-port-change-08/display-port-change-08-part-000.f64",
+      "size_bytes": 58172624,
+      "sha256": "bcdff1aea1e77813a8db62819326c72f22c16e6023659b569b247ca0e2151d40",
+      "archive_path": "captures/system/display-port-change-08/display-port-change-08-part-000.f64.xz",
+      "archive_size_bytes": 4214408,
+      "archive_sha256": "1709de01c34faac99c80792b5d84602d722128b110eb8ee9381c394865d60029"
+    },
+    {
+      "path": "captures/system/display-port-restart-09/display-port-restart-09-part-000.f64",
+      "size_bytes": 41249352,
+      "sha256": "85a709169245f50743a3b043e3f0aecaf271eba018a9ff957a0ddd76630d8249",
+      "archive_path": "captures/system/display-port-restart-09/display-port-restart-09-part-000.f64.xz",
+      "archive_size_bytes": 3024692,
+      "archive_sha256": "3e7c27d6e4e5dca06679ebfe3377f76052e16cd736b2397d362630bffc8d69c5"
+    },
+    {
+      "path": "captures/system/display-settings-01/display-settings-01.f64",
+      "size_bytes": 160000000,
+      "sha256": "d8e146823e875c034b2792d294295e3e8c299e0d836cff97d462b331b0e50709",
+      "archive_path": "captures/system/display-settings-01/display-settings-01.f64.xz",
+      "archive_size_bytes": 12484284,
+      "archive_sha256": "c8a368c7c51a5faae855d3c52a06dd92d1ddaf0c23acd622a74bf3d40a61df7c"
+    },
+    {
+      "path": "captures/system/display-settings-02/display-settings-02.f64",
+      "size_bytes": 223023184,
+      "sha256": "4e4834f2cc4aaaf18c0d540186a1646064b797f0477ff79bb077529d0c6892d8",
+      "archive_path": "captures/system/display-settings-02/display-settings-02.f64.xz",
+      "archive_size_bytes": 17319768,
+      "archive_sha256": "7814c046b2f267f19e73f616e68ba1ab7248fb87ba591fbb8191d41d156f6f1b"
+    },
+    {
+      "path": "captures/system/display-settings-03/display-settings-03.f64",
+      "size_bytes": 160000000,
+      "sha256": "b09f492097ee092f870ffa91f8005af12ca70d2bb6af8a21fd4f0d3ac6df4dd9",
+      "archive_path": "captures/system/display-settings-03/display-settings-03.f64.xz",
+      "archive_size_bytes": 12432700,
+      "archive_sha256": "7ba234f4072adde980c1271217fa9f749ea97da555272d3128837dfacc7003cc"
+    },
+    {
+      "path": "captures/system/display-settings-04/display-settings-04.f64",
+      "size_bytes": 240000000,
+      "sha256": "c85464bf9c12b452b7c0578991302351e9fbe21bef70f74ceb810f5adb2e4c8a",
+      "archive_path": "captures/system/display-settings-04/display-settings-04.f64.xz",
+      "archive_size_bytes": 17921664,
+      "archive_sha256": "13fd2f7128d3c63c3f61ef1c7b3ab85e4268afdea98d784a9aa423693b36cbe1"
+    },
+    {
+      "path": "captures/system/display-settings-05/display-settings-05.f64",
+      "size_bytes": 209962392,
+      "sha256": "251528576bfa21454b4a95b393df5b212b016a4791d3ea9c46de53c032fa17bb",
+      "archive_path": "captures/system/display-settings-05/display-settings-05.f64.xz",
+      "archive_size_bytes": 15635516,
+      "archive_sha256": "25e86a68153ab937086d818b3190426420af34c8dbfaf5ec32b8712d17d967f0"
+    },
+    {
+      "path": "captures/system/display-startup-07/display-startup-07-part-000.f64",
+      "size_bytes": 336794208,
+      "sha256": "118828e03bfc3f2da0e548ad1c833c99fe2c6f7bf27daf8550953ad9dce140c0",
+      "archive_path": "captures/system/display-startup-07/display-startup-07-part-000.f64.xz",
+      "archive_size_bytes": 23621344,
+      "archive_sha256": "fa79f6b8cd3616cd8d7005fa006bef73c90cf87edb5d7ad22fd75a1ca25f47ec"
+    },
+    {
+      "path": "captures/system/display-startup-07/display-startup-07-part-001.f64",
+      "size_bytes": 338848528,
+      "sha256": "99f91485089449d13556a5bb56140ca80a65f49832fb2b24a25be8ac97e7c0e1",
+      "archive_path": "captures/system/display-startup-07/display-startup-07-part-001.f64.xz",
+      "archive_size_bytes": 25067504,
+      "archive_sha256": "8fa3a0ac6963017c5ea06eb275e96add687dc04494ca6a8ae1b14bd6cf862896"
+    },
+    {
+      "path": "captures/system/system-amplifier-bass-batch-36/system-amplifier-bass-batch-36-part-000.f64",
+      "size_bytes": 882944792,
+      "sha256": "87bc37475fffa2edc9f9ad630f9534e8d77924d3c6e5753f32f434fec2b9546d",
+      "archive_path": "captures/system/system-amplifier-bass-batch-36/system-amplifier-bass-batch-36-part-000.f64.xz",
+      "archive_size_bytes": 62444224,
+      "archive_sha256": "72e988d4185801fad2ea9e55408a1d5ae4357fd1aa0649f06500eac1066153c8"
+    },
+    {
+      "path": "captures/system/system-amplifier-check-33/system-amplifier-check-33-part-000.f64",
+      "size_bytes": 12000000,
+      "sha256": "1d057e5424d71a0120ce1e73a2a9be272d05ff87599708b9c8553e8cb4664579",
+      "archive_path": "captures/system/system-amplifier-check-33/system-amplifier-check-33-part-000.f64.xz",
+      "archive_size_bytes": 841544,
+      "archive_sha256": "6d04a80269161d49caeceb099c7bfce47cdc00ee329bd746d680318a025c7102"
+    },
+    {
+      "path": "captures/system/system-amplifier-controls-34/system-amplifier-controls-34-part-000.f64",
+      "size_bytes": 244443136,
+      "sha256": "989605dd4417c373a65a07614c55301646f0539acf0bb3fd146b9b60bd1c2382",
+      "archive_path": "captures/system/system-amplifier-controls-34/system-amplifier-controls-34-part-000.f64.xz",
+      "archive_size_bytes": 17208952,
+      "archive_sha256": "1bbfef560144644a04d5306fc62ab991de32f9d4cbd802e2b1fb8f9110dc4ae2"
+    },
+    {
+      "path": "captures/system/system-amplifier-controls-34/system-amplifier-controls-34-part-001.f64",
+      "size_bytes": 344764944,
+      "sha256": "ee8b68af98ce580a24a2495c136ffa5606ffc313a4ea2c09ad21763dcf888e16",
+      "archive_path": "captures/system/system-amplifier-controls-34/system-amplifier-controls-34-part-001.f64.xz",
+      "archive_size_bytes": 24296096,
+      "archive_sha256": "e827d4732ad8e657c41db91628ec37cd2c24a0389436b6215ad1252ccf91892d"
+    },
+    {
+      "path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-000.f64",
+      "size_bytes": 99229944,
+      "sha256": "e6c16ead37bf3ee9ee935bd90cf8fa01526380c6719a91d1958322fd4e508b67",
+      "archive_path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-000.f64.xz",
+      "archive_size_bytes": 7650112,
+      "archive_sha256": "c8a50f03dad6fc5bec5d630ca2f7c3aad5dd9019fd99ed71f951e91c4cf489da"
+    },
+    {
+      "path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-001.f64",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "archive_path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-001.f64.xz",
+      "archive_size_bytes": 32,
+      "archive_sha256": "0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275"
+    },
+    {
+      "path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-002.f64",
+      "size_bytes": 329352,
+      "sha256": "67b45b185cb418b4b8b3283b56acce4a93b3fec0c4156e25d1a26024ff61e51e",
+      "archive_path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-002.f64.xz",
+      "archive_size_bytes": 25952,
+      "archive_sha256": "e01d1bc14404d3a94bbfb6837a6c5c382e46b10bbb0ba4a4fc12892479326c93"
+    },
+    {
+      "path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-003.f64",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "archive_path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-003.f64.xz",
+      "archive_size_bytes": 32,
+      "archive_sha256": "0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275"
+    },
+    {
+      "path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-004.f64",
+      "size_bytes": 21732808,
+      "sha256": "356edf518723255d43707b83071246a7a3c4521e7d476403a5fafa746c8d2e6e",
+      "archive_path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-004.f64.xz",
+      "archive_size_bytes": 1676332,
+      "archive_sha256": "01b986ef06f821c1d52ac6a638b549a99185cadfb12f4a35d4e08e9d78e3f48e"
+    },
+    {
+      "path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-005.f64",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "archive_path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-005.f64.xz",
+      "archive_size_bytes": 32,
+      "archive_sha256": "0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275"
+    },
+    {
+      "path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-006.f64",
+      "size_bytes": 505588360,
+      "sha256": "34350df8469b89b19525f2a963e4d3cec3ca2e73048221dab3f1a95e6fa85b97",
+      "archive_path": "captures/system/system-amplifier-detection-12/system-amplifier-detection-12-part-006.f64.xz",
+      "archive_size_bytes": 39524972,
+      "archive_sha256": "e3f5eaf7b8007986d36a62cae9a9b518f922558a9cea515b8c2f42854f3ac546"
+    },
+    {
+      "path": "captures/system/system-amplifier-port-11/system-amplifier-port-11-part-000.f64",
+      "size_bytes": 80000000,
+      "sha256": "4b45e7ddd77fad4db5ffa3e1c0ae6a5156d5cdb112c72005a84930cc5876ae71",
+      "archive_path": "captures/system/system-amplifier-port-11/system-amplifier-port-11-part-000.f64.xz",
+      "archive_size_bytes": 5638396,
+      "archive_sha256": "20b78eb0718408830e27113c306a0a7994f068b35d8d0c648f598579823a7692"
+    },
+    {
+      "path": "captures/system/system-amplifier-tones-35/system-amplifier-tones-35-part-000.f64",
+      "size_bytes": 272072240,
+      "sha256": "9a30dc90f74864ddaec3777a49f6da2e215c7c440b8baccf58974adb18014e4f",
+      "archive_path": "captures/system/system-amplifier-tones-35/system-amplifier-tones-35-part-000.f64.xz",
+      "archive_size_bytes": 19242896,
+      "archive_sha256": "4a82178982c8d41ab8ce68fe3cb51ca27586adf8bd479ac924e8ef38c02fedeb"
+    },
+    {
+      "path": "captures/system/system-display-active-transport-32/system-display-active-transport-32-part-000.f64",
+      "size_bytes": 30745592,
+      "sha256": "89d9610b0620752818819ba583bcf47c06cff34534ab889e2d2ac08e1f9fe678",
+      "archive_path": "captures/system/system-display-active-transport-32/system-display-active-transport-32-part-000.f64.xz",
+      "archive_size_bytes": 2322488,
+      "archive_sha256": "d994d174bae50ed3554234625eb4add1bff3498668fe26643fae4893dad9ef09"
+    },
+    {
+      "path": "captures/system/system-display-active-transport-32/system-display-active-transport-32-part-001.f64",
+      "size_bytes": 247518880,
+      "sha256": "6fd48339afbcc0d61880693eeb8c6d0a71b1b63d454ff0ea0f94b8e3ad933dcd",
+      "archive_path": "captures/system/system-display-active-transport-32/system-display-active-transport-32-part-001.f64.xz",
+      "archive_size_bytes": 18745176,
+      "archive_sha256": "00b8a6f96ef20e52c10624a9cb40620486deadaf31b1df45e6d88e2d21ed0a03"
+    },
+    {
+      "path": "captures/system/system-display-amplifier-10/system-display-amplifier-10-part-000.f64",
+      "size_bytes": 80000000,
+      "sha256": "47ec8d06db24f4b5e594853d552e8507b831bb425e430ffdb2f195fb08acb06b",
+      "archive_path": "captures/system/system-display-amplifier-10/system-display-amplifier-10-part-000.f64.xz",
+      "archive_size_bytes": 5950280,
+      "archive_sha256": "cb46b906d170312b74334cf33c9520bdb534237af8bf11a26cd5e1af510cb26a"
+    },
+    {
+      "path": "captures/system/system-display-back-19/system-display-back-19-part-000.f64",
+      "size_bytes": 152435792,
+      "sha256": "d598fea01656b749b47c6f553436b063c8476beabaee6a732f5749e82285bb6b",
+      "archive_path": "captures/system/system-display-back-19/system-display-back-19-part-000.f64.xz",
+      "archive_size_bytes": 11457044,
+      "archive_sha256": "727fbeb38e569f7d9233b498762a26d203d618940842ed88740336fcdd2bf811"
+    },
+    {
+      "path": "captures/system/system-display-bass-25/system-display-bass-25-part-000.f64",
+      "size_bytes": 225943416,
+      "sha256": "f59d6bba85917f23ad63a7bbfaff7be38c72ef58143e351ee2a22edecc9df0cc",
+      "archive_path": "captures/system/system-display-bass-25/system-display-bass-25-part-000.f64.xz",
+      "archive_size_bytes": 16980392,
+      "archive_sha256": "12edbc8526fa53e32aa2c779229ec74aba0db04a16ef248faf25a80ded178b53"
+    },
+    {
+      "path": "captures/system/system-display-bluetooth-23/system-display-bluetooth-23-part-000.f64",
+      "size_bytes": 148958960,
+      "sha256": "3ca0b1a841ee47043b3161f763fe425590b2fcda0f60870d877c40959ee43da2",
+      "archive_path": "captures/system/system-display-bluetooth-23/system-display-bluetooth-23-part-000.f64.xz",
+      "archive_size_bytes": 11237940,
+      "archive_sha256": "1b6bc39055815bd8d806cf358905f41100fe05565c30048714ada0d7ff697f73"
+    },
+    {
+      "path": "captures/system/system-display-detection-13/system-display-detection-13-part-000.f64",
+      "size_bytes": 284002176,
+      "sha256": "b785e4f0cfef5a70ddaa30f43adf6d5fe8bc5e969c75cb82bf831fb1b61ef2c3",
+      "archive_path": "captures/system/system-display-detection-13/system-display-detection-13-part-000.f64.xz",
+      "archive_size_bytes": 20750424,
+      "archive_sha256": "7a48558fa9adb658345f49955a4430a230237353b6aa5edccd03eaf0b76c26a9"
+    },
+    {
+      "path": "captures/system/system-display-forward-18/system-display-forward-18-part-000.f64",
+      "size_bytes": 110374320,
+      "sha256": "eabbfab313ea26507ec817873997a6d3850361b56ba35e5119279502f7b727cf",
+      "archive_path": "captures/system/system-display-forward-18/system-display-forward-18-part-000.f64.xz",
+      "archive_size_bytes": 8269860,
+      "archive_sha256": "ff6f58971882034e1ac91c986cbcf68351b1f9d275de675706fc3aac48e4dd0d"
+    },
+    {
+      "path": "captures/system/system-display-input-20/system-display-input-20-part-000.f64",
+      "size_bytes": 453061864,
+      "sha256": "52bc5c06110e55d5c572263a7d3147ce9ca9a0e31122c283115a6ded9fcb12ab",
+      "archive_path": "captures/system/system-display-input-20/system-display-input-20-part-000.f64.xz",
+      "archive_size_bytes": 34003740,
+      "archive_sha256": "6aef3f5dec9f5a22fbe4c23ee560a044fba22abf58933f36fbb1f9be32df42be"
+    },
+    {
+      "path": "captures/system/system-display-line1-21/system-display-line1-21-part-000.f64",
+      "size_bytes": 202755392,
+      "sha256": "a8cf9dcf0668d7fe89b32df5ca100bff7866db6a0d2c75ce3cda632afcfc2522",
+      "archive_path": "captures/system/system-display-line1-21/system-display-line1-21-part-000.f64.xz",
+      "archive_size_bytes": 15175380,
+      "archive_sha256": "8d4c2fd167f23aa540d6f3ebe8b702dd169b51edf487f0acbaad0833d29f0afa"
+    },
+    {
+      "path": "captures/system/system-display-line2-22/system-display-line2-22-part-000.f64",
+      "size_bytes": 91535112,
+      "sha256": "ca6cd11e476f6a386352b84ee408c0a34b50160b98e46b2a3b084dd873ad9849",
+      "archive_path": "captures/system/system-display-line2-22/system-display-line2-22-part-000.f64.xz",
+      "archive_size_bytes": 6829128,
+      "archive_sha256": "760bc5e2d180a929a51f14c3a8e9c7878c3fe34dc4fe806fc4e6f43707a22c2b"
+    },
+    {
+      "path": "captures/system/system-display-music-14/system-display-music-14-part-000.f64",
+      "size_bytes": 278734776,
+      "sha256": "f8c48d8b720d0cfcb8cdae3c0808aa2e570bea50133b3962a5a016c8fff08390",
+      "archive_path": "captures/system/system-display-music-14/system-display-music-14-part-000.f64.xz",
+      "archive_size_bytes": 20882560,
+      "archive_sha256": "5b04e81c6744a3c85dfedc3b519ea81de31c08a3305f67305924327ac00f4506"
+    },
+    {
+      "path": "captures/system/system-display-options-24/system-display-options-24-part-000.f64",
+      "size_bytes": 192187160,
+      "sha256": "c5613f06eea99c39b4da405c9eb4003e6b47cfd9457f1ddea68c436357999e68",
+      "archive_path": "captures/system/system-display-options-24/system-display-options-24-part-000.f64.xz",
+      "archive_size_bytes": 14459056,
+      "archive_sha256": "65ad8c622c4d94e0936abdc157410561b2985f782d822ed36d67c74fe61aac6c"
+    },
+    {
+      "path": "captures/system/system-display-phone-name-30/system-display-phone-name-30-part-000.f64",
+      "size_bytes": 20000000,
+      "sha256": "2d22adeb60d4459cde49ed0e8f69a5be8485882967ef40bfa6016c9a3d5eb67f",
+      "archive_path": "captures/system/system-display-phone-name-30/system-display-phone-name-30-part-000.f64.xz",
+      "archive_size_bytes": 1520768,
+      "archive_sha256": "e4273b8593844bc8c311a38a0323b308bc4074c7b172586d872bb181c9f6b805"
+    },
+    {
+      "path": "captures/system/system-display-play-17/system-display-play-17-part-000.f64",
+      "size_bytes": 259335392,
+      "sha256": "ddc4dd468135f82e6b07df0659a75645aa370bc3ae4e5d7e83059c4a07e3870e",
+      "archive_path": "captures/system/system-display-play-17/system-display-play-17-part-000.f64.xz",
+      "archive_size_bytes": 19435772,
+      "archive_sha256": "8494a43e0c054587cef1f423621a49a645b4f9d9b45c16d1a9eff82378cf3e69"
+    },
+    {
+      "path": "captures/system/system-display-tone-batch-26/system-display-tone-batch-26-part-000.f64",
+      "size_bytes": 251228288,
+      "sha256": "c62c7588b964ab7e964d13e2d6e6a2261614aef31a3a2df7857ecdb93643f310",
+      "archive_path": "captures/system/system-display-tone-batch-26/system-display-tone-batch-26-part-000.f64.xz",
+      "archive_size_bytes": 66078620,
+      "archive_sha256": "7c935b94ca85685cba019f4ed9454b5c908b2d705dc925d72163cd8e43c6a87b"
+    },
+    {
+      "path": "captures/system/system-display-tone-batch-29/system-display-tone-batch-29-part-000.f64",
+      "size_bytes": 141150960,
+      "sha256": "fa96e62a9e1d6bf381c2aef686d1ce81e1c60ccc6a2945b4c00152441a70752b",
+      "archive_path": "captures/system/system-display-tone-batch-29/system-display-tone-batch-29-part-000.f64.xz",
+      "archive_size_bytes": 10658200,
+      "archive_sha256": "5767d62c5f80fa6021143e0b00db020c1411c50c43bff87e16103503afec43a1"
+    },
+    {
+      "path": "captures/system/system-display-track-metadata-31/system-display-track-metadata-31-part-000.f64",
+      "size_bytes": 20000000,
+      "sha256": "456d9cee7066413e25599dcdf9b5e3584c97b7b105e80ced0397c261b280d8dc",
+      "archive_path": "captures/system/system-display-track-metadata-31/system-display-track-metadata-31-part-000.f64.xz",
+      "archive_size_bytes": 1515884,
+      "archive_sha256": "bb1aefbbeba326d0d5d9f90ca9548c15c4e2e1345bda807c2927dc75e980be2e"
+    },
+    {
+      "path": "captures/system/system-display-volume-15/system-display-volume-15-part-000.f64",
+      "size_bytes": 168419864,
+      "sha256": "8ed34f929a7e8f66245fc9a9324bda2ffe24c5ea1fac2af2f5756c2a49d9be3e",
+      "archive_path": "captures/system/system-display-volume-15/system-display-volume-15-part-000.f64.xz",
+      "archive_size_bytes": 12605152,
+      "archive_sha256": "2baa0e059a835fb75b36b48f0d50d7bad0026dd206790de89b2137606db2f7c1"
+    },
+    {
+      "path": "captures/system/system-display-volume-16/system-display-volume-16-part-000.f64",
+      "size_bytes": 149885536,
+      "sha256": "b9b55b9e1aa7b4b8b4f83eb072cc45a98de0546e69c5d94dfbf651dc5449bace",
+      "archive_path": "captures/system/system-display-volume-16/system-display-volume-16-part-000.f64.xz",
+      "archive_size_bytes": 11230228,
+      "archive_sha256": "c290cbfc8a751fe171bc09ad50dbd0c86e4fda83c1758fa3a2a1fefe98ff62fa"
+    },
+    {
+      "path": "captures/system/system-signal-check-27/system-signal-check-27-part-000.f64",
+      "size_bytes": 12000000,
+      "sha256": "e23becc8ec65fd18c4a1e96e3a40a9f3ac35f7b49a62b45ccd6fc7367d88bf2b",
+      "archive_path": "captures/system/system-signal-check-27/system-signal-check-27-part-000.f64.xz",
+      "archive_size_bytes": 3160444,
+      "archive_sha256": "9cd2a70d25f351f9f8756ab1d0f407868338bdae255053b1aeac06bdee150860"
+    },
+    {
+      "path": "captures/system/system-signal-check-28/system-signal-check-28-part-000.f64",
+      "size_bytes": 12000000,
+      "sha256": "4730c0d311a49afe359057780411ee7ef7f1fe973a7588f3d90f64d6a32d4d25",
+      "archive_path": "captures/system/system-signal-check-28/system-signal-check-28-part-000.f64.xz",
+      "archive_size_bytes": 904128,
+      "archive_sha256": "12e3d2924ec50eda493ca02569e29b4128832193065ec64eea63fdffe55677a1"
+    },
+    {
+      "path": "captures/valve/valve-calibration-05/valve-calibration-05-part-000.f64",
+      "size_bytes": 315701504,
+      "sha256": "7c6e88b5e0fe907d38bac938033b783bf8ba9e1162965af1fd43781b89ac330c",
+      "archive_path": "captures/valve/valve-calibration-05/valve-calibration-05-part-000.f64.xz",
+      "archive_size_bytes": 21741844,
+      "archive_sha256": "39d9e497f1efc184da550e2d2c32443aebbbf67fbfaa41637a090a817b06ad80"
+    },
+    {
+      "path": "captures/valve/valve-calibration-06/valve-calibration-06-part-000.f64",
+      "size_bytes": 198160832,
+      "sha256": "174cb935037f53af9ab34127de869fc7400d51e00f93d0fcc597c22a7715a8e7",
+      "archive_path": "captures/valve/valve-calibration-06/valve-calibration-06-part-000.f64.xz",
+      "archive_size_bytes": 13639404,
+      "archive_sha256": "883a4cd0cd8e102bfeffc85b0d2d102cbc9627cf3179c8f6c33603f535da5155"
+    },
+    {
+      "path": "captures/valve/valve-idle-01/valve-idle-01-part-000.f64",
+      "size_bytes": 73927664,
+      "sha256": "4da33d79cac832b0b515db8bbe44389608746fdf4ec720039b5482e86041c6e6",
+      "archive_path": "captures/valve/valve-idle-01/valve-idle-01-part-000.f64.xz",
+      "archive_size_bytes": 5739076,
+      "archive_sha256": "08ff5056754e3bb0bfaa7c4ecda55c6730608edc60f31d3fe8ce1c3ad06eebc1"
+    },
+    {
+      "path": "captures/valve/valve-idle-01/valve-idle-01-part-001.f64",
+      "size_bytes": 117962592,
+      "sha256": "14e9579d4d45dd742a0e61e55e15c86286c03d735c30a328c506ccf0060a286b",
+      "archive_path": "captures/valve/valve-idle-01/valve-idle-01-part-001.f64.xz",
+      "archive_size_bytes": 9162472,
+      "archive_sha256": "f85fb6045abd980d44ce355acffaf3f8c79591e3635e4f261a832f88c9e6d3c7"
+    },
+    {
+      "path": "captures/valve/valve-startup-02/valve-startup-02-part-000.f64",
+      "size_bytes": 579029944,
+      "sha256": "792b291ebe70287f6b5877c0f3a8da457639bef3d68da79beb13c0474ed490c3",
+      "archive_path": "captures/valve/valve-startup-02/valve-startup-02-part-000.f64.xz",
+      "archive_size_bytes": 61395196,
+      "archive_sha256": "49a3368e9e6f1b6141b25ae624443f4bba0f62b3d3e9bf27eb527d93cfff2950"
+    },
+    {
+      "path": "captures/valve/valve-startup-03/valve-startup-03-part-000.f64",
+      "size_bytes": 414736280,
+      "sha256": "ee24c7fe9fd92bd00440f72c35dc0f21cb226e42138a32e7e416fc799937b0ae",
+      "archive_path": "captures/valve/valve-startup-03/valve-startup-03-part-000.f64.xz",
+      "archive_size_bytes": 29051972,
+      "archive_sha256": "dc3ed352fc6242e1ca1ddf137f4de23aa3e8b8a3e9ab99fa864f925aefb24158"
+    },
+    {
+      "path": "captures/valve/valve-startup-04/valve-startup-04-part-000.f64",
+      "size_bytes": 577753624,
+      "sha256": "e92711be9f0c5cc2f50b719b7ef23923da0f51647203ee54b3c14435554fa610",
+      "archive_path": "captures/valve/valve-startup-04/valve-startup-04-part-000.f64.xz",
+      "archive_size_bytes": 40202992,
+      "archive_sha256": "4be34a7ec7b04b2944144b3f2dc72b7fb43d9e3015b74801b8c5e7692e2d1ebf"
+    }
+  ],
+  "total_original_bytes": 10125480487,
+  "total_archive_bytes": 812002856
+}

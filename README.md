@@ -45,24 +45,34 @@ Use the protocol specifications for current field interpretations.
 ## Evidence retention
 
 Decoded packets, metadata, event annotations, analyses, CSV captures and research
-files are versioned. Raw `.f64` waveforms (about 10 GB) and `.pcap` recordings are
-retained locally in their session directories and excluded from ordinary Git.
-A clone therefore does **not** contain those raw recordings. Preserve a separate
-copy of the entire `captures/` directory before moving machines or deleting a
-checkout. Git is not the raw-data backup.
+files are versioned. Original waveform and packet-capture bytes are also
+versioned as lossless `.f64.xz` and `.pcap.xz` archives beside their sidecars.
+The 54 archives total 812 MB versus 10.13 GB uncompressed (about 92% smaller).
+The largest individual archive is 66.1 MB. Uncompressed local copies remain
+ignored by Git.
 
-[captures/raw-inventory.json](captures/raw-inventory.json) records each raw file's
-relative path, size and SHA-256. Historical evidence identifiers and JSON payloads
-are preserved. [captures/path-map.json](captures/path-map.json) maps their former
-locations to current paths; bare capture filenames in the old notes are evidence
-identifiers, not root-relative paths. Existing manifests retain their original
-segment identifiers; the tools resolve them through this mapping.
+[captures/raw-inventory.json](captures/raw-inventory.json) records the original
+paths, sizes and SHA-256 hashes. The companion
+[captures/archive-inventory.json](captures/archive-inventory.json) records archive
+paths, sizes and hashes. Every archive was fully decompressed and checked against
+the original SHA-256 before committing. No samples were quantized, downsampled,
+or discarded for storage.
+
+Historical evidence identifiers and JSON payloads are preserved.
+[captures/path-map.json](captures/path-map.json) maps former locations to current
+paths. Bare capture filenames in old notes are evidence identifiers rather than
+root-relative paths. Existing manifests retain their original segment identifiers;
+the tools resolve them through this mapping.
 
 ## Running tools
 
 Python 3 standard library; capture additionally requires the Digilent WaveForms
 SDK. The recorder currently loads the macOS SDK from `/Applications/WaveForms.app`.
-Analysis does not require attached hardware. Commands run from the repository root:
+Analysis does not require attached hardware. Python's standard-library LZMA
+support reads XZ archives automatically when an uncompressed waveform is absent.
+For seekable decoding, one recording is unpacked to a temporary directory and
+removed afterward, including on errors; allow disk space for its original size.
+An existing local uncompressed copy is preferred. Commands run from the repository root:
 
 ```sh
 python3 -m unittest discover -s tests -v
@@ -72,6 +82,16 @@ python3 tools/compare_valve_startup.py valve-startup-03 valve-startup-04
 python3 tools/display_protocol.py display-settings-01
 python3 tools/analyze_valve_uart.py valve-startup-04-part-000 --parity odd
 ```
+
+To recreate or verify the archives against the original inventory:
+
+```sh
+python3 tools/archive_raw.py
+```
+
+Archive creation uses `xz` with four threads when installed, otherwise Python's
+standard-library LZMA compressor. Packet-capture archives can be unpacked with
+`xz -dk <capture>.pcap.xz` for use in Wireshark.
 
 Analysis accepts historical capture identifiers or explicit paths. Per-session
 outputs are written beside the input; cross-session reports go to

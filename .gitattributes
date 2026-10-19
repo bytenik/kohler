@@ -1,3 +1,5 @@
 # Preserve collected evidence and vendor sources byte-for-byte.
 captures/** -text -whitespace
 research/** -text -whitespace
+# Compressed originals are binary archives, not mergeable text.
+*.xz binary

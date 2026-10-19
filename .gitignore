@@ -9,3 +9,4 @@ __pycache__/
 .venv/
 .esphome/
 .pio/
+captures/**/*.xz.tmp
